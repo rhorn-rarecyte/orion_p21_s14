@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en-US" class="h-100">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="minerva-browser" style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;"> </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+    <script src="https://api.html5media.info/1.2.2/html5media.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/amazon-cognito-identity-js@4.5.0/dist/amazon-cognito-identity.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/minerva-browser@3.2.4/build/bundle.js"></script>
+  <script>
+        const speech_bucket = "";
+        const authenticate = function(username, pass) {
+
+          const authenticateUser = function(cognitoUser, authenticationDetails) {
+            return new Promise(function(resolve, reject) {
+              cognitoUser.authenticateUser(authenticationDetails, {
+                onSuccess: result => resolve(result),
+                onFailure: err => reject(err),
+                mfaRequired: codeDeliveryDetails => reject(codeDeliveryDetails),
+                newPasswordRequired: (fields, required) => reject({fields, required})
+              });
+            });
+          };
+
+          return pass.then(function(password) {
+
+            const minervaPoolId = 'us-east-1_d3Wusx6qp';
+            const minervaClientId = 'cvuuuuogh6nmqm8491iiu1lh5';
+            const minervaPool = new AmazonCognitoIdentity.CognitoUserPool({
+              UserPoolId : minervaPoolId,
+              ClientId : minervaClientId
+            });
+
+            const cognitoUser = new AmazonCognitoIdentity.CognitoUser({
+              Username: username,
+              Pool: minervaPool
+            });
+
+            const authenticationDetails = new AmazonCognitoIdentity.AuthenticationDetails({
+              Username: username,
+              Password: password
+            });
+
+            return authenticateUser(cognitoUser, authenticationDetails)
+              .then(response => response.getIdToken().getJwtToken());
+          });
+        }
+
+        const markerData = [
+          
+		  {	
+            String: "Autofluorescence",
+            Alias: "AF, AF1", 
+            Link: "https://www.microscopyu.com/references/autofluorescence"
+          },
+		  {	
+            String: "SMA",
+            Alias: "ACTA2", 
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=ACTA2&keywords=smooth,muscle,actin"
+          },
+          {
+            String: "CD3e",
+            Alias: null, 
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD3E&keywords=cd3"
+          },
+          {
+            String: "E-Cadherin",
+            Alias: "CDH1", 
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CDH1"
+          },
+          {
+            String: "CD31",
+            Alias: "PECAM1", 
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=PECAM1&keywords=cd31"
+          },
+          {
+            String: "ARL13B",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=ARL13B&keywords=ARL13B"
+          },
+          {
+            String: "ASMA",
+            Alias: "A-SMA, a-SMA, alpha-SMA, α-SMA",
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=ACTA2&keywords=alpha,smooth,muscle,actin"
+          },
+          {
+            String: "BANF1",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=BANF1&keywords=BANF1"
+          },
+          {
+            String: "CD11B",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=ITGAM&keywords=CD11B"
+          },
+          {
+            String: "CD14",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD14&keywords=CD14"
+          },
+          {
+            String: "CD163",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD163&keywords=CD163"
+          },
+          {
+            String: "CD19",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD19&keywords=CD19"
+          },
+          {
+            String: "CD20",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=MS4A1&keywords=CD20"
+          },
+          {
+            String: "CD21",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CR2&keywords=CD21"
+          },
+          {
+            String: "CD3D",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD3D&keywords=CD3D"
+          },
+          {
+            String: "CD4",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD4&keywords=CD4"
+          },
+          {
+            String: "CD45",
+            Alias: "CD45RO",
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=PTPRC&keywords=CD45"
+          },
+          {
+            String: "CD45RB",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=PTPRC&keywords=CD45RB"
+          },
+          {
+            String: "CD68",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD68&keywords=CD68"
+          },
+          {
+            String: "CD8A",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD8A&keywords=CD8A"
+          },
+          {
+            String: "FOXP3",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=FOXP3&keywords=FOXP3"
+          },
+          {
+            String: "GFAP",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=GFAP&keywords=GFAP"
+          },
+          {
+            String: "GTUBULIN",
+            Alias: "gamma-tubulin",
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=TUBG1&keywords=gamma,tubulin"
+          },
+          {
+            String: "IBA1",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=AIF1&keywords=IBA1"
+          },
+          {
+            String: "KERATIN",
+            Alias: "pan-cytokeratin, pan-keratin, pan-CK, CK, cytokeratin, cytokeratins",
+            Link: "https://www.genecards.org/Search/Keyword?queryString=KERATIN"
+          },
+          {
+            String: "KI67",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=MKI67&keywords=KI67"
+          },
+          {
+            String: "LAG3",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=LAG3&keywords=LAG3"
+          },
+          {
+            String: "LAMINAC",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=LMNA&keywords=LAMIN,AC"
+          },
+          {
+            String: "LAMINB",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=LMNB1&keywords=LAMINB"
+          },
+          {
+            String: "PD-1",
+            Alias: "PD1",
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=PDCD1&keywords=PD-1"
+          },
+          {
+            String: "PD-L1",
+            Alias: "PDL1",
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD274&keywords=PD-L1"
+          },
+          {
+            String: "CD19",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD19&keywords=CD19"
+          },
+          {
+            String: "CD14",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD14&keywords=CD11c"
+          },
+          {
+            String: "CD56",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=NCAM1&keywords=CD56"
+          },
+          {
+            String: "CD34",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD34&keywords=CD34"
+          },
+          {
+            String: "CD44",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD44&keywords=CD34"
+          },
+          {
+            String: "CD14",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD14&keywords=CD14"
+          },
+          {
+            String: "CD33",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD33&keywords=CD33"
+          },
+          {
+            String: "CD41",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=ITGA2B&keywords=CD41"
+          },
+          {
+            String: "CD61",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=ITGB3&keywords=CD61"
+          },
+          {
+            String: "CD62",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=SELP&keywords=CD62"
+          },
+          {
+            String: "CD146",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=MCAM&keywords=CD146"
+          },
+          {
+            String: "CD1d",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD1D&keywords=CD1d"
+          },
+          {
+            String: "CD2",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD2&keywords=CD2"
+          },
+          {
+            String: "CD5",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD5&keywords=cd5"
+          },
+          {
+            String: "CD7",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD7&keywords=CD7"
+          },
+          {
+            String: "CD9",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD9&keywords=CD9"
+          },
+          {
+            String: "CD10",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=MME&keywords=CD10"
+          },
+          {
+            String: "CD11A",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=ITGAL&keywords=CD11A"
+          },
+          {
+            String: "CD70",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD70&keywords=CD70"
+          },
+          {
+            String: "CD74",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD74&keywords=CD74"
+          },
+          {
+            String: "CD103",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=ITGAE&keywords=CD103"
+          },
+          {
+            String: "CD133",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=PROM1&keywords=CD133"
+          },
+          {
+            String: "CD168",
+            Alias: null,
+            Link: "https://www.genecards.org/cgi-bin/carddisp.pl?gene=HMMR&keywords=CD168"
+          }
+        ];
+
+        const cellTypeData = [
+          {
+            String: "Natural Killer Cells",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/c%C3%A9lulas/natural-killer-cells"
+          },
+          {
+            String: "B Cells",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/cells/b-cells"
+          },
+          {
+            String: "Basophil",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/c%C3%A9lulas/basophils"
+          },
+          {
+            String: "Helper T cell",
+            Alias: "CD4+ T Cell, T helper cells",
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/células/cd4-t-cells"
+          },
+          {
+            String: "Cytotoxic T Cell",
+            Alias: "CD8+ T Cell",
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/c%C3%A9lulas/cd8-t-cells"
+          },
+          {
+            String: "Dendritic Cell",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/cells/dendritic-cells"
+          },
+          {
+            String: "Eosinophils",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/c%C3%A9lulas/eosinophils"
+          },
+          {
+            String: "Macrophage",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/c%C3%A9lulas/macrophages"
+          },
+          {
+            String: "Mast Cell",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/c%C3%A9lulas/mast-cells"
+          },
+          {
+            String: "Neutrophil",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/cells/neutrophils"
+          },
+          {
+            String: "Regulatory T Cell",
+            Alias: "Treg",
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/células/regulatory-t-cells-tregs"
+          },
+          {
+            String: "T follicular helper cell",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/cells/t-follicular-helper-cells"
+          },
+          {
+            String: "bone marrow",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/%C3%B3rganos-y-tejidos/bone-marrow"
+          },
+          {
+            String: "lymph node",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/organs-and-tissues/lymph-node"
+          },
+          {
+            String: "complement system",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/sistemas-y-procesos/complement-system"
+          },
+          {
+            String: "phagocytosis",
+            Alias: null,
+            Link: "https://www.immunology.org/public-information/bitesized-immunology/systems-and-processes/phagocytosis"
+          }
+        ]; 
+
+        window.viewer = MinervaStory.default.build_page({
+          hideWelcome: true,
+          markerData: markerData,
+          cellTypeData: cellTypeData,
+          authenticate: authenticate,
+          speech_bucket: speech_bucket,
+          exhibit: "exhibit.json",
+          id: "minerva-browser",
+          embedded: true
+        });
+    </script>
+</body>
+</html>
