@@ -9,7 +9,7 @@
 
 {"Name": "T-cell subsets", "Path": "T-cell-subsets_17__Pan-CK--8__CD8a--7__FOXP3--6__CD4", "Colors": ["0000ff", "ff0000", "ff00ff", "00ff00"], "Channels": ["Pan-CK", "CD8a", "FOXP3", "CD4"]}, 
 
-{"Name": "Infiltrating border", "Path": "Infiltrating-border_17__Pan-CK--14__E-Cadherin--12__CD3e--18__SMA--16__Ki67", "Colors": ["0000ff", "00ffff", "00ff00", "ff00ff", "ff0000"], "Channels": ["Pan-CK", "E-Cadherin", "CD3e", "SMA", "Ki67"]}, 
+{"Name": "Infiltrating \nborder", "Path": "Infiltrating-border_17__Pan-CK--14__E-Cadherin--12__CD3e--18__SMA--16__Ki67", "Colors": ["0000ff", "00ffff", "00ff00", "ff00ff", "ff0000"], "Channels": ["Pan-CK", "E-Cadherin", "CD3e", "SMA", "Ki67"]}, 
 
 {"Name": "Immune checkpoints", "Path": "Immune-checkpoints_17__Pan-CK--11__PD-L1--4__CD68--13__CD163--15__PD-1", "Colors": ["0000ff", "ff00ff", "00ff00", "ff0000", "00ffff"], "Channels": ["Pan-CK", "PD-L1", "CD68", "CD163", "PD-1"]}, 
 
