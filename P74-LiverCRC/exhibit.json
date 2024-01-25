@@ -25,7 +25,7 @@
       "Waypoints": [
         {
           "Name": "Hepatocytes",
-          "Description": "Hepatocytes ((autofluorescent, grey) surrounded by T cells (magenta).\n\nPanCK (cyan) highlights neoplastic glands.\n\nMacrophages expressing CD163 and FOLR2 (orange).",
+          "Description": "Hepatocytes (Autofluorescent, grey) surrounded by T cells (magenta).\n\nPanCK (cyan) highlights neoplastic glands.\n\nMacrophages expressing CD163 and FOLR2 (orange).",
           "Arrows": [],
           "Overlays": [],
           "Group": "Hepatocytes",
