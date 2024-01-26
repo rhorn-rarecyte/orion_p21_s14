@@ -53,7 +53,7 @@
         },
         {
           "Name": "Neoplastic Glands II",
-          "Description": "Neoplastic glands (cyan) with histiocytes (yellow) scavenging necrotic material.\n\nGlands surrounded by extensive immune infiltrate (T cells, white).",
+          "Description": "Neoplastic glands (outlined in cyan) with histiocytes (yellow) scavenging necrotic material.\n\nGlands surrounded by extensive immune infiltrate (T cells, white).",
           "Arrows": [],
           "Overlays": [],
           "Group": "Neoplastic Glands II",
@@ -67,7 +67,7 @@
         },
         {
           "Name": "Neoplastic Glands III",
-          "Description": "Neoplastic gland (outline in cyan) with histiocytes (yellow) scavenging necrotic material.\n\nMany of the metastatic epithelial cancer cells are proliferating (nuclei, magenta).",
+          "Description": "Neoplastic gland (cyan) with histiocytes (yellow) scavenging necrotic material.\n\nMany of the metastatic epithelial cancer cells are proliferating (nuclei, magenta).",
           "Arrows": [],
           "Overlays": [],
           "Group": "Neoplastic Glands II",
