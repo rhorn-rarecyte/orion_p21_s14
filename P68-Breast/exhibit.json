@@ -1,1 +1,474 @@
-
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "15-plex Breast Adenocarcinoma ",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/P68-Breast",
+      "Width": 55072,
+      "Height": 29244,
+      "MaxLevel": 6
+    }
+  ],
+  "Header": "This is a whole-slide tissue section of a high-grade breast ductal adenocarcinoma. The tumor is infiltrated by T cells (cyan) and macrophages (magenta).",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "Infiltrating Immune Cells",
+          "Description": "Immune cells infiltrate & dissect the tumor area into smaller nodules (yellow) to further induce killing, apoptosis and necrosis of tumor cells. \n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Infiltrating Immune Cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 2.959108547773805,
+          "Pan": [
+            0.939266733800257,
+            0.2632165026788458
+          ]
+        },
+        {
+          "Name": "need title",
+          "Description": "The immune cells are composed predominantly of CD4+ helper T cells (cyan) and CD8+ cytotoxic T-cells (magenta) which are markedly increased in number & are present wrapping around the tumor nodules (yellow); as well as infiltrating within the tumor nodules.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "need title",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 10.603020933498978,
+          "Pan": [
+            1.138810271116988,
+            0.1144451535122881
+          ]
+        },
+        {
+          "Name": "diversity of inflammatory cells",
+          "Description": "A diversity of inflammatory cells are found between the tumor cell nodules:\n\nCD8+ Cytotoxic T-cells (magenta)\nCD4+ Helper T-cells (cyan)\nCD163+ Macrophages (red)\nCD68+ Macrophages (yellow)\n5- CD20+ B-lymphocytes (dark blue)\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "diversity of inflammatory cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 21.98642420770348,
+          "Pan": [
+            0.893250817340084,
+            0.21239917283393014
+          ]
+        },
+        {
+          "Name": "Necrotic Area ",
+          "Description": "Macrophages (magenta) bordering the necrotic area.\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Necrotic Area ",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 2.959108547773805,
+          "Pan": [
+            0.8651774901458592,
+            0.8023210701873013
+          ]
+        },
+        {
+          "Name": "Extensive lymphatic invasion",
+          "Description": "Extensive lymphatic invasion by tumor. The lymphatic vessels have a very thin wall in comparison to small arteries. Lymphocytes (cyan) and macrophages (magenta) surround the lymphatic vessels.\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Extensive Lymphatic Invasion",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 2.959108547773805,
+          "Pan": [
+            0.2855540321720514,
+            0.3901185429229437
+          ]
+        },
+        {
+          "Name": "SMA need title",
+          "Description": "SMA (red) highlights smooth muscle & differentiates thick-walled small artery vs thin-walled lymphatic vessel.\n\nThe lymphatic vessel is invaded by tumor (yellow).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Extensive Lymphatic Invasion",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 5.113339570553135,
+          "Pan": [
+            0.30132410456348097,
+            0.15044619235860232
+          ]
+        },
+        {
+          "Name": "Tumor Cells",
+          "Description": "Tumor cells present within large vessel.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Tumor Cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 14.726417963193027,
+          "Pan": [
+            1.18458739945206,
+            0.24141179539050964
+          ]
+        },
+        {
+          "Name": "T cells at vascular invasion",
+          "Description": "Several regulatory T cells (red nuclei) are present at the site of vascular invasion (V)\u000b\u000bRegulatory T cells facilitate the spread of the tumor cells by suppressing the immune system.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T cells at vascular invasion",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 20.45335828221254,
+          "Pan": [
+            1.0658040160417466,
+            0.09210130183768175
+          ]
+        },
+        {
+          "Name": "PD-1 or PD-L1",
+          "Description": "PD-1 and  PD-L1 channels",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "PD-1 or PD-L1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 14.203721029314265,
+          "Pan": [
+            1.0245337374538996,
+            0.24865710153512577
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "Hoescht",
+      "Path": "Hoescht_0__Hoescht"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_16__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD31",
+      "Path": "CD31_2__CD31"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_5__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_7__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki-67",
+      "Path": "Ki-67_3__Ki-67"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
+    },
+    {
+      "Rendered": false,
+      "Name": "E-Cadherin",
+      "Path": "E-Cadherin_12__E-Cadherin"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD45",
+      "Path": "CD45_15__CD45"
+    },
+    {
+      "Rendered": false,
+      "Name": "SMA",
+      "Path": "SMA-0_18__SMA"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_8__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_9__CD68"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD20",
+      "Path": "CD20_6__CD20"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_11__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "SMA",
+      "Path": "SMA-0_18__SMA"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_10__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_13__PD-1"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Introduction",
+      "Colors": [
+        "0000ff",
+        "ffff00",
+        "00ff00",
+        "ff00ff",
+        "00ffff",
+        "ff0000"
+      ],
+      "Channels": [
+        "Hoescht",
+        "Pan-CK",
+        "CD31",
+        "CD163",
+        "CD4",
+        "Ki-67"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Extensive Lymphatic Invasion",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "ffff00",
+        "00ffff",
+        "ff00ff",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "Hoescht",
+        "AF1",
+        "E-Cadherin",
+        "CD45",
+        "CD163",
+        "SMA",
+        "CD31"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Infiltrating Immune Cells",
+      "Colors": [
+        "0000ff",
+        "ffff00",
+        "00ff00",
+        "ff00ff",
+        "00ffff",
+        "ff0000"
+      ],
+      "Channels": [
+        "Hoescht",
+        "Pan-CK",
+        "CD31",
+        "CD163",
+        "CD4",
+        "Ki-67"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "need title",
+      "Colors": [
+        "ffff00",
+        "00ff00",
+        "0000ff",
+        "00ffff",
+        "ff00ff",
+        "ff0000"
+      ],
+      "Channels": [
+        "E-Cadherin",
+        "CD31",
+        "CD163",
+        "CD4",
+        "CD8a",
+        "Ki-67"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "diversity of inflammatory cells",
+      "Colors": [
+        "ffffff",
+        "00ffff",
+        "ff00ff",
+        "ff0000",
+        "ffff00",
+        "0000ff"
+      ],
+      "Channels": [
+        "E-Cadherin",
+        "CD4",
+        "CD8a",
+        "CD163",
+        "CD68",
+        "CD20"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Necrotic Area ",
+      "Colors": [
+        "ffffff",
+        "ffff00",
+        "ff00ff"
+      ],
+      "Channels": [
+        "AF1",
+        "E-Cadherin",
+        "CD163"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Tumor Cells",
+      "Colors": [
+        "0000ff",
+        "ffff00",
+        "00ffff",
+        "ff00ff",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "Hoescht",
+        "E-Cadherin",
+        "CD45",
+        "CD163",
+        "SMA",
+        "CD31"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cells at vascular invasion",
+      "Colors": [
+        "ffff00",
+        "0000ff",
+        "00ffff",
+        "ff00ff",
+        "ff0000",
+        "ffffff"
+      ],
+      "Channels": [
+        "E-Cadherin",
+        "CD163",
+        "CD4",
+        "CD8a",
+        "FOXP3",
+        "SMA"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "PD-1 or PD-L1",
+      "Colors": [
+        "ffff00",
+        "ff0000",
+        "0000ff"
+      ],
+      "Channels": [
+        "PD-L1",
+        "PD-1",
+        "Hoescht"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "PixelsPerMicron": 3.0769
+}
