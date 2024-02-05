@@ -143,10 +143,10 @@
           "Group": "PD-1 or PD-L1",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 14.203721029314265,
+          "Zoom": 9.86369515924601,
           "Pan": [
-            1.0245337374538996,
-            0.24865710153512577
+            1.0194637619637508,
+            0.298914073672783
           ]
         }
       ]
@@ -156,7 +156,7 @@
     {
       "Rendered": false,
       "Name": "Hoescht",
-      "Path": "Hoescht_0__Hoescht"
+      "Path": "Hoescht-0_0__Hoescht"
     },
     {
       "Rendered": false,
@@ -182,6 +182,11 @@
       "Rendered": false,
       "Name": "Ki-67",
       "Path": "Ki-67_3__Ki-67"
+    },
+    {
+      "Rendered": false,
+      "Name": "Hoescht",
+      "Path": "Hoescht-0_0__Hoescht"
     },
     {
       "Rendered": false,
@@ -454,16 +459,19 @@
     {
       "Name": "PD-1 or PD-L1",
       "Colors": [
-        "ffff00",
+        "0000ff",
         "ff0000",
-        "0000ff"
+        "00ff00",
+        "00ffff"
       ],
       "Channels": [
+        "Hoescht",
         "PD-L1",
         "PD-1",
-        "Hoescht"
+        "CD68"
       ],
       "Descriptions": [
+        "",
         "",
         "",
         ""
