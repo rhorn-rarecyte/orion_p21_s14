@@ -107,7 +107,6 @@
             0.4926308830286659
           ]
 		}
-
       ]
     }
   ],
@@ -149,73 +148,13 @@
     },
     {
       "Rendered": false,
-      "Name": "Nucleus",
-      "Path": "Nucleus-0_0__Nucleus"
-    },
-    {
-      "Rendered": false,
       "Name": "Autofluorescence",
       "Path": "Autofluorescence_1__Autofluorescence"
     },
     {
       "Rendered": false,
-      "Name": "Ki-67",
-      "Path": "Ki-67_15__Ki-67"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD3e",
-      "Path": "CD3e_11__CD3e"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD68",
-      "Path": "CD68_9__CD68"
-    },
-    {
-      "Rendered": false,
       "Name": "FOLR2",
       "Path": "FOLR2_12__FOLR2"
-    },
-    {
-      "Rendered": false,
-      "Name": "Albumin",
-      "Path": "Albumin-0_17__Albumin"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD163",
-      "Path": "CD163-0_5__CD163"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD3e",
-      "Path": "CD3e_11__CD3e"
-    },
-    {
-      "Rendered": false,
-      "Name": "Pan-CK",
-      "Path": "Pan-CK_16__Pan-CK"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD68",
-      "Path": "CD68_9__CD68"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD31",
-      "Path": "CD31-0_2__CD31"
-    },
-    {
-      "Rendered": false,
-      "Name": "Pan-CK",
-      "Path": "Pan-CK_16__Pan-CK"
-    },
-    {
-      "Rendered": false,
-      "Name": "Ki-67",
-      "Path": "Ki-67_15__Ki-67"
     },
     {
       "Rendered": false,
@@ -411,6 +350,60 @@
         "Autofluorescence"
       ],
       "Descriptions": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "       ",
+      "Colors": [
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000"
+      ],
+      "Channels": [
+        "Nucleus",
+        "Autofluorescence",
+        "CD31",
+        "CD163",
+        "CD4",
+        "CD8a",
+        "CD68",
+        "PD-L1",
+        "CD3e",
+        "FOLR2",
+        "PD-1",
+        "CD20",
+        "Ki-67",
+        "Pan-CK",
+        "Albumin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
         "",
         ""
       ]
