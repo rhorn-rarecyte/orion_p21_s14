@@ -35,7 +35,11 @@
           "Pan": [
             0.939266733800257,
             0.2632165026788458
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "need title",
@@ -49,7 +53,11 @@
           "Pan": [
             1.138810271116988,
             0.1144451535122881
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "diversity of inflammatory cells",
@@ -63,7 +71,11 @@
           "Pan": [
             0.893250817340084,
             0.21239917283393014
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "Necrotic Area ",
@@ -77,7 +89,11 @@
           "Pan": [
             0.8651774901458592,
             0.8023210701873013
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "Extensive lymphatic invasion",
@@ -91,7 +107,11 @@
           "Pan": [
             0.2855540321720514,
             0.3901185429229437
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "SMA need title",
@@ -105,7 +125,11 @@
           "Pan": [
             0.30132410456348097,
             0.15044619235860232
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "Tumor Cells",
@@ -119,7 +143,11 @@
           "Pan": [
             1.18458739945206,
             0.24141179539050964
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "T cells at vascular invasion",
@@ -133,7 +161,11 @@
           "Pan": [
             1.0658040160417466,
             0.09210130183768175
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "PD-1 or PD-L1",
@@ -147,7 +179,29 @@
           "Pan": [
             1.0194637619637508,
             0.298914073672783
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, Autofluoresence (AF) is white, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own group",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.4326562500000001,
+          "Pan": [
+            0.5026705719600049,
+            0.4926308830286659
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         }
       ]
     }
@@ -190,7 +244,7 @@
     },
     {
       "Rendered": false,
-      "Name": "AF1",
+      "Name": "Autofluorescence",
       "Path": "AF1_1__AF1"
     },
     {
@@ -242,7 +296,13 @@
       "Rendered": false,
       "Name": "PD-1",
       "Path": "PD-1_13__PD-1"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
+
   ],
   "Masks": [],
   "Groups": [
@@ -286,7 +346,7 @@
       ],
       "Channels": [
         "Hoescht",
-        "AF1",
+        "Autofluorescence",
         "E-Cadherin",
         "CD45",
         "CD163",
@@ -392,7 +452,7 @@
         "ff00ff"
       ],
       "Channels": [
-        "AF1",
+        "Autofluorescence",
         "E-Cadherin",
         "CD163"
       ],
@@ -476,7 +536,91 @@
         "",
         ""
       ]
+    },
+    {
+      "Name": "Create your own group",
+      "Colors": [
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoescht",
+        "Autofluorescence"
+      ],
+      "Descriptions": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
+        ""
+      ]
+    },
+	{
+      "Name": "         ",
+      "Colors": [
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000"
+      ],
+      "Channels": [
+        "Hoescht",
+        "Autofluorescence",
+        "CD31",
+        "Ki67",
+        "CD163",
+        "CD20",
+        "CD4",
+        "CD8a",
+        "CD68",
+        "PD-L1",
+        "FOXP3",
+        "E-Cadherin",
+        "PD-1",
+        "CD45",
+        "Pan-CK",
+        "SMA"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     }
   ],
-  "PixelsPerMicron": 3.0769
+  "PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [1.0, 0.5]}, "FirstGroup": "Introduction"
 }
