@@ -193,10 +193,10 @@
           "Group": "Create your own group",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 0.4326562500000001,
+          "Zoom": 0.3,
           "Pan": [
-            0.5026705719600049,
-            0.4926308830286659
+            1.0,
+            0.5
           ],
 			"Lensing": {
             "Group": "H&E",
