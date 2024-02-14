@@ -42,11 +42,11 @@
             }
         },
         {
-          "Name": "need title",
+          "Name": "Immune Cells",
           "Description": "The immune cells are composed predominantly of CD4+ helper T cells (cyan) and CD8+ cytotoxic T-cells (magenta) which are markedly increased in number & are present wrapping around the tumor nodules (yellow); as well as infiltrating within the tumor nodules.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "need title",
+          "Group": "Immune Cells",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 10.603020933498978,
@@ -60,11 +60,11 @@
             }
         },
         {
-          "Name": "diversity of inflammatory cells",
+          "Name": "Diversity of inflammatory cells",
           "Description": "A diversity of inflammatory cells are found between the tumor cell nodules:\n\nCD8+ Cytotoxic T-cells (magenta)\nCD4+ Helper T-cells (cyan)\nCD163+ Macrophages (red)\nCD68+ Macrophages (yellow)\n5- CD20+ B-lymphocytes (dark blue)\n",
           "Arrows": [],
           "Overlays": [],
-          "Group": "diversity of inflammatory cells",
+          "Group": "Diversity of inflammatory cells",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 21.98642420770348,
@@ -100,7 +100,7 @@
           "Description": "Extensive lymphatic invasion by tumor. The lymphatic vessels have a very thin wall in comparison to small arteries. Lymphocytes (cyan) and macrophages (magenta) surround the lymphatic vessels.\n",
           "Arrows": [],
           "Overlays": [],
-          "Group": "Extensive Lymphatic Invasion",
+          "Group": "Extensive lymphatic invasion",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 2.959108547773805,
@@ -114,11 +114,11 @@
             }
         },
         {
-          "Name": "SMA need title",
+          "Name": "Lymphatic vessel",
           "Description": "SMA (red) highlights smooth muscle & differentiates thick-walled small artery vs thin-walled lymphatic vessel.\n\nThe lymphatic vessel is invaded by tumor (yellow).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "Extensive Lymphatic Invasion",
+          "Group": "Extensive lymphatic invasion",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 5.113339570553135,
@@ -151,7 +151,7 @@
         },
         {
           "Name": "T cells at vascular invasion",
-          "Description": "Several regulatory T cells (red nuclei) are present at the site of vascular invasion (V)\u000b\u000bRegulatory T cells facilitate the spread of the tumor cells by suppressing the immune system.",
+          "Description": "Several regulatory T cells (red nuclei) are present at the site of vascular invasion.\n\nRegulatory T cells facilitate the spread of the tumor cells by suppressing the immune system.",
           "Arrows": [],
           "Overlays": [],
           "Group": "T cells at vascular invasion",
@@ -168,11 +168,11 @@
             }
         },
         {
-          "Name": "PD-1 or PD-L1",
-          "Description": "PD-1 and  PD-L1 channels",
+          "Name": "PD-L1+ macrophages",
+          "Description": "PD-L1+ macrophages interacting with PD-1+ cells",
           "Arrows": [],
           "Overlays": [],
-          "Group": "PD-1 or PD-L1",
+          "Group": "PD-L1+ macrophages",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 9.86369515924601,
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "Name": "Extensive Lymphatic Invasion",
+      "Name": "Extensive lymphatic invasion",
       "Colors": [
         "0000ff",
         "ffffff",
@@ -391,7 +391,7 @@
       ]
     },
     {
-      "Name": "need title",
+      "Name": "Immune Cells",
       "Colors": [
         "ffff00",
         "00ff00",
@@ -418,7 +418,7 @@
       ]
     },
     {
-      "Name": "diversity of inflammatory cells",
+      "Name": "Diversity of inflammatory cells",
       "Colors": [
         "ffffff",
         "00ffff",
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "Name": "PD-1 or PD-L1",
+      "Name": "PD-L1+ macrophages",
       "Colors": [
         "0000ff",
         "ff0000",
