@@ -61,7 +61,7 @@
         },
         {
           "Name": "Diversity of inflammatory cells",
-          "Description": "A diversity of inflammatory cells are found between the tumor cell nodules:\n\n• CD8+ cytotoxic T cells (magenta)\n• CD4+ helper T cells (cyan)\n• CD163+ macrophages (red) \n• CD68+ macrophages (yellow) \n• CD20+ B lymphocytes (dark blue)",
+          "Description": "A diversity of inflammatory cells are found between the tumor cell nodules:\n\n• CD8+ cytotoxic T cells (magenta)\n\n• CD4+ helper T cells (cyan)\n\n• CD163+ macrophages (red) \n\n• CD68+ macrophages (yellow) \n\n• CD20+ B lymphocytes (dark blue)\n\n",
           "Arrows": [],
           "Overlays": [],
           "Group": "Diversity of inflammatory cells",
