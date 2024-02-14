@@ -24,8 +24,8 @@
       "Description": "",
       "Waypoints": [
         {
-          "Name": "Infiltrating Immune Cells",
-          "Description": "Immune cells infiltrate & dissect the tumor area into smaller nodules (yellow) to further induce killing, apoptosis and necrosis of tumor cells. \n",
+          "Name": "Infiltrating immune cells",
+          "Description": "Immune cells infiltrate & dissect the tumor area into smaller nodules (yellow) to further induce the elimination, apoptosis and necrosis of tumor cells. \n",
           "Arrows": [],
           "Overlays": [],
           "Group": "Infiltrating Immune Cells",
@@ -42,8 +42,8 @@
             }
         },
         {
-          "Name": "Immune Cells",
-          "Description": "The immune cells are composed predominantly of CD4+ helper T cells (cyan) and CD8+ cytotoxic T-cells (magenta) which are markedly increased in number & are present wrapping around the tumor nodules (yellow); as well as infiltrating within the tumor nodules.",
+          "Name": "Immune cells",
+          "Description": "The immune cells are composed predominantly of CD4+ helper T cells (cyan) and CD8+ cytotoxic T cells (magenta) which are markedly increased in number & are present wrapping around the tumor nodules (yellow); as well as infiltrating within the tumor nodules.",
           "Arrows": [],
           "Overlays": [],
           "Group": "Immune Cells",
@@ -61,7 +61,7 @@
         },
         {
           "Name": "Diversity of inflammatory cells",
-          "Description": "A diversity of inflammatory cells are found between the tumor cell nodules:\n\nCD8+ Cytotoxic T-cells (magenta)\nCD4+ Helper T-cells (cyan)\nCD163+ Macrophages (red)\nCD68+ Macrophages (yellow)\n5- CD20+ B-lymphocytes (dark blue)\n",
+          "Description": "A diversity of inflammatory cells are found between the tumor cell nodules:\n\n• CD8+ cytotoxic T cells (magenta)\n• CD4+ helper T cells (cyan)\n• CD163+ macrophages (red) \n• CD68+ macrophages (yellow) \n• CD20+ B lymphocytes (dark blue)",
           "Arrows": [],
           "Overlays": [],
           "Group": "Diversity of inflammatory cells",
@@ -78,7 +78,7 @@
             }
         },
         {
-          "Name": "Necrotic Area ",
+          "Name": "Necrotic area ",
           "Description": "Macrophages (magenta) bordering the necrotic area.\n",
           "Arrows": [],
           "Overlays": [],
@@ -97,7 +97,7 @@
         },
         {
           "Name": "Extensive lymphatic invasion",
-          "Description": "Extensive lymphatic invasion by tumor. The lymphatic vessels have a very thin wall in comparison to small arteries. Lymphocytes (cyan) and macrophages (magenta) surround the lymphatic vessels.\n",
+          "Description": "Extensive lymphatic invasion by the tumor. The lymphatic vessels have a very thin wall in comparison to small arteries. Lymphocytes (cyan) and macrophages (magenta) surround the lymphatic vessels.\n",
           "Arrows": [],
           "Overlays": [],
           "Group": "Extensive lymphatic invasion",
@@ -132,8 +132,8 @@
             }
         },
         {
-          "Name": "Tumor Cells",
-          "Description": "Tumor cells present within large vessel.",
+          "Name": "Tumor cells",
+          "Description": "Tumor cells present within the large vessel.",
           "Arrows": [],
           "Overlays": [],
           "Group": "Tumor Cells",
@@ -364,7 +364,7 @@
       ]
     },
     {
-      "Name": "Infiltrating Immune Cells",
+      "Name": "Infiltrating immune cells",
       "Colors": [
         "0000ff",
         "ffff00",
@@ -391,7 +391,7 @@
       ]
     },
     {
-      "Name": "Immune Cells",
+      "Name": "Immune cells",
       "Colors": [
         "ffff00",
         "00ff00",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "Name": "Necrotic Area ",
+      "Name": "Necrotic area ",
       "Colors": [
         "ffffff",
         "ffff00",
@@ -463,7 +463,7 @@
       ]
     },
     {
-      "Name": "Tumor Cells",
+      "Name": "Tumor cells",
       "Colors": [
         "0000ff",
         "ffff00",
