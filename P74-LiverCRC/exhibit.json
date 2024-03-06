@@ -9,7 +9,7 @@
       "MaxLevel": 5
     }
   ],
-  "Header": "This is a liver section that shows extensive infiltration by metastatic moderately-differentiated adenocarcinoma that is morphologically consistent with primary tumor from the colon. Significant replacement of the parenchyma by metastatic colorectal cancer tumor cell nodules is observed, with neoplastic glands that contain immune cell infiltrate (predominantly CD68+ macrophages). Other immune cells, particularly CD163+ macrophages and T-lymphocytes are also present in the tissue and are densely populated within the desmoplastic stroma surrounding the tumor cells. Image courtesy of Ankur Sharma, Harry Perkins Institute of Medical Research",
+  "Header": "This is a liver section that shows extensive infiltration by metastatic moderately-differentiated adenocarcinoma that is morphologically consistent with primary tumor from the colon. Significant replacement of the parenchyma by metastatic colorectal cancer tumor cell nodules is observed, with neoplastic glands that contain immune cell infiltrate (predominantly CD68+ macrophages). Other immune cells, particularly CD163+ macrophages and T-lymphocytes are also present in the tissue and are densely populated within the desmoplastic stroma surrounding the tumor cells. \n\nImage courtesy of Ankur Sharma, Harry Perkins Institute of Medical Research",
   "Rotation": 0,
   "Layout": {
     "Grid": [
