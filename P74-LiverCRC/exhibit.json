@@ -163,8 +163,13 @@
     },
     {
       "Rendered": false,
-      "Name": "CD4",
-      "Path": "CD4_7__CD4"
+      "Name": "PD-1",
+      "Path": "PD-1_13__PD-1"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_10__PD-L1"
     },
     {
       "Rendered": false,
