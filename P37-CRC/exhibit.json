@@ -128,7 +128,7 @@
     },
     {
       "Rendered": false,
-      "Name": "SMA",
+      "Name": "Smooth Muscle Actin",
       "Path": "SMA-0_18__SMA"
     },
     {
@@ -208,7 +208,7 @@
     },
     {
       "Rendered": false,
-      "Name": "SMA",
+      "Name": "Smooth Muscle Actin",
       "Path": "SMA-0_18__SMA"
     },
     {
@@ -253,7 +253,7 @@
     },
     {
       "Rendered": false,
-      "Name": "AF1",
+      "Name": "Autofluorescence",
       "Path": "AF1_1__AF1"
     },
     {
@@ -277,7 +277,7 @@
         "Hoechst",
         "E-Cadherin",
         "CD45",
-        "SMA",
+        "Smooth Muscle Actin",
         "Pan-CK"
       ],
       "Descriptions": [
@@ -300,7 +300,7 @@
       "Channels": [
         "Ki67",
         "E-Cadherin",
-        "SMA",
+        "Smooth Muscle Actin",
         "CD31",
         "Pan-CK"
       ],
@@ -370,7 +370,7 @@
         "Pan-CK",
         "E-Cadherin",
         "CD3e",
-        "SMA",
+        "Smooth Muscle Actin",
         "Ki67"
       ],
       "Descriptions": [
@@ -418,7 +418,7 @@
         "Pan-CK",
         "E-Cadherin",
         "CD31",
-        "AF1",
+        "Autofluorescence",
         "Hoechst"
       ],
       "Descriptions": [
