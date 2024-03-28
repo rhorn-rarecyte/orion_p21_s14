@@ -66,6 +66,20 @@
           ]
         },
         {
+          "Name": "Merkel cell carcinoma with immune response",
+          "Description": "Merkel cell carcinoma with perinuclear dot like Pan-CK (yellow) are surrounded by immune cells, including T cells (white), macrophages (red), dendritic cells (green), and monocytes (magenta)\n\nSome macrophages have also infiltrated into the tumor\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Merkel cell carcinoma with immune response",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 15.40702157458636,
+          "Pan": [
+            0.5363982825792788,
+            0.3921973571775166
+          ]
+        },
+        {
           "Name": "T cell subsets",
           "Description": "T cell subsets:\n\nCTL: CD8+CD4- (blue) \n\nT helper cells: CD4+CD8- (green) \n\nExhausted CTL: CD8+PD-1+ (magenta) \n\nExhausted T helper: CD4+PD-1+ (yellow)\n",
           "Arrows": [],
@@ -268,6 +282,33 @@
       ]
     },
     {
+      "Name": "Merkel cell carcinoma with immune response",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "ff0000",
+        "ff00ff",
+        "00ff00",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD3e",
+        "CD11c",
+        "CD123",
+        "CD141",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
       "Name": "T cell subsets",
       "Colors": [
         "0000ff",
@@ -306,5 +347,5 @@
         ""
       ]
     }
-  ]
-,"PixelsPerMicron":3.0769}
+  ],
+"PixelsPerMicron":3.0769}
