@@ -1,1 +1,397 @@
-{"Images":[{"Name":"Whole Merkel cell carcinoma","Description":"","Path":"https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/SP-23-001871-B1","Width":108225,"Height":57379,"MaxLevel":7}],"Header":"Whole Merkel cell carcinoma section ","Rotation":0,"Layout":{"Grid":[["i0"]]},"Stories":[{"Name":"","Description":"","Waypoints":[{"Name":"Tertiary lymphoid structure 1","Description":"CD123+ high endothelial venules and monocytes (magenta) and CD141+ dendritic cells (green) are mainly observed surrounding the tertiary lymphoid structure (blue)\n","Arrows":[],"Overlays":[],"Group":"Tertiary lymphoid structure 1","Masks":[],"ActiveMasks":[],"Zoom":15.407021574586361,"Pan":[1.0288180673961567,0.4702639188235085]},{"Name":"Tertiary lymphoid structure 2a","Description":"Macrophages (cyan) and T cells (red) are more concentrated at the periphery of the tertiary lymphoid structure\n","Arrows":[],"Overlays":[],"Group":"Tertiary lymphoid structure 2a","Masks":[],"ActiveMasks":[],"Zoom":25.67836929097727,"Pan":[0.6382553740836782,0.11274585865844956]},{"Name":"Tertiary lymphoid structure 2b","Description":"Abundant T helper (magenta) with a few CTL (green) scattered around and throughout the tertiary lymphoid structure\n","Arrows":[],"Overlays":[],"Group":"Tertiary lymphoid structure 2b","Masks":[],"ActiveMasks":[],"Zoom":25.67836929097727,"Pan":[0.6382553740836782,0.11274585865844956]},{"Name":"Tertiary lymphoid structure 2c","Description":"Abundant T helper (magenta) with a few CTL (green/yellow) scattered around and throughout the tertiary lymphoid structure. CD4 also stains some macrophages (blue)\n","Arrows":[],"Overlays":[],"Group":"Tertiary lymphoid structure 2c","Masks":[],"ActiveMasks":[],"Zoom":25.67836929097727,"Pan":[0.6382553740836782,0.11274585865844956]},{"Name":"Tertiary lymphoid structure 2d","Description":"A subset of T helper cells within the tertiary lymphoid structure are PD-1 positive (orange/yellow)\n","Arrows":[],"Overlays":[],"Group":"Tertiary lymphoid structure 2d","Masks":[],"ActiveMasks":[],"Zoom":25.67836929097727,"Pan":[0.6382553740836782,0.11274585865844956]},{"Name":"Dermis","Description":"Most cells in the dermis express HLA-ABC (green) and plasma cells also express CD138 (magenta)\n\nStroma and RBC highlighted by autofluorescence (white)\n","Arrows":[],"Overlays":[],"Group":"Dermis","Masks":[],"ActiveMasks":[],"Zoom":14.860167413759998,"Pan":[0.702101312063082,0.850281433979389]},{"Name":"Immune cells","Description":"High density of immune cells, with a large central population of T cells (magenta) and surrounding dendritic cells (cyan)\n\nCD123+ (yellow) monocytes and high endothelial venules are scattered throughout, with venules containing RBC, observed in the autofluorescence channel (white)\n","Arrows":[],"Overlays":[],"Group":"Immune cells","Masks":[],"ActiveMasks":[],"Zoom":25.67836929097727,"Pan":[0.9529961112387633,0.5505812351021625]},{"Name":"Merkel cell carcinoma","Description":"Perinuclear dot like CK staining (yellow) appears in the cancer cells, which express minimal HLA-ABC (magenta)\n\nDendritic cells (red) and B lymphocytes (green) are also observed in the region adjacent to the tumor\n","Arrows":[],"Overlays":[],"Group":"Merkel cell carcinoma","Masks":[],"ActiveMasks":[],"Zoom":26.62333328088523,"Pan":[0.9544736191862037,0.4541708760142567]}]}],"Channels":[{"Rendered":false,"Name":"CD20","Path":"CD20_2__CD20"},{"Rendered":false,"Name":"CD123","Path":"CD123_11__CD123"},{"Rendered":false,"Name":"CD141","Path":"CD141_14__CD141"},{"Rendered":false,"Name":"CD11c","Path":"CD11c_10__CD11c"},{"Rendered":false,"Name":"Autofluorescence1","Path":"Autofluorescence1_1__Autofluorescence1"},{"Rendered":false,"Name":"CD3e","Path":"CD3e_4__CD3e"},{"Rendered":false,"Name":"Hoechst","Path":"Hoechst_0__Hoechst"},{"Rendered":false,"Name":"CD138","Path":"CD138_9__CD138"},{"Rendered":false,"Name":"HLA-ABC","Path":"HLA-ABC_17__HLA-ABC"},{"Rendered":false,"Name":"Pan-CK","Path":"Pan-CK_18__Pan-CK"},{"Rendered":false,"Name":"CD4","Path":"CD4_15__CD4"},{"Rendered":false,"Name":"CD8a","Path":"CD8a_8__CD8a"},{"Rendered":false,"Name":"PD-1","Path":"PD-1_12__PD-1"}],"Masks":[],"Groups":[{"Name":"Introduction","Colors":["0000ff","ff00ff","00ff00","00ffff","ffffff"],"Channels":["CD20","CD123","CD141","CD11c","Autofluorescence1"],"Descriptions":["","","","",""]},{"Name":"Tertiary lymphoid structure 1","Colors":["0000ff","ff00ff","00ff00"],"Channels":["CD20","CD123","CD141"],"Descriptions":["","",""]},{"Name":"Tertiary lymphoid structure 2a","Colors":["0000ff","00ffff","ff0000"],"Channels":["CD20","CD11c","CD3e"],"Descriptions":["","",""]},{"Name":"Tertiary lymphoid structure 2b","Colors":["0000ff","ff00ff","00ff00"],"Channels":["CD20","CD4","CD8a"],"Descriptions":["","",""]},{"Name":"Tertiary lymphoid structure 2c","Colors":["0000ff","ff0000","00ff00"],"Channels":["CD4","CD3e","CD8a"],"Descriptions":["","",""]},{"Name":"Tertiary lymphoid structure 2d","Colors":["0000ff","ff0000","00ff00"],"Channels":["CD20","PD-1","CD4"],"Descriptions":["","",""]},{"Name":"Dermis","Colors":["0000ff","ffffff","ff00ff","00ff00","ffff00"],"Channels":["Hoechst","Autofluorescence1","CD138","HLA-ABC","Pan-CK"],"Descriptions":["","","","",""]},{"Name":"Immune cells","Colors":["0000ff","ffffff","ff00ff","00ffff","ffff00"],"Channels":["CD20","Autofluorescence1","CD3e","CD141","CD123"],"Descriptions":["","","","",""]},{"Name":"Merkel cell carcinoma","Colors":["0000ff","00ff00","ff00ff","ff0000","ffff00"],"Channels":["Hoechst","CD20","HLA-ABC","CD141","Pan-CK"],"Descriptions":["","","","",""]}],"PixelsPerMicron":3.0769}
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Whole Merkel Cell Carcinoma",
+      "Path": "images/SP-23-001871-B1",
+      "Width": 108225,
+      "Height": 57379,
+      "MaxLevel": 7
+    }
+  ],
+  "Header": "Whole Merkel cell carcinoma slide stained with a 12-plex panel and scanned on the Orion system",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "Tertiary lymphoid structure 1",
+          "Description": "CD123+ high endothelial venules and monocytes (magenta) and CD141+ dendritic cells (green) are mainly observed surrounding the tertiary lymphoid structure (blue).\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Tertiary lymphoid structure 1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 15.407021574586361,
+          "Pan": [
+            1.0288180673961567,
+            0.4702639188235085
+          ]
+        },
+        {
+          "Name": "Tertiary lymphoid structure 2a",
+          "Description": "Macrophages (cyan) and T cells (red) are more concentrated at the periphery of the tertiary lymphoid structure.\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Tertiary lymphoid structure 2a",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 25.67836929097727,
+          "Pan": [
+            0.6382553740836782,
+            0.11274585865844956
+          ]
+        },
+        {
+          "Name": "Tertiary lymphoid structure 2b",
+          "Description": "Abundant T helper (magenta) with a few CTL (green) scattered around and throughout the tertiary lymphoid structure.\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Tertiary lymphoid structure 2b",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 25.67836929097727,
+          "Pan": [
+            0.6382553740836782,
+            0.11274585865844956
+          ]
+        },
+        {
+          "Name": "Tertiary lymphoid structure 2c",
+          "Description": "Abundant T helper (magenta) with a few CTL (green/yellow) scattered around and throughout the tertiary lymphoid structure. CD4 also stains some macrophages (blue).\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Tertiary lymphoid structure 2c",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 25.67836929097727,
+          "Pan": [
+            0.6382553740836782,
+            0.11274585865844956
+          ]
+        },
+        {
+          "Name": "Tertiary lymphoid structure 2d",
+          "Description": "A subset of T helper cells within the tertiary lymphoid structure are PD-1 positive (orange/yellow).\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Tertiary lymphoid structure 2d",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 25.67836929097727,
+          "Pan": [
+            0.6382553740836782,
+            0.11274585865844956
+          ]
+        },
+        {
+          "Name": "Dermis",
+          "Description": "Most cells in the dermis express HLA-ABC (green) and plasma cells also express CD138 (magenta)\n\nStroma and RBC highlighted by autofluorescence (white).\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Dermis",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 14.860167413759998,
+          "Pan": [
+            0.702101312063082,
+            0.850281433979389
+          ]
+        },
+        {
+          "Name": "Immune cells",
+          "Description": "High density of immune cells, with a large central population of T cells (magenta) and surrounding dendritic cells (cyan).\n\nCD123+ (yellow) monocytes and high endothelial venules are scattered throughout, with venules containing RBC, observed in the autofluorescence channel (white).\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Immune cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 25.67836929097727,
+          "Pan": [
+            0.9529961112387633,
+            0.5505812351021625
+          ]
+        },
+        {
+          "Name": "Merkel cell carcinoma",
+          "Description": "Perinuclear dot like CK staining (yellow) appears in the cancer cells, which express minimal HLA-ABC (magenta).\n\nDendritic cells (red) and B lymphocytes (green) are also observed in the region adjacent to the tumor.\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Merkel cell carcinoma",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 26.62333328088523,
+          "Pan": [
+            0.9544736191862037,
+            0.4541708760142567
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "CD20",
+      "Path": "CD20_2__CD20"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD123",
+      "Path": "CD123_11__CD123"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD141",
+      "Path": "CD141_14__CD141"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD11c",
+      "Path": "CD11c_10__CD11c"
+    },
+    {
+      "Rendered": false,
+      "Name": "Autofluorescence1",
+      "Path": "Autofluorescence1_1__Autofluorescence1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e_4__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD138",
+      "Path": "CD138_9__CD138"
+    },
+    {
+      "Rendered": false,
+      "Name": "HLA-ABC",
+      "Path": "HLA-ABC_17__HLA-ABC"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_18__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_15__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_8__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_12__PD-1"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Introduction",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "00ff00",
+        "00ffff",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD20",
+        "CD123",
+        "CD141",
+        "CD11c",
+        "Autofluorescence1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Tertiary lymphoid structure 1",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "00ff00"
+      ],
+      "Channels": [
+        "CD20",
+        "CD123",
+        "CD141"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Tertiary lymphoid structure 2a",
+      "Colors": [
+        "0000ff",
+        "00ffff",
+        "ff0000"
+      ],
+      "Channels": [
+        "CD20",
+        "CD11c",
+        "CD3e"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Tertiary lymphoid structure 2b",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "00ff00"
+      ],
+      "Channels": [
+        "CD20",
+        "CD4",
+        "CD8a"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Tertiary lymphoid structure 2c",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "CD4",
+        "CD3e",
+        "CD8a"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Tertiary lymphoid structure 2d",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "CD20",
+        "PD-1",
+        "CD4"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Dermis",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "ff00ff",
+        "00ff00",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Autofluorescence1",
+        "CD138",
+        "HLA-ABC",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Immune cells",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "ff00ff",
+        "00ffff",
+        "ffff00"
+      ],
+      "Channels": [
+        "CD20",
+        "Autofluorescence1",
+        "CD3e",
+        "CD141",
+        "CD123"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Merkel cell carcinoma",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff00ff",
+        "ff0000",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD20",
+        "HLA-ABC",
+        "CD141",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+"PixelsPerMicron":3.0769}
