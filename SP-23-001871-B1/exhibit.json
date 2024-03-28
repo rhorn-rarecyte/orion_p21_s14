@@ -3,7 +3,7 @@
     {
       "Name": "i0",
       "Description": "Whole Merkel Cell Carcinoma",
-      "Path": "images/SP-23-001871-B1",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/SP-23-001871-B1",
       "Width": 108225,
       "Height": 57379,
       "MaxLevel": 7
