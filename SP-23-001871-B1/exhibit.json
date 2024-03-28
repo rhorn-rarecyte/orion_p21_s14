@@ -53,7 +53,7 @@
         },
         {
           "Name": "Tertiary lymphoid structure 2b",
-          "Description": "Abundant T helper (magenta) with a few CTL (green) scattered around and throughout the tertiary lymphoid structure",
+          "Description": "Abundant T helper (magenta) with a few CTL (green) scattered around and throughout the tertiary lymphoid structure\n",
           "Arrows": [],
           "Overlays": [],
           "Group": "Tertiary lymphoid structure 2b",
@@ -67,7 +67,7 @@
         },
         {
           "Name": "Tertiary lymphoid structure 2c",
-          "Description": "Abundant T helper (magenta) with a few CTL (green/yellow) scattered around and throughout the tertiary lymphoid structure. CD4 also stains some macrophages (blue)",
+          "Description": "Abundant T helper (magenta) with a few CTL (green/yellow) scattered around and throughout the tertiary lymphoid structure. CD4 also stains some macrophages (blue)\n",
           "Arrows": [],
           "Overlays": [],
           "Group": "Tertiary lymphoid structure 2c",
@@ -81,7 +81,7 @@
         },
         {
           "Name": "Tertiary lymphoid structure 2d",
-          "Description": "A subset of T helper cells within the tertiary lymphoid structure are PD-1 positive (orange/yellow)",
+          "Description": "A subset of T helper cells within the tertiary lymphoid structure are PD-1 positive (orange/yellow)\n",
           "Arrows": [],
           "Overlays": [],
           "Group": "Tertiary lymphoid structure 2d",
