@@ -35,7 +35,11 @@
           "Pan": [
             0.36328125,
             0.2963541746139527
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "Epidermis and dermis",
@@ -49,7 +53,11 @@
           "Pan": [
             0.1046631570817062,
             0.40405729791140627
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "Immune cell cluster",
@@ -63,7 +71,11 @@
           "Pan": [
             0.5201749044241154,
             0.39617431584560986
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "Merkel cell carcinoma with immune response",
@@ -77,7 +89,11 @@
           "Pan": [
             0.5363982825792788,
             0.3921973571775166
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "T cell subsets",
@@ -91,7 +107,11 @@
           "Pan": [
             0.4598397128889361,
             0.46336874432655145
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         },
         {
           "Name": "Epithelium and Merkel cell carcinoma",
@@ -105,7 +125,11 @@
           "Pan": [
             0.19002150777761342,
             0.5064228735907882
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+            }
         }
       ]
     }
@@ -175,6 +199,11 @@
       "Rendered": false,
       "Name": "Autofluorescence1",
       "Path": "Autofluorescence1_1__Autofluorescence1"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
@@ -344,6 +373,18 @@
         "",
         "",
         "",
+        ""
+      ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
         ""
       ]
     }
