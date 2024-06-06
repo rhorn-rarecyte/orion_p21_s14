@@ -1,0 +1,313 @@
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Whole slide endometrial cancer TMA",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q150-S01",
+      "Width": 37893,
+      "Height": 29937,
+      "MaxLevel": 6
+    }
+  ],
+  "Header": "Whole slide endometrial cancer TMA",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "A8",
+          "Description": "Sparse tumor cells (white) surrounded by immune cells (magenta) and ER+/PR+ cells (yellow)",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "A8",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 4.828499999999999,
+          "Pan": [
+            1.2007719388181932,
+            0.11395162669046018
+          ]
+        },
+        {
+          "Name": "A8_2",
+          "Description": "Sparse tumor cells (white) are HER2-dim (green) and are surrounded by immune cells (magenta)",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "A8_2",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 4.325347123199999,
+          "Pan": [
+            1.1935681537510037,
+            0.11638186444655786
+          ]
+        },
+        {
+          "Name": "C7",
+          "Description": "Co-expression of vimentin and PanCK (yellow) in normal epithelium and a subset of cancer cells, but most cancer cells are PanCK+/Vimentin- (green)\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "C7",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 4.8,
+          "Pan": [
+            1.0177453134607453,
+            0.43756004696044876
+          ]
+        },
+        {
+          "Name": "C7_2",
+          "Description": "Co-expression of vimentin and PanCK (yellow) in normal epithelium and a subset of cancer cells, but most cancer cells are PanCK+/Vimentin- (green)\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "C7_2",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 4.8,
+          "Pan": [
+            1.0177453134607453,
+            0.43756004696044876
+          ]
+        },
+        {
+          "Name": "C7_3",
+          "Description": "All tumor cells are HER2+ (green), and one cluster of tumor cells are P53-high while all other tumor cells are P53-low/negative (blue)\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "C7_3",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 4.8,
+          "Pan": [
+            1.0177453134607453,
+            0.43756004696044876
+          ]
+        },
+        {
+          "Name": "E5",
+          "Description": "Few immune cells (magenta) are present scattered around the tumor that is HER2+ (red/yellow/green)\nNearly all tumor cells are P53+, many of which are saturating\nNo PR is present on this core",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "E5",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 4.3253471231999985,
+          "Pan": [
+            0.6863658646145736,
+            0.7385430717412572
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "P53-DIG",
+      "Path": "P53-DIG_14__P53-DIG"
+    },
+    {
+      "Rendered": false,
+      "Name": "PR",
+      "Path": "PR_8__PR"
+    },
+    {
+      "Rendered": false,
+      "Name": "HER2",
+      "Path": "HER2_16__HER2"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD45",
+      "Path": "CD45_2__CD45"
+    },
+    {
+      "Rendered": false,
+      "Name": "ER",
+      "Path": "ER_12__ER"
+    },
+    {
+      "Rendered": false,
+      "Name": "PanCK",
+      "Path": "PanCK_18__PanCK"
+    },
+    {
+      "Rendered": false,
+      "Name": "Vimentin",
+      "Path": "Vimentin_19__Vimentin"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "TCGA-emca TMA 6",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "P53-DIG",
+        "PR",
+        "HER2",
+        "CD45"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "A8",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "ff0000",
+        "00ff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "P53-DIG",
+        "CD45",
+        "PR",
+        "ER",
+        "PanCK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "A8_2",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "ffff00",
+        "00ff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "P53-DIG",
+        "CD45",
+        "Vimentin",
+        "HER2",
+        "PanCK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "C7",
+      "Colors": [
+        "ff00ff",
+        "ffffff",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "CD45",
+        "ER",
+        "Vimentin",
+        "PanCK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "C7_2",
+      "Colors": [
+        "ff00ff",
+        "00ff00",
+        "ffff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD45",
+        "ER",
+        "Vimentin",
+        "PanCK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "C7_3",
+      "Colors": [
+        "ff00ff",
+        "ffffff",
+        "0000ff",
+        "00ff00"
+      ],
+      "Channels": [
+        "CD45",
+        "PR",
+        "P53-DIG",
+        "HER2"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "E5",
+      "Colors": [
+        "ff00ff",
+        "ffffff",
+        "0000ff",
+        "00ff00",
+        "ff0000",
+        "00ffff"
+      ],
+      "Channels": [
+        "CD45",
+        "PR",
+        "P53-DIG",
+        "HER2",
+        "PanCK",
+        "Vimentin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "PixelsPerMicron": 3.0769
+}
