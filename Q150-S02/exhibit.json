@@ -33,7 +33,7 @@
           "ActiveMasks": [],
           "Zoom": 5.2,
           "Pan": [
-            1.39,
+            0.4,
             0.77
           ],
           "Lensing": {
@@ -135,7 +135,7 @@
         "0000ff",
         "ffff00",
         "ffffff"
-      ],
+      ]	,
       "Channels": [
         "CD45",
         "PR",
