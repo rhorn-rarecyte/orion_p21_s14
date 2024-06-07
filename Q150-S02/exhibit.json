@@ -103,6 +103,11 @@
       "Rendered": false,
       "Name": "HER2",
       "Path": "HER2_16__HER2"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
