@@ -25,7 +25,7 @@
       "Waypoints": [
         {
           "Name": "A8",
-          "Description": "Sparse tumor cells (white) surrounded by immune cells (magenta) and ER+/PR+ cells (yellow)",
+          "Description": "Sparse tumor cells (white) surrounded by immune cells (magenta) and ER+/PR+ cells (yellow).\n\nFew cells are ER+/PR- (green), while none are ER-/PR+.\n\nSignal from saturating P53+ cells (blue) have signal that appears in the ER channel (cyan)",
           "Arrows": [],
           "Overlays": [],
           "Group": "A8",
@@ -39,7 +39,7 @@
         },
         {
           "Name": "A8_2",
-          "Description": "Sparse tumor cells (white) are HER2-dim (green) and are surrounded by immune cells (magenta)",
+          "Description": "Sparse tumor cells (white) are HER2-dim (green) and are surrounded by immune cells (magenta).\n\nNear uniform expression of vimentin observed across the core (outside of P53+ cells)\n\nSignal from saturating P53+ cells (blue) have signal that also appears in the HER2 channel (cyan)",
           "Arrows": [],
           "Overlays": [],
           "Group": "A8_2",
@@ -53,7 +53,7 @@
         },
         {
           "Name": "C7",
-          "Description": "Co-expression of vimentin and PanCK (yellow) in normal epithelium and a subset of cancer cells, but most cancer cells are PanCK+/Vimentin- (green)\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
+          "Description": "Co-expression of vimentin and PanCK (yellow) in normal epithelium and a subset of cancer cells, but most cancer cells are PanCK+/Vimentin- (green).\n\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
           "Arrows": [],
           "Overlays": [],
           "Group": "C7",
@@ -67,7 +67,7 @@
         },
         {
           "Name": "C7_2",
-          "Description": "Co-expression of vimentin and PanCK (yellow) in normal epithelium and a subset of cancer cells, but most cancer cells are PanCK+/Vimentin- (green)\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
+          "Description": "Co-expression of vimentin and PanCK (yellow) in normal epithelium and a subset of cancer cells, but most cancer cells are PanCK+/Vimentin- (green).\n\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
           "Arrows": [],
           "Overlays": [],
           "Group": "C7_2",
@@ -81,7 +81,7 @@
         },
         {
           "Name": "C7_3",
-          "Description": "All tumor cells are HER2+ (green), and one cluster of tumor cells are P53-high while all other tumor cells are P53-low/negative (blue)\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
+          "Description": "All tumor cells are HER2+ (green), and one cluster of tumor cells are P53-high while all other tumor cells are P53-low/negative (blue).\n\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
           "Arrows": [],
           "Overlays": [],
           "Group": "C7_3",
@@ -95,7 +95,7 @@
         },
         {
           "Name": "E5",
-          "Description": "Few immune cells (magenta) are present scattered around the tumor that is HER2+ (red/yellow/green)\nNearly all tumor cells are P53+, many of which are saturating\nNo PR is present on this core",
+          "Description": "Few immune cells (magenta) are present scattered around the tumor that is HER2+ (red/yellow/green).\n\nNearly all tumor cells are P53+, many of which are saturating,\n\nNo PR is present on this core",
           "Arrows": [],
           "Overlays": [],
           "Group": "E5",
@@ -265,7 +265,7 @@
       "Colors": [
         "ff00ff",
         "ffffff",
-        "0000ff",
+        "00ffff",
         "00ff00"
       ],
       "Channels": [
