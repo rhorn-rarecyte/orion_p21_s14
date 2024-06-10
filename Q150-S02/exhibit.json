@@ -107,21 +107,42 @@
   ],
   "Masks": [],
   "Groups": [
-    {
-      "Name": "D6",
+      {
+      "Name": "USC2",
       "Colors": [
-        "00ffff",
-        "ff0000",
         "0000ff",
-        "ffff00",
+        "ff0000",
+        "00ff00",
         "ffffff"
       ],
       "Channels": [
-        "CD45",
-        "PR",
         "P53-DIG",
-        "PanCK",
-        "Vimentin"
+        "PR",
+        "HER2",
+        "CD45"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "F10",
+      "Colors": [
+        "00ffff",
+        "0000ff",
+        "ff0000",
+        "ffffff",
+        "ffff00"
+      ],
+      "Channels": [
+        "CD45",
+        "ER",
+        "PR",
+        "HER2",
+        "PanCK"
       ],
       "Descriptions": [
         "",
@@ -156,44 +177,23 @@
       ]
     },
     {
-      "Name": "F10",
+      "Name": "D6",
       "Colors": [
         "00ffff",
-        "0000ff",
         "ff0000",
-        "ffffff",
-        "ffff00"
-      ],
-      "Channels": [
-        "CD45",
-        "ER",
-        "PR",
-        "HER2",
-        "PanCK"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "USC2",
-      "Colors": [
         "0000ff",
-        "ff0000",
-        "00ff00",
+        "ffff00",
         "ffffff"
       ],
       "Channels": [
-        "P53-DIG",
+        "CD45",
         "PR",
-        "HER2",
-        "CD45"
+        "P53-DIG",
+        "PanCK",
+        "Vimentin"
       ],
       "Descriptions": [
+        "",
         "",
         "",
         "",
