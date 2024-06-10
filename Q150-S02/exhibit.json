@@ -2,14 +2,14 @@
   "Images": [
     {
       "Name": "i0",
-      "Description": "Whole slide TMA",
+      "Description": "Ovarian/endometrial cancer TMA",
       "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q150-S02",
       "Width": 46694,
       "Height": 32560,
       "MaxLevel": 6
     }
   ],
-  "Header": "",
+  "Header": "Ovarian/endometrial cancer TMA",
   "Rotation": 0,
   "Layout": {
     "Grid": [
@@ -25,60 +25,45 @@
       "Waypoints": [
         {
           "Name": "F10",
-          "Description": "Extensive immune cell presence (cyan) is observed between tumor clusters (yellow)",
+          "Description": "Extensive immune cell presence (cyan) is observed between tumor clusters (yellow).\n\nMost tumor cells express ER (blue), PR (red), or both (magenta).\n\nNo HER2 expression observed on this sample.",
           "Arrows": [],
           "Overlays": [],
           "Group": "F10",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 5.2,
+          "Zoom": 4.699237706956796,
           "Pan": [
-            1.39,
-            0.6
-          ],
-          "Lensing": {
-            "Group": "H&E",
-            "Rad": 150
-          }
-
+            1.3772437568103584,
+            0.7570032383194832
+          ]
         },
         {
           "Name": "G1",
-          "Description": "Extensive immune cell presence (cyan) is observed between tumor clusters (yellow)\nTumor cells are also expressing HER2 (white)\nAbundant ER+/PR+ cells (magenta) are also present",
+          "Description": "Extensive immune cell presence (cyan) is observed between tumor clusters (yellow).\n\nTumor cells are also expressing HER2 (white).\n\nAbundant ER+/PR+ cells (magenta) are also present.",
           "Arrows": [],
           "Overlays": [],
           "Group": "G1",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 5.2,
+          "Zoom": 4.699237706956796,
           "Pan": [
-            1.39,
-            0.6
-          ],
-          "Lensing": {
-            "Group": "H&E",
-            "Rad": 150
-          }
-
+            0.06831082777298986,
+            0.9236403813106014
+          ]
         },
         {
           "Name": "D6",
-          "Description": "Immune cells (cyan) scattered around the tumor cells (yellow)",
+          "Description": "Immune cells (cyan) scattered around the tumor cells (yellow).\n\nExtensive P53 (blue) present throughout the tumor cells.",
           "Arrows": [],
           "Overlays": [],
           "Group": "D6",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 5.2,
+          "Zoom": 4.699237706956796,
           "Pan": [
-            1.39,
-            0.6
-          ],
-          "Lensing": {
-            "Group": "H&E",
-            "Rad": 150
-          }
-
+            0.7839808211832426,
+            0.49053963645759224
+          ]
         }
       ]
     }
@@ -118,11 +103,6 @@
       "Rendered": false,
       "Name": "HER2",
       "Path": "HER2_16__HER2"
-    },
-    {
-      "Rendered": true,
-      "Name": "H&E",
-      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
@@ -135,7 +115,7 @@
         "0000ff",
         "ffff00",
         "ffffff"
-      ]	,
+      ],
       "Channels": [
         "CD45",
         "PR",
@@ -200,7 +180,7 @@
       ]
     },
     {
-      "Name": "USC2 A1-2",
+      "Name": "USC2",
       "Colors": [
         "0000ff",
         "ff0000",
@@ -219,49 +199,6 @@
         "",
         ""
       ]
-    },
-    {
-      "Name": "H&E",
-      "Colors": [
-        "000000"
-      ],
-      "Channels": [
-        "H&E"
-      ],
-      "Descriptions": [
-        ""
-      ]
-    },
-    {
-      "Name": "         ",
-      "Colors": [
-        "000000",
-        "000000",
-        "000000",
-        "000000",
-        "000000",
-        "000000",
-        "000000"
-      ],
-      "Channels": [
-        "CD45",
-        "PR",
-        "P53-DIG",
-        "PanCK",
-        "Vimentin",
-        "ER",
-        "HER2"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
     }
-  ],
-  "PixelsPerMicron": 3.0769
+  ],"PixelsPerMicron":3.0769
 }
