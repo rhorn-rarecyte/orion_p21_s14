@@ -2,7 +2,7 @@
   "Images": [
     {
       "Name": "i0",
-      "Description": "Whole slide endometrial cancer TMA",
+      "Description": "TCGA-emca TMA 6",
       "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q150-S01",
       "Width": 37893,
       "Height": 29937,
@@ -25,86 +25,72 @@
       "Waypoints": [
         {
           "Name": "A8",
-          "Description": "Sparse tumor cells (white) surrounded by immune cells (magenta) and ER+/PR+ cells (yellow).\n\nFew cells are ER+/PR- (green), while none are ER-/PR+.\n\nSignal from saturating P53+ cells (blue) have signal that appears in the ER channel (cyan)",
+          "Description": "Sparse tumor cells (white) surrounded by immune cells (magenta) and ER+/PR+ cells (yellow).\n\nFew cells are ER+/PR- (green), while none are ER-/PR+.\n\nSignal from saturating P53+ cells (blue) have signal that appears in the ER channel (cyan).",
           "Arrows": [],
           "Overlays": [],
           "Group": "A8",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.828499999999999,
+          "Zoom": 4.699237706956799,
           "Pan": [
-            1.2007719388181932,
-            0.11395162669046018
+            1.2046014761268944,
+            0.1164742634658978
           ]
         },
         {
           "Name": "A8_2",
-          "Description": "Sparse tumor cells (white) are HER2-dim (green) and are surrounded by immune cells (magenta).\n\nNear uniform expression of vimentin observed across the core (outside of P53+ cells)\n\nSignal from saturating P53+ cells (blue) have signal that also appears in the HER2 channel (cyan)",
+          "Description": "Sparse tumor cells (white) are HER2-dim (green) and are surrounded by immune cells (magenta).\n\nNear uniform expression of vimentin observed across the core (outside of P53+ cells).\n\nSignal from saturating P53+ cells (blue) have signal that also appears in the HER2 channel (cyan).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "A8_2",
+          "Group": "A8-2",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.325347123199999,
+          "Zoom": 4.699237706956799,
           "Pan": [
-            1.1935681537510037,
-            0.11638186444655786
+            1.2046014761268944,
+            0.1164742634658978
           ]
         },
         {
           "Name": "C7",
-          "Description": "Co-expression of vimentin and PanCK (yellow) in normal epithelium and a subset of cancer cells, but most cancer cells are PanCK+/Vimentin- (green).\n\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
+          "Description": "Co-expression of vimentin and PanCK (yellow) in normal epithelium and a subset of cancer cells, but most cancer cells are PanCK+/Vimentin- (green).\n\nImmune cells (magenta) are predominantly present between clusters of tumor cells.",
           "Arrows": [],
           "Overlays": [],
           "Group": "C7",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.8,
+          "Zoom": 4.532443775999999,
           "Pan": [
-            1.0177453134607453,
-            0.43756004696044876
-          ]
-        },
-        {
-          "Name": "C7_2",
-          "Description": "Co-expression of vimentin and PanCK (yellow) in normal epithelium and a subset of cancer cells, but most cancer cells are PanCK+/Vimentin- (green).\n\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
-          "Arrows": [],
-          "Overlays": [],
-          "Group": "C7_2",
-          "Masks": [],
-          "ActiveMasks": [],
-          "Zoom": 4.8,
-          "Pan": [
-            1.0177453134607453,
-            0.43756004696044876
+            1.0286292556552288,
+            0.44138166993603967
           ]
         },
         {
           "Name": "C7_3",
-          "Description": "All tumor cells are HER2+ (green), and one cluster of tumor cells are P53-high while all other tumor cells are P53-low/negative (blue).\n\nImmune cells (magenta) are predominantly present between clusters of tumor cells",
+          "Description": "All tumor cells are HER2+ (yellow), and one cluster of tumor cells are P53-high while all other tumor cells are P53-low/negative (red).\n\nImmune cells (magenta) are predominantly present between clusters of tumor cells.",
           "Arrows": [],
           "Overlays": [],
           "Group": "C7_3",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.8,
+          "Zoom": 4.532443775999999,
           "Pan": [
-            1.0177453134607453,
-            0.43756004696044876
+            1.0286292556552288,
+            0.44138166993603967
           ]
         },
         {
           "Name": "E5",
-          "Description": "Few immune cells (magenta) are present scattered around the tumor that is HER2+ (red/yellow/green).\n\nNearly all tumor cells are P53+, many of which are saturating,\n\nNo PR is present on this core",
+          "Description": "Few immune cells (magenta) are present scattered around the tumor that is HER2+ (red/yellow/green).\n\nNearly all tumor cells are P53+, many of which are saturating.\n\nNo PR is present on this core.",
           "Arrows": [],
           "Overlays": [],
           "Group": "E5",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.3253471231999985,
+          "Zoom": 4.532443776,
           "Pan": [
-            0.6863658646145736,
-            0.7385430717412572
+            0.6981511801695078,
+            0.7358338843583146
           ]
         }
       ]
@@ -114,7 +100,7 @@
     {
       "Rendered": false,
       "Name": "P53-DIG",
-      "Path": "P53-DIG_14__P53-DIG"
+      "Path": "P53-DIG-0_14__P53-DIG"
     },
     {
       "Rendered": false,
@@ -145,12 +131,17 @@
       "Rendered": false,
       "Name": "Vimentin",
       "Path": "Vimentin_19__Vimentin"
+    },
+    {
+      "Rendered": false,
+      "Name": "P53-DIG",
+      "Path": "P53-DIG-0_14__P53-DIG"
     }
   ],
   "Masks": [],
   "Groups": [
     {
-      "Name": "TCGA-emca TMA 6",
+      "Name": "TMA",
       "Colors": [
         "0000ff",
         "ff0000",
@@ -195,7 +186,7 @@
       ]
     },
     {
-      "Name": "A8_2",
+      "Name": "A8-2",
       "Colors": [
         "0000ff",
         "ff00ff",
@@ -243,9 +234,9 @@
       "Name": "C7_2",
       "Colors": [
         "ff00ff",
-        "00ff00",
-        "ffff00",
-        "ffffff"
+        "ffffff",
+        "ff0000",
+        "00ff00"
       ],
       "Channels": [
         "CD45",
@@ -265,8 +256,8 @@
       "Colors": [
         "ff00ff",
         "ffffff",
-        "ffff00",
-        "00ff00"
+        "ff0000",
+        "ffff00"
       ],
       "Channels": [
         "CD45",
@@ -308,6 +299,5 @@
         ""
       ]
     }
-  ],
-  "PixelsPerMicron": 3.0769
+  ]
 }
