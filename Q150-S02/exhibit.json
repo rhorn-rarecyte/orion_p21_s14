@@ -103,6 +103,11 @@
       "Rendered": false,
       "Name": "HER2",
       "Path": "HER2_16__HER2"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
@@ -193,6 +198,74 @@
         "Vimentin"
       ],
       "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
+        ""
+      ]
+    },
+    {
+      "Name": "         ",
+      "Colors": [
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Autofluorescence",
+        "Beta 2 Microglobulin",
+        "CD3e",
+        "CD8a",
+        "CD11c",
+        "CD45R",
+        "CD163",
+        "E-Cadherin",
+        "F4/80",
+        "FOXP3",
+        "KI67",
+        "NaK-ATPase",
+        "Pan-CK",
+        "PD-L1",
+        "Vimentin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
         "",
         "",
         "",
