@@ -161,6 +161,16 @@
       "Rendered": true,
       "Name": "H&E",
       "Path": "HE-0_0__HE"
+    },
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "Autofluorescence",
+      "Path": "AF1_1__AF1"
     }
   ],
   "Masks": [],
