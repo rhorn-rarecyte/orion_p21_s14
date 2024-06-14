@@ -9,7 +9,7 @@
       "MaxLevel": 7
     }
   ],
-  "Header": "This is a whole-slide tissue with same section H&E imaging of a high-grade colon adenocarcinoma. This is a hot tumor that contains prominent clusters of PD-L1 expression scattered throughout. ",
+  "Header": "This is a whole-slide tissue imaging of a high-grade colon adenocarcinoma. This is a hot tumor that contains prominent clusters of PD-L1 expression scattered throughout. ",
   "Rotation": 0,
   "Layout": {
     "Grid": [
@@ -25,7 +25,7 @@
       "Waypoints": [
         {
           "Name": "Tumor cells",
-          "Description": "Cancer cells express varying levels of Pan-CK (yellow), and a subset are proliferating (red nuclei).\n\nVimentin (green) identifies stroma and cells within the lamina propria.\n\nRBC (white) are identified in the Autofluorescence channel.\n\nPD-L1 cluster (magenta) in the center of the image (higher zoom view on next slide).\n\n",
+          "Description": "Cancer cells express varying levels of Pan-CK (yellow), and a subset are proliferating (red nuclei).\n\nVimentin (green) identifies stroma and cells within the lamina propria.\n\nRed blood cells (white) are identified in the Autofluorescence channel.\n\nPD-L1 cluster (magenta) in the center of the image (higher zoom view on next slide).\n\n",
           "Arrows": [],
           "Overlays": [],
           "Group": "Architecture I",
@@ -39,7 +39,7 @@
         },
         {
           "Name": "PD-L1 cluster",
-          "Description": "Higher zoom view of PD-L1 cluster (magenta) within the lamina propria.\n\nVimentin (green) identifies stroma and cells within the lamina propria, including endothelial cells (upper left blood vessel with RBC).\n",
+          "Description": "Higher zoom view of PD-L1 cluster (magenta) within the lamina propria.\n\nVimentin (green) identifies stroma and cells within the lamina propria, including endothelial cells (upper left blood vessel with red blood cells).\n",
           "Arrows": [],
           "Overlays": [],
           "Group": "Architecture PD-L1",
@@ -53,7 +53,7 @@
         },
         {
           "Name": "Immune infiltrate",
-          "Description": "T cells and macrophages scattered throughout the lamina propria.\n\nPD-L1 cluster in the center of the image (higher zoom view on next slide).\n",
+          "Description": "T cells and macrophages scattered throughout the lamina propria.\n\nPD-L1 cluster in the center of the image.\n",
           "Arrows": [],
           "Overlays": [],
           "Group": "Immune cells",
@@ -81,7 +81,7 @@
         },
         {
           "Name": "T cell subsets",
-          "Description": "T cell subsets:\n\n* CTL (lavendar)\n* T helper (cyan)\n* T reg (cyan with red nuclei) \n\nCD163+ macrophages (yellow) co-express CD4 (toggle with previous slide).\n",
+          "Description": "T cell subsets:\n\n* CTL (lavender)\n* T helper (cyan)\n* T reg (cyan with red nuclei) \n\nCD163+ macrophages (yellow) co-express CD4.\n",
           "Arrows": [],
           "Overlays": [],
           "Group": "T cell subsets",
@@ -109,7 +109,7 @@
         },
         {
           "Name": "Infiltrating B and T cells",
-          "Description": "Higher zoom of Leukocyte cluster containing B cells (cyan) near proliferating tumor cells (green with red nuclei).",
+          "Description": "Higher zoom of Leukocyte cluster containing B cells (cyan) near proliferating tumor cells (green with blue nuclei).",
           "Arrows": [],
           "Overlays": [],
           "Group": "Immune cells II",
@@ -123,7 +123,7 @@
         },
         {
           "Name": "Create your own multi-color image",
-          "Description": "In this group (by default), Hoechst is blue, Autofluoresence (AF) is white, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Description": "In this group (by default), Hoechst is blue, Pan-CK is white, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
           "Arrows": [],
           "Overlays": [],
           "Group": "Create your own group",
