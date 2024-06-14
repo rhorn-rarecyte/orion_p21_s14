@@ -9,7 +9,7 @@
       "MaxLevel": 7
     }
   ],
-  "Header": "Whole section image of colon adenocarcinoma",
+  "Header": "This is a whole-slide tissue with same section H&E imaging of a high-grade colon adenocarcinoma. This is a hot tumor that contains prominent clusters of PD-L1 expression scattered throughout. ",
   "Rotation": 0,
   "Layout": {
     "Grid": [
@@ -24,11 +24,11 @@
       "Description": "",
       "Waypoints": [
         {
-          "Name": "chapter 1",
+          "Name": "Tumor cells",
           "Description": "Cancer cells express varying levels of Pan-CK (yellow), and a subset are proliferating (red nuclei).\n\nVimentin (green) identifies stroma and cells within the lamina propria.\n\nRBC (white) are identified in the Autofluorescence channel.\n\nPD-L1 cluster (magenta) in the center of the image (higher zoom view on next slide).\n\n",
           "Arrows": [],
           "Overlays": [],
-          "Group": "chapter 1",
+          "Group": "Architecture I",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 3.5831807999999996,
@@ -38,11 +38,11 @@
           ]
         },
         {
-          "Name": "chapter 2",
+          "Name": "PD-L1 cluster",
           "Description": "Higher zoom view of PD-L1 cluster (magenta) within the lamina propria.\n\nVimentin (green) identifies stroma and cells within the lamina propria, including endothelial cells (upper left blood vessel with RBC).\n",
           "Arrows": [],
           "Overlays": [],
-          "Group": "chapter 2",
+          "Group": "Architecture PD-L1",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 22.186111067404358,
@@ -52,11 +52,11 @@
           ]
         },
         {
-          "Name": "chapter 3",
+          "Name": "Immune infiltrate",
           "Description": "T cells and macrophages scattered throughout the lamina propria.\n\nPD-L1 cluster in the center of the image (higher zoom view on next slide).\n",
           "Arrows": [],
           "Overlays": [],
-          "Group": "chapter 3",
+          "Group": "Immune cells",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 3.455999999999999,
@@ -66,11 +66,11 @@
           ]
         },
         {
-          "Name": "chapter 4",
+          "Name": "T cells and macrophages",
           "Description": "Leukocyte cluster includes T cells (cyan) interacting with PD-L1+ macrophages.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "chapter 4",
+          "Group": "Immune cells",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 17.83220089651199,
@@ -80,25 +80,11 @@
           ]
         },
         {
-          "Name": "chapter 5",
-          "Description": "T cell subsets:\n\n* CTL (magenta)\n* T helper (cyan)\n* T reg (cyan with red nuclei) \n\nSome of the CD4+ cells are macrophages (toggle with next slide).",
-          "Arrows": [],
-          "Overlays": [],
-          "Group": "chapter 5",
-          "Masks": [],
-          "ActiveMasks": [],
-          "Zoom": 30.81404314917271,
-          "Pan": [
-            0.2575725314749537,
-            0.33185143237228326
-          ]
-        },
-        {
-          "Name": "chapter 6",
+          "Name": "T cell subsets",
           "Description": "T cell subsets:\n\n* CTL (lavendar)\n* T helper (cyan)\n* T reg (cyan with red nuclei) \n\nCD163+ macrophages (yellow) co-express CD4 (toggle with previous slide).\n",
           "Arrows": [],
           "Overlays": [],
-          "Group": "chapter 6",
+          "Group": "T cell subsets",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 30.81404314917271,
@@ -108,11 +94,11 @@
           ]
         },
         {
-          "Name": "chapter 7",
+          "Name": "Checkpoint",
           "Description": "T cells (cyan) interacting with a cluster of PD-L1+ macrophages (yellow/orange).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "chapter 7",
+          "Group": "Immune cells PD-L1",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 30.81404314917271,
@@ -122,39 +108,11 @@
           ]
         },
         {
-          "Name": "chapter 8",
-          "Description": "PD-1+ T cells (green) interacting with a cluster of PD-L1+ macrophages (red).\n\nSAME LOCATION AS CHAPTER 7\n",
+          "Name": "Infiltrating B and T cells",
+          "Description": "Higher zoom of Leukocyte cluster containing B cells (cyan) near proliferating tumor cells (green with red nuclei).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "chapter 8",
-          "Masks": [],
-          "ActiveMasks": [],
-          "Zoom": 36.976851779007255,
-          "Pan": [
-            0.8645862894951011,
-            0.31216625286953964
-          ]
-        },
-        {
-          "Name": "chapter 9",
-          "Description": "Leukocyte cluster (center) containing B cells (cyan) near proliferating tumor cells (green with red nuclei).\n\nRBC (white) detected in AF channel.\n\n\n\nINSET: extensive PD-L1 expression in cluster (PD-L1 is not on, so do we do another chapter of just PD-L1??)",
-          "Arrows": [],
-          "Overlays": [],
-          "Group": "chapter 9",
-          "Masks": [],
-          "ActiveMasks": [],
-          "Zoom": 5.971967999999999,
-          "Pan": [
-            0.45349130895725503,
-            0.2591490440968485
-          ]
-        },
-        {
-          "Name": "chapter 10",
-          "Description": "Higher zoom of Leukocyte cluster containing B cells (cyan) near proliferating tumor cells (green with red nuclei).\n\n\n\n\nINSET: extensive PD-L1 expression in this view\nsame here, do we do another chapter and show the PD-L1???\n\n",
-          "Arrows": [],
-          "Overlays": [],
-          "Group": "Introduction",
+          "Group": "Immune cells II",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 36.976851779007255,
@@ -188,11 +146,6 @@
     },
     {
       "Rendered": false,
-      "Name": "Autofluorescence",
-      "Path": "Autofluorescence-0_1__Autofluorescence"
-    },
-    {
-      "Rendered": false,
       "Name": "Pan-CK",
       "Path": "Pan-CK_18__Pan-CK"
     },
@@ -214,7 +167,7 @@
     {
       "Rendered": false,
       "Name": "Autofluorescence",
-      "Path": "Autofluorescence-0_1__Autofluorescence"
+      "Path": "Autofluorescence_1__Autofluorescence"
     },
     {
       "Rendered": false,
@@ -233,11 +186,6 @@
     },
     {
       "Rendered": false,
-      "Name": "CD4",
-      "Path": "CD4_7__CD4"
-    },
-    {
-      "Rendered": false,
       "Name": "CD8a",
       "Path": "CD8a_9__CD8a"
     },
@@ -248,11 +196,6 @@
     },
     {
       "Rendered": false,
-      "Name": "PD-1",
-      "Path": "PD-1_12__PD-1"
-    },
-    {
-      "Rendered": false,
       "Name": "CD20",
       "Path": "CD20_17__CD20"
     }
@@ -260,7 +203,7 @@
   "Masks": [],
   "Groups": [
     {
-      "Name": "colon",
+      "Name": "Introduction",
       "Colors": [
         "0000ff",
         "ffff00",
@@ -284,34 +227,7 @@
       ]
     },
     {
-      "Name": "chapter 1",
-      "Colors": [
-        "0000ff",
-        "ffffff",
-        "ffff00",
-        "00ff00",
-        "ff0000",
-        "ff00ff"
-      ],
-      "Channels": [
-        "Hoechst",
-        "Autofluorescence",
-        "Pan-CK",
-        "Vimentin",
-        "Ki-67",
-        "PD-L1"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "chapter 2",
+      "Name": "Architecture I",
       "Colors": [
         "0000ff",
         "ffffff",
@@ -338,7 +254,34 @@
       ]
     },
     {
-      "Name": "chapter 3",
+      "Name": "Architecture PD-L1",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "ffff00",
+        "00ff00",
+        "ff0000",
+        "ff00ff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Autofluorescence",
+        "Pan-CK",
+        "Vimentin",
+        "Ki-67",
+        "PD-L1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Immune cells",
       "Colors": [
         "ffffff",
         "ff0000",
@@ -365,55 +308,7 @@
       ]
     },
     {
-      "Name": "chapter 4",
-      "Colors": [
-        "ffffff",
-        "ff0000",
-        "ff00ff",
-        "0000ff",
-        "ffff00",
-        "00ffff"
-      ],
-      "Channels": [
-        "Pan-CK",
-        "Ki-67",
-        "CD163",
-        "CD68",
-        "PD-L1",
-        "CD3e"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "chapter 5",
-      "Colors": [
-        "ffffff",
-        "00ffff",
-        "ff00ff",
-        "ff0000"
-      ],
-      "Channels": [
-        "Pan-CK",
-        "CD4",
-        "CD8a",
-        "FOXP3"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "chapter 6",
+      "Name": "T cell subsets",
       "Colors": [
         "ffffff",
         "00ffff",
@@ -437,7 +332,7 @@
       ]
     },
     {
-      "Name": "chapter 7",
+      "Name": "Immune cells PD-L1",
       "Colors": [
         "0000ff",
         "ffffff",
@@ -461,31 +356,9 @@
       ]
     },
     {
-      "Name": "chapter 8",
+      "Name": "Immune cells II",
       "Colors": [
         "0000ff",
-        "ffffff",
-        "00ff00",
-        "ff0000"
-      ],
-      "Channels": [
-        "Hoechst",
-        "Pan-CK",
-        "PD-1",
-        "PD-L1"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "chapter 9",
-      "Colors": [
-        "0000ff",
-        "ffffff",
         "00ff00",
         "ff0000",
         "ffff00",
@@ -494,7 +367,6 @@
       ],
       "Channels": [
         "Hoechst",
-        "Autofluorescence",
         "Pan-CK",
         "Ki-67",
         "CD163",
@@ -502,7 +374,6 @@
         "CD20"
       ],
       "Descriptions": [
-        "",
         "",
         "",
         "",
@@ -515,40 +386,13 @@
       "Name": "Create your own group",
       "Colors": [
         "0000ff",
-        "ffffff"
+        "00ff00"
       ],
       "Channels": [
         "Hoechst",
-        "Autofluorescence"
+        "Pan-CK"
       ],
       "Descriptions": [
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "Introduction",
-      "Colors": [
-        "0000ff",
-        "00ff00",
-        "ff0000",
-        "ffff00",
-        "ff00ff",
-        "00ffff"
-      ],
-      "Channels": [
-        "Hoechst",
-        "Pan-CK",
-        "Ki-67",
-        "CD163",
-        "CD3e",
-        "CD20"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
         "",
         ""
       ]
