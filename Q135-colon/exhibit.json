@@ -109,7 +109,7 @@
         },
         {
           "Name": "Infiltrating B and T cells",
-          "Description": "Higher zoom of Leukocyte cluster containing B cells (cyan) near proliferating tumor cells (green with blue nuclei).",
+          "Description": "Higher zoom of Leukocyte cluster containing B cells (cyan) near proliferating tumor cells (green with red nuclear puncta).",
           "Arrows": [],
           "Overlays": [],
           "Group": "Immune cells II",
