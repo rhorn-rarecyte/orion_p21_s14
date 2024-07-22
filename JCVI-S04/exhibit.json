@@ -148,6 +148,20 @@
             1.088831998665707,
             0.2805232458334455
           ]
+        },
+        {
+          "Name": "extras",
+          "Description": "extras",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "extras",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 30.814043149172715,
+          "Pan": [
+            1.088831998665707,
+            0.2805232458334455
+          ]
         }
       ]
     }
@@ -217,6 +231,16 @@
       "Rendered": false,
       "Name": "CD11b",
       "Path": "CD11b_16__CD11b"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_11__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Neutrophil elastase",
+      "Path": "Neutrophil-elastase_19__Neutrophil-elastase"
     }
   ],
   "Masks": [],
@@ -328,6 +352,21 @@
       "Descriptions": [
         "",
         "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "extras",
+      "Colors": [
+        "ffff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "PD-L1",
+        "Neutrophil elastase"
+      ],
+      "Descriptions": [
         "",
         ""
       ]
