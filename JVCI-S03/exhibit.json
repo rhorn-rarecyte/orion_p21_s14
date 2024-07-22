@@ -308,8 +308,8 @@
       "Name": "Lamina propria",
       "Colors": [
         "0000ff",
-        "00ff00",
         "ff0000",
+        "ffff00",
         "00ffff",
         "ff00ff"
       ],
