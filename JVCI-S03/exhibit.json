@@ -24,11 +24,11 @@
       "Description": "",
       "Waypoints": [
         {
-          "Name": "Lamina Propria_A",
+          "Name": "Lamina Propria A",
           "Description": "Islands of lamina propria containing leukocytes (red) and S100A+ cells (yellow) surrounded by epithelium (cyan/magenta)\n\nNote: leukocytes in poor health.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "Whole slide Oral control",
+          "Group": "Lamina propria",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 18.586591717575654,
@@ -38,11 +38,11 @@
           ]
         },
         {
-          "Name": "Lamina Propria_B",
+          "Name": "Lamina Propria B",
           "Description": "\"Lamina propria containing leukocytes (red) and S100A+ cells (yellow) adjacent to epithelium (cyan/magenta)\n\nNote: leukocytes in poor health\"\n",
           "Arrows": [],
           "Overlays": [],
-          "Group": "Whole slide Oral control",
+          "Group": "Lamina propria",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 15.488826431313047,
@@ -52,11 +52,11 @@
           ]
         },
         {
-          "Name": "Lamina Propria_C",
+          "Name": "Lamina Propria C",
           "Description": "Islands of lamina propria containing leukocytes (red) and S100A+ cells (yellow) surrounded by epithelium (cyan/magenta).\n\nNote: leukocytes in better health, and express varying levels of CD45 (lymphocytes are brighter than granulocytes).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "Whole slide Oral control",
+          "Group": "Lamina propria",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 15.488826431313047,
@@ -66,11 +66,11 @@
           ]
         },
         {
-          "Name": "Lamina Propria_D",
+          "Name": "Lamina Propria D",
           "Description": "Lamina propria containing leukocytes (red) and S100A+ cells (yellow) adjacent to epithelium (cyan/magenta).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "Whole slide Oral control",
+          "Group": "Lamina propria",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 12.907355359427537,
@@ -80,11 +80,11 @@
           ]
         },
         {
-          "Name": "Lamina Propria_E",
+          "Name": "Lamina Propria E",
           "Description": "Islands of lamina propria containing leukocytes (red) and S100A+ cells (yellow) surrounded by epithelium (cyan/magenta).\n\nNote: leukocytes in poor health.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "Whole slide Oral control",
+          "Group": "Lamina propria",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 15.488826431313047,
@@ -94,11 +94,11 @@
           ]
         },
         {
-          "Name": "Lamina Propria_F",
+          "Name": "Lamina Propria F",
           "Description": "Islands of lamina propria containing leukocytes (red) and S100A+ cells (yellow) surrounded by epithelium (cyan/magenta).\n\nNote: leukocytes in poor health.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "Whole slide Oral control",
+          "Group": "Lamina propria",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 15.488826431313045,
@@ -112,7 +112,7 @@
           "Description": "Abundant leukocytes (green) in lamina propria.\n\nProminent S100A expression within the epithelium (red and inset) and within the lamina propria.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "extras",
+          "Group": "Leukocytes",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 12.449223919200946,
@@ -122,11 +122,11 @@
           ]
         },
         {
-          "Name": "Leukocyte subsets_1",
+          "Name": "Leukocyte subsets 1",
           "Description": "Extensive granulocyte infiltration in the epithelium (cyan within magenta).\n\nMacrophage/DC subsets within the lamina propria:\n- CD14+16- (red)\n- CD14+16+ (yellow/orange)\n- CD14-16+ (green)\n",
           "Arrows": [],
           "Overlays": [],
-          "Group": "extras",
+          "Group": "Leukocyte subsets 1",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 12.449223919200946,
@@ -136,11 +136,11 @@
           ]
         },
         {
-          "Name": "Leukocyte subsets_2",
+          "Name": "Leukocyte subsets 2",
           "Description": "Most of the granulocytes within the epithelium co-express CD15 and CD11b (yellow/orange).\n\nCD14 identifies monocytes near the epithelial border.\n\nGrzB+ cells (white) sparsely scattered throughout the lamina propria.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "extras",
+          "Group": "Leukocyte subsets 2",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 12.449223919200946,
@@ -150,11 +150,11 @@
           ]
         },
         {
-          "Name": "B cells and Macrophages_1",
+          "Name": "B cells and Macrophages 1",
           "Description": "Region of lamina propria containing rare B cells (yellow/orange) and scattered macrophages (cyan).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "extras",
+          "Group": "B cells and Macrophages 1",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 21.512258932379233,
@@ -164,11 +164,11 @@
           ]
         },
         {
-          "Name": "B cells and Macrophages_2",
+          "Name": "B cells and Macrophages 2",
           "Description": "Region of lamina propria containing rare B cells (cyan) and scattered macrophage.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "extras",
+          "Group": "B cells and Macrophages 2",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 17.92688244364936,
@@ -267,6 +267,8 @@
     },
     {
       "Rendered": false,
+
+
       "Name": "PD-L1",
       "Path": "PD-L1_11__PD-L1"
     },
@@ -279,7 +281,7 @@
   "Masks": [],
   "Groups": [
     {
-      "Name": "Whole slide Oral control",
+      "Name": "Introduction",
       "Colors": [
         "00ff00",
         "ff0000",
@@ -303,7 +305,7 @@
       ]
     },
     {
-      "Name": "Leukocytes",
+      "Name": "Lamina propria",
       "Colors": [
         "0000ff",
         "00ff00",
@@ -327,7 +329,31 @@
       ]
     },
     {
-      "Name": "Leukocyte subsets_1",
+      "Name": "Leukocyte",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff0000",
+        "ff00ff",
+        "00ffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD45",
+        "S100A",
+        "E-cadherin",
+        "PanCK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Leukocyte subsets 1",
       "Colors": [
         "0000ff",
         "00ff00",
@@ -351,7 +377,7 @@
       ]
     },
     {
-      "Name": "Leukocyte subsets_2",
+      "Name": "Leukocyte subsets 2",
       "Colors": [
         "0000ff",
         "00ffff",
@@ -375,7 +401,7 @@
       ]
     },
     {
-      "Name": "B cells and Macrophages_1",
+      "Name": "B cells and Macrophages 1",
       "Colors": [
         "0000ff",
         "ff00ff",
@@ -399,7 +425,7 @@
       ]
     },
     {
-      "Name": "B cells and Macrophages_2",
+      "Name": "B cells and Macrophages 2",
       "Colors": [
         "0000ff",
         "ffffff",
@@ -437,5 +463,5 @@
         ""
       ]
     }
-  ]
+  ],"PixelsPerMicron":3.0769
 }
