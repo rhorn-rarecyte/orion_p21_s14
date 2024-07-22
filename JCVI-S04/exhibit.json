@@ -1,1 +1,336 @@
-
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Whole slide Oral SLE",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/JCVI-S04",
+      "Width": 91853,
+      "Height": 44980,
+      "MaxLevel": 7
+    }
+  ],
+  "Header": "Whole slide scan containing 6 oral SLE biopsies",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "Lamina Propria A",
+          "Description": "Epithelium (cyan/magenta) surrounds the basement membrane (cyan/light magenta), which surrounds islands of lamina propria containing sparse leukocytes (red) and S100A+ cells (yellow).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Lamina Propria",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 25.678369290977265,
+          "Pan": [
+            0.534325041189605,
+            0.2591993531494341
+          ]
+        },
+        {
+          "Name": "Lamina Propria B",
+          "Description": "Lamina propria containing leukocytes (red) and S100A+ cells (yellow and inset) adjacent to epithelium (cyan/magenta).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Lamina Propria",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 14.86016741375999,
+          "Pan": [
+            0.12401693022402695,
+            0.6251470353902033
+          ]
+        },
+        {
+          "Name": "Lamina Propria C",
+          "Description": "Lamina propria containing S100A+ cells (yellow), and extensive leukocytes (red) adjacent to epithelium, much of which is atrophic (cyan/magenta).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Lamina Propria",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 21.398641075814385,
+          "Pan": [
+            1.074527388272629,
+            0.30827396032649423
+          ]
+        },
+        {
+          "Name": "Lamina Propria D",
+          "Description": "Epithelium (cyan/magenta) surrounds the basement membrane (cyan/light magenta), some of which is degenerating\nLamina propria containing extensive leukocytes (red) and S100A+ cells (yellow).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Lamina Propria",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 25.678369290977262,
+          "Pan": [
+            1.8838717839853631,
+            0.2778805100211499
+          ]
+        },
+        {
+          "Name": "Lamina Propria E",
+          "Description": "Epithelium (cyan/magenta) and basement membrane (cyan/light magenta), which surrounds islands of lamina propria containing leukocytes (red) and S100A+ cells (yellow).\n\nExtensive leukocytic infiltrate is present in and eroding the epithelium in some regions.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Lamina Propria",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 17.83220089651199,
+          "Pan": [
+            1.247543997946628,
+            0.7798751510216092
+          ]
+        },
+        {
+          "Name": "Lamina Propria E Immune infiltrate",
+          "Description": "Leukocytic infiltrate that is inducing cell death in the epithelium has high expression of Granzyme B.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Lamina Propria E Immune infiltrate",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 17.83220089651199,
+          "Pan": [
+            1.247543997946628,
+            0.7798751510216092
+          ]
+        },
+        {
+          "Name": "Lamina Propria F",
+          "Description": "Outer keratin layer (cyan) is adjacent to the epithelium (cyan/magenta), with scattered lamina propria containing S100A+ cells (yellow) and very sparse leukocytes (red).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Lamina Propria",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 17.83220089651199,
+          "Pan": [
+            1.8974305453288591,
+            0.7195895509083067
+          ]
+        },
+        {
+          "Name": "Macrophages and dendritic cells 1",
+          "Description": "Macrophages and other leukocytes expressing various combinations of CD163, CD68 and CD11b.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Macrophages and dendritic cells 1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 30.814043149172715,
+          "Pan": [
+            1.088831998665707,
+            0.2805232458334455
+          ]
+        },
+        {
+          "Name": "Macrophages and dendritic cells 2",
+          "Description": "Macrophages and other leukocytes also express various combinations and levels of CD14, CD15 and CD16.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Macrophages and dendritic cells 2",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 30.814043149172715,
+          "Pan": [
+            1.088831998665707,
+            0.2805232458334455
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "CD14",
+      "Path": "CD14_3__CD14"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD16",
+      "Path": "CD16_9__CD16"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD15",
+      "Path": "CD15_13__CD15"
+    },
+    {
+      "Rendered": false,
+      "Name": "PanCK",
+      "Path": "PanCK_18__PanCK"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD45",
+      "Path": "CD45_2__CD45"
+    },
+    {
+      "Rendered": false,
+      "Name": "S100A",
+      "Path": "S100A_10__S100A"
+    },
+    {
+      "Rendered": false,
+      "Name": "E-cadherin",
+      "Path": "E-cadherin_4__E-cadherin"
+    },
+    {
+      "Rendered": false,
+      "Name": "Autofluorescence",
+      "Path": "Autofluorescence_1__Autofluorescence"
+    },
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "GranzymeB",
+      "Path": "GranzymeB_17__GranzymeB"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_8__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_15__CD68"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD11b",
+      "Path": "CD11b_16__CD11b"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Introduction",
+      "Colors": [
+        "00ff00",
+        "ff0000",
+        "ff00ff",
+        "00ffff",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD45",
+        "S100A",
+        "E-cadherin",
+        "PanCK",
+        "Autofluorescence"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Lamina Propria",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "ffff00",
+        "00ffff",
+        "ff00ff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD45",
+        "S100A",
+        "PanCK",
+        "E-cadherin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Lamina Propria E Immune infiltrate",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00",
+        "00ffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD45",
+        "GranzymeB",
+        "PanCK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Macrophages and dendritic cells 1",
+      "Colors": [
+        "00ffff",
+        "ff00ff",
+        "ffff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "CD163",
+        "CD68",
+        "CD11b",
+        "PanCK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Macrophages and dendritic cells 2",
+      "Colors": [
+        "00ffff",
+        "ff00ff",
+        "ffff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "CD14",
+        "CD16",
+        "CD15",
+        "PanCK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],"PixelsPerMicron":3.0769
+}
