@@ -2,14 +2,14 @@
   "Images": [
     {
       "Name": "i0",
-      "Description": "TCGA-emca TMA 6",
-      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q150-S01",
-      "Width": 37893,
-      "Height": 29937,
-      "MaxLevel": 6
+      "Description": "Whole slide Oral control",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/JCVI-S03",
+      "Width": 102688,
+      "Height": 38414,
+      "MaxLevel": 7
     }
   ],
-  "Header": "Whole slide endometrial cancer TMA",
+  "Header": "Whole slide scan containing 6 oral control biopsies\n",
   "Rotation": 0,
   "Layout": {
     "Grid": [
@@ -24,94 +24,172 @@
       "Description": "",
       "Waypoints": [
         {
-          "Name": "A8",
-          "Description": "Sparse tumor cells (white) surrounded by immune cells (magenta) and ER+/PR+ cells (yellow).\n\nFew cells are ER+/PR- (green), while none are ER-/PR+.\n\nSignal from saturating P53+ cells (blue) have signal that appears in the ER channel (cyan).",
+          "Name": "Lamina Propria A",
+          "Description": "Islands of lamina propria containing leukocytes (red) and S100A+ cells (yellow) surrounded by epithelium (cyan/magenta)\n\nNote: leukocytes in poor health.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "A8",
+          "Group": "Lamina propria",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.699237706956799,
+          "Zoom": 18.586591717575654,
           "Pan": [
-            1.2046014761268944,
-            0.1164742634658978
-          ],
-          "Lensing": {
-            "Group": "H&E",
-            "Rad": 150
-          }
+            0.06280181329904182,
+            0.17242218668778164
+          ]
         },
         {
-          "Name": "A8_2",
-          "Description": "Sparse tumor cells (white) are HER2-dim (green) and are surrounded by immune cells (magenta).\n\nNear uniform expression of vimentin observed across the core (outside of P53+ cells).\n\nSignal from saturating P53+ cells (blue) have signal that also appears in the HER2 channel (cyan).",
+          "Name": "Lamina Propria B",
+          "Description": "\"Lamina propria containing leukocytes (red) and S100A+ cells (yellow) adjacent to epithelium (cyan/magenta)\n\nNote: leukocytes in poor health\"\n",
           "Arrows": [],
           "Overlays": [],
-          "Group": "A8-2",
+          "Group": "Lamina propria",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.699237706956799,
+          "Zoom": 15.488826431313047,
           "Pan": [
-            1.2046014761268944,
-            0.1164742634658978
-          ],
-          "Lensing": {
-            "Group": "H&E",
-            "Rad": 150
-          }
+            0.4400160904063696,
+            0.772440405435597
+          ]
         },
         {
-          "Name": "C7",
-          "Description": "Co-expression of vimentin and PanCK (yellow) in normal epithelium and a subset of cancer cells, but most cancer cells are PanCK+/Vimentin- (green).\n\nImmune cells (magenta) are predominantly present between clusters of tumor cells.",
+          "Name": "Lamina Propria C",
+          "Description": "Islands of lamina propria containing leukocytes (red) and S100A+ cells (yellow) surrounded by epithelium (cyan/magenta).\n\nNote: leukocytes in better health, and express varying levels of CD45 (lymphocytes are brighter than granulocytes).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "C7",
+          "Group": "Lamina propria",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.532443775999999,
+          "Zoom": 15.488826431313047,
           "Pan": [
-            1.0286292556552288,
-            0.44138166993603967
-          ],
-          "Lensing": {
-            "Group": "H&E",
-            "Rad": 150
-          }
+            1.246667529872424,
+            0.5343639538132615
+          ]
         },
         {
-          "Name": "C7_3",
-          "Description": "All tumor cells are HER2+ (yellow), and one cluster of tumor cells are P53-high while all other tumor cells are P53-low/negative (red).\n\nImmune cells (magenta) are predominantly present between clusters of tumor cells.",
+          "Name": "Lamina Propria D",
+          "Description": "Lamina propria containing leukocytes (red) and S100A+ cells (yellow) adjacent to epithelium (cyan/magenta).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "C7_3",
+          "Group": "Lamina propria",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.532443775999999,
+          "Zoom": 12.907355359427537,
           "Pan": [
-            1.0286292556552288,
-            0.44138166993603967
-          ],
-          "Lensing": {
-            "Group": "H&E",
-            "Rad": 150
-          }
+            1.660365685235345,
+            0.456564963178009
+          ]
         },
         {
-          "Name": "E5",
-          "Description": "Few immune cells (magenta) are present scattered around the tumor that is HER2+ (red/yellow/green).\n\nNearly all tumor cells are P53+, many of which are saturating.\n\nNo PR is present on this core.",
+          "Name": "Lamina Propria E",
+          "Description": "Islands of lamina propria containing leukocytes (red) and S100A+ cells (yellow) surrounded by epithelium (cyan/magenta).\n\nNote: leukocytes in poor health.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "E5",
+          "Group": "Lamina propria",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.532443776,
+          "Zoom": 15.488826431313047,
           "Pan": [
-            0.6981511801695078,
-            0.7358338843583146
-          ],
-          "Lensing": {
-            "Group": "H&E",
-            "Rad": 150
-          }
+            2.3421983272804945,
+            0.23832009735326085
+          ]
+        },
+        {
+          "Name": "Lamina Propria F",
+          "Description": "Islands of lamina propria containing leukocytes (red) and S100A+ cells (yellow) surrounded by epithelium (cyan/magenta).\n\nNote: leukocytes in poor health.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Lamina propria",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 15.488826431313045,
+          "Pan": [
+            2.579772892055589,
+            0.8707754919852598
+          ]
+        },
+        {
+          "Name": "Leukocytes",
+          "Description": "Abundant leukocytes (green) in lamina propria.\n\nProminent S100A expression within the epithelium (red and inset) and within the lamina propria.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Leukocytes",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 12.449223919200946,
+          "Pan": [
+            1.166235559367664,
+            0.6388902711877756
+          ]
+        },
+        {
+          "Name": "Leukocyte subsets 1",
+          "Description": "Extensive granulocyte infiltration in the epithelium (cyan within magenta).\n\nMacrophage/DC subsets within the lamina propria:\n- CD14+16- (red)\n- CD14+16+ (yellow/orange)\n- CD14-16+ (green)\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Leukocyte subsets 1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 12.449223919200946,
+          "Pan": [
+            1.166235559367664,
+            0.6388902711877756
+          ]
+        },
+        {
+          "Name": "Leukocyte subsets 2",
+          "Description": "Most of the granulocytes within the epithelium co-express CD15 and CD11b (yellow/orange).\n\nCD14 identifies monocytes near the epithelial border.\n\nGrzB+ cells (white) sparsely scattered throughout the lamina propria.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Leukocyte subsets 2",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 12.449223919200946,
+          "Pan": [
+            1.166235559367664,
+            0.6388902711877756
+          ]
+        },
+        {
+          "Name": "B cells and Macrophages 1",
+          "Description": "Region of lamina propria containing rare B cells (yellow/orange) and scattered macrophages (cyan).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "B cells and Macrophages 1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 21.512258932379233,
+          "Pan": [
+            1.1451707371043254,
+            0.5612099091362721
+          ]
+        },
+        {
+          "Name": "B cells and Macrophages 2",
+          "Description": "Region of lamina propria containing rare B cells (cyan) and scattered macrophage.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "B cells and Macrophages 2",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 17.92688244364936,
+          "Pan": [
+            1.2059122309604808,
+            0.509549707833207
+          ]
+        },
+        {
+          "Name": "extras",
+          "Description": "extras",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "extras",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 2.4127429987161104,
+          "Pan": [
+            1.2164183798567192,
+            0.5502422051459558
+          ]
         },
         {
           "Name": "Create your own multi-color image",
@@ -137,28 +215,18 @@
   "Channels": [
     {
       "Rendered": false,
-      "Name": "P53-DIG",
-      "Path": "P53-DIG-0_14__P53-DIG"
-    },
-    {
-      "Rendered": false,
-      "Name": "PR",
-      "Path": "PR_8__PR"
-    },
-    {
-      "Rendered": false,
-      "Name": "HER2",
-      "Path": "HER2_16__HER2"
-    },
-    {
-      "Rendered": false,
       "Name": "CD45",
       "Path": "CD45_2__CD45"
     },
     {
       "Rendered": false,
-      "Name": "ER",
-      "Path": "ER_12__ER"
+      "Name": "S100A",
+      "Path": "S100A_10__S100A"
+    },
+    {
+      "Rendered": false,
+      "Name": "E-cadherin",
+      "Path": "E-cadherin_4__E-cadherin"
     },
     {
       "Rendered": false,
@@ -167,18 +235,8 @@
     },
     {
       "Rendered": false,
-      "Name": "Vimentin",
-      "Path": "Vimentin_19__Vimentin"
-    },
-    {
-      "Rendered": false,
-      "Name": "P53-DIG",
-      "Path": "P53-DIG-0_14__P53-DIG"
-    },
-    {
-      "Rendered": true,
-      "Name": "H&E",
-      "Path": "HE-0_0__HE"
+      "Name": "Autofluorescence",
+      "Path": "Autofluorescence_1__Autofluorescence"
     },
     {
       "Rendered": false,
@@ -187,48 +245,74 @@
     },
     {
       "Rendered": false,
-      "Name": "Autofluorescence",
-      "Path": "AF1_1__AF1"
+      "Name": "CD16",
+      "Path": "CD16_9__CD16"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD14",
+      "Path": "CD14_3__CD14"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD11b",
+      "Path": "CD11b_16__CD11b"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD15",
+      "Path": "CD15_13__CD15"
+    },
+    {
+      "Rendered": false,
+      "Name": "GranzymeB",
+      "Path": "GranzymeB_17__GranzymeB"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_8__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD20",
+      "Path": "CD20_6__CD20"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_15__CD68"
+    },
+    {
+      "Rendered": false,
+
+
+      "Name": "PD-L1",
+      "Path": "PD-L1_11__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Neutrophil elastase",
+      "Path": "Neutrophil-elastase_19__Neutrophil-elastase"
     }
   ],
   "Masks": [],
   "Groups": [
     {
-      "Name": "TMA",
+      "Name": "Introduction",
       "Colors": [
-        "0000ff",
-        "ff0000",
         "00ff00",
-        "ffffff"
-      ],
-      "Channels": [
-        "P53-DIG",
-        "PR",
-        "HER2",
-        "CD45"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "A8",
-      "Colors": [
-        "0000ff",
+        "ff0000",
         "ff00ff",
-        "ff0000",
-        "00ff00",
+        "00ffff",
         "ffffff"
       ],
       "Channels": [
-        "P53-DIG",
         "CD45",
-        "PR",
-        "ER",
-        "PanCK"
+        "S100A",
+        "E-cadherin",
+        "PanCK",
+        "Autofluorescence"
       ],
       "Descriptions": [
         "",
@@ -239,20 +323,20 @@
       ]
     },
     {
-      "Name": "A8-2",
+      "Name": "Lamina propria",
       "Colors": [
         "0000ff",
-        "ff00ff",
+        "ff0000",
         "ffff00",
-        "00ff00",
-        "ffffff"
+        "00ffff",
+        "ff00ff"
       ],
       "Channels": [
-        "P53-DIG",
+        "Hoechst",
         "CD45",
-        "Vimentin",
-        "HER2",
-        "PanCK"
+        "S100A",
+        "PanCK",
+        "E-cadherin"
       ],
       "Descriptions": [
         "",
@@ -263,88 +347,118 @@
       ]
     },
     {
-      "Name": "C7",
+      "Name": "Leukocyte",
       "Colors": [
-        "ff00ff",
-        "ffffff",
-        "ff0000",
-        "00ff00"
-      ],
-      "Channels": [
-        "CD45",
-        "ER",
-        "Vimentin",
-        "PanCK"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "C7_2",
-      "Colors": [
-        "ff00ff",
-        "ffffff",
-        "ff0000",
-        "00ff00"
-      ],
-      "Channels": [
-        "CD45",
-        "ER",
-        "Vimentin",
-        "PanCK"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "C7_3",
-      "Colors": [
-        "ff00ff",
-        "ffffff",
-        "ff0000",
-        "ffff00"
-      ],
-      "Channels": [
-        "CD45",
-        "PR",
-        "P53-DIG",
-        "HER2"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "E5",
-      "Colors": [
-        "ff00ff",
-        "ffffff",
         "0000ff",
         "00ff00",
         "ff0000",
+        "ff00ff",
         "00ffff"
       ],
       "Channels": [
+        "Hoechst",
         "CD45",
-        "PR",
-        "P53-DIG",
-        "HER2",
-        "PanCK",
-        "Vimentin"
+        "S100A",
+        "E-cadherin",
+        "PanCK"
       ],
       "Descriptions": [
         "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Leukocyte subsets 1",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff0000",
+        "00ffff",
+        "ff00ff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD16",
+        "CD14",
+        "CD11b",
+        "E-cadherin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Leukocyte subsets 2",
+      "Colors": [
+        "0000ff",
+        "00ffff",
+        "00ff00",
+        "ff0000",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD14",
+        "CD15",
+        "CD11b",
+        "GranzymeB"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "B cells and Macrophages 1",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "00ffff",
+        "00ff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "Hoechst",
+        "S100A",
+        "CD163",
+        "CD45",
+        "CD20"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "B cells and Macrophages 2",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "ff0000",
+        "00ff00",
+        "00ffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD163",
+        "CD14",
+        "CD68",
+        "CD20"
+      ],
+      "Descriptions": [
         "",
         "",
         "",
@@ -368,43 +482,16 @@
       ]
     },
     {
-      "Name": "H&E",
+      "Name": "extras",
       "Colors": [
-        "000000"
+        "ffff00",
+        "00ffff"
       ],
       "Channels": [
-        "H&E"
+        "PD-L1",
+        "Neutrophil elastase"
       ],
       "Descriptions": [
-        ""
-      ]
-    },
-    {
-      "Name": "         ",
-      "Colors": [
-        "000000",
-        "000000",
-        "000000",
-        "000000",
-        "000000",
-        "000000",
-        "000000"
-      ],
-      "Channels": [
-        "CD45",
-        "PR",
-        "P53-DIG",
-        "PanCK",
-        "Vimentin",
-        "ER",
-        "HER2"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
-        "",
         "",
         ""
       ]
