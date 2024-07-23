@@ -175,7 +175,11 @@
           "Pan": [
             1.2059122309604808,
             0.509549707833207
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+          }
         },
         {
           "Name": "Create your own multi-color image",
