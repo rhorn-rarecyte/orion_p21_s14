@@ -471,6 +471,18 @@
         "",
         ""
       ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
+        ""
+      ]
     }
   ],"PixelsPerMicron":3.0769
 }
