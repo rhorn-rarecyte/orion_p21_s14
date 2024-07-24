@@ -35,8 +35,12 @@
           "Pan": [
             0.534325041189605,
             0.2591993531494341
-          ]
-        },
+         ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+          }
+		},
         {
           "Name": "Lamina Propria B",
           "Description": "Lamina propria containing leukocytes (red) and S100A+ cells (yellow and inset) adjacent to epithelium (cyan/magenta).",
@@ -49,7 +53,11 @@
           "Pan": [
             0.12401693022402695,
             0.6251470353902033
-          ]
+         ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+          }
         },
         {
           "Name": "Lamina Propria C",
@@ -63,7 +71,11 @@
           "Pan": [
             1.074527388272629,
             0.30827396032649423
-          ]
+         ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+          }
         },
         {
           "Name": "Lamina Propria D",
@@ -77,7 +89,11 @@
           "Pan": [
             1.8838717839853631,
             0.2778805100211499
-          ]
+         ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+          }
         },
         {
           "Name": "Lamina Propria E",
@@ -91,7 +107,11 @@
           "Pan": [
             1.247543997946628,
             0.7798751510216092
-          ]
+         ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+          }
         },
         {
           "Name": "Lamina Propria E Immune infiltrate",
@@ -105,7 +125,11 @@
           "Pan": [
             1.247543997946628,
             0.7798751510216092
-          ]
+         ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+          }
         },
         {
           "Name": "Lamina Propria F",
@@ -119,7 +143,11 @@
           "Pan": [
             1.8974305453288591,
             0.7195895509083067
-          ]
+         ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+          }
         },
         {
           "Name": "Macrophages and dendritic cells 1",
@@ -133,7 +161,11 @@
           "Pan": [
             1.088831998665707,
             0.2805232458334455
-          ]
+         ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+          }
         },
         {
           "Name": "Macrophages and dendritic cells 2",
@@ -147,7 +179,11 @@
           "Pan": [
             1.088831998665707,
             0.2805232458334455
-          ]
+         ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+          }
         },
         {
           "Name": "Create your own multi-color image",
@@ -161,7 +197,11 @@
           "Pan": [
             0.5026705719600049,
             0.4926308830286659
-          ]
+         ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 150
+          }
         }
       ]
     }
