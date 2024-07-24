@@ -241,6 +241,11 @@
       "Rendered": false,
       "Name": "Neutrophil elastase",
       "Path": "Neutrophil-elastase_19__Neutrophil-elastase"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
@@ -368,6 +373,18 @@
       ],
       "Descriptions": [
         "",
+        ""
+      ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
         ""
       ]
     }
