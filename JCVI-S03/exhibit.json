@@ -43,7 +43,7 @@
         },
         {
           "Name": "Lamina Propria B",
-          "Description": "\"Lamina propria containing leukocytes (red) and S100A+ cells (yellow) adjacent to epithelium (cyan/magenta)\n\nNote: leukocytes in poor health\"\n",
+          "Description": "Lamina propria containing leukocytes (red) and S100A+ cells (yellow) adjacent to epithelium (cyan/magenta)\n\nNote: leukocytes in poor health\n",
           "Arrows": [],
           "Overlays": [],
           "Group": "Lamina propria",
