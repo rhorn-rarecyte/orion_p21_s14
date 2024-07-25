@@ -133,7 +133,7 @@
         },
         {
           "Name": "Leukocytes",
-          "Description": "Abundant leukocytes (green) in lamina propria.\n\nProminent S100A expression within the epithelium (red and inset) and within the lamina propria.",
+          "Description": "Abundant leukocytes (green) in lamina propria.\n\nProminent S100A expression within the epithelium (red) and within the lamina propria.",
           "Arrows": [],
           "Overlays": [],
           "Group": "Leukocytes",
