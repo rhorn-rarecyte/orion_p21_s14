@@ -9,7 +9,7 @@
       "MaxLevel": 7
     }
   ],
-  "Header": "description needed here",
+  "Header": "Whole specimen image’",
   "Rotation": 0,
   "Layout": {
     "Grid": [
@@ -28,7 +28,7 @@
           "Description": "Arteries (blue with white Autofluorescent elastin) and lymphocyte clusters (cyan) at the junction between the myometrium (top) and the endometrial carcinoma.\n\nDDX3 (red) expressed at a higher level by cancer gland epithelium.\n\nRBC also highlighted in the AF channel.\n",
           "Arrows": [],
           "Overlays": [],
-          "Group": "whole slide",
+          "Group": "Architecture",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 4.299816959999999,
@@ -42,7 +42,7 @@
           "Description": "Uterine glands (green / yellow / red) surrounded by muscular stroma with infiltrating lymphocytes (cyan).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "whole slide",
+          "Group": "Architecture",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 10.699320537907196,
@@ -56,7 +56,7 @@
           "Description": "Highly proliferative uterine gland epithilum (white with blue nuclei) infiltrated by PD-L1+ macrophages (yellow cytoplasm / red membranes).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "Proliferating uterine glands",
+          "Group": "DDX3 Proliferation",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 10.699320537907196,
@@ -70,7 +70,7 @@
           "Description": "Spiral artery within the myometrium.\n\nElastin and RBC (white) highlighted in the AF channel.\n\nLuminal side of Tunica intima highlighted by DDX3 (red interior lining).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "whole slide",
+          "Group": "Architecture",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 10.699320537907196,
@@ -84,7 +84,7 @@
           "Description": "Proliferating uterine gland epithelium (red with white nuclei) surrounded by smooth muscle (blue / purple), T cells (cyan), and macrophages (yellow).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "Uterine gland and immune cells",
+          "Group": "DDX3 Architecture",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 22.186111067404358,
@@ -98,7 +98,7 @@
           "Description": "Tertiary lymphoid structures containing B cells (magenta), T helper cells (cyan), T reg cells (red nuclei), and macrophages (yellow).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "TLS",
+          "Group": "Leukocyte",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 16.838218326203627,
@@ -112,7 +112,7 @@
           "Description": "Tertiary lymphoid structures containing PD-1+ T helper cells (cyan) and PD-L1+ macrophages (yellow with red membranes).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "TLS - PD-1_PD-L1",
+          "Group": "Macrophage",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 16.838218326203627,
@@ -126,7 +126,7 @@
           "Description": "DDX3 (red) expressed by stromal smooth muscle and by TLS lymphocytes .",
           "Arrows": [],
           "Overlays": [],
-          "Group": "TLS - DDX3",
+          "Group": "DDX3 Checkpoint",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 16.838218326203627,
@@ -222,7 +222,7 @@
   "Masks": [],
   "Groups": [
     {
-      "Name": "whole slide",
+      "Name": "Architecture",
       "Colors": [
         "ffffff",
         "0000ff",
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "Name": "TLS - DDX3",
+      "Name": "DDX3 Checkpoint",
       "Colors": [
         "0000ff",
         "ff0000",
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "Name": "TLS - PD-1_PD-L1",
+      "Name": "Macrophage",
       "Colors": [
         "0000ff",
         "ffffff",
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "Name": "Proliferating uterine glands",
+      "Name": "DDX3 Proliferation",
       "Colors": [
         "ffffff",
         "0000ff",
@@ -336,7 +336,7 @@
       ]
     },
     {
-      "Name": "Uterine gland and immune cells",
+      "Name": "DDX3 Architecture",
       "Colors": [
         "ffffff",
         "0000ff",
