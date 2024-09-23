@@ -134,6 +134,20 @@
             0.6381122078431017,
             0.43922758147021945
           ]
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, Autofluoresence (AF) is white, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own group",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.4326562500000001,
+          "Pan": [
+            0.5026705719600049,
+            0.4926308830286659
+          ]
         }
       ]
     }
@@ -344,6 +358,21 @@
         "",
         "",
         "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Create your own group",
+      "Colors": [
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Autofluorescence"
+      ],
+      "Descriptions": [
         "",
         ""
       ]
