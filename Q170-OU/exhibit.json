@@ -118,7 +118,7 @@
           "Description": "Tertiary lymphoid structures containing B cells (magenta), T helper cells (cyan), T reg cells (red nuclei), and macrophages (yellow).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "Leukocyte",
+          "Group": "TLS",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 16.838218326203627,
