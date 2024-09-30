@@ -61,7 +61,7 @@
         },
         {
           "Name": "Proliferating uterine glands",
-          "Description": "Highly proliferative uterine gland epithilum (white with blue nuclei) infiltrated by PD-L1+ macrophages (yellow cytoplasm / red membranes).",
+          "Description": "Highly proliferative uterine gland Epithelium (white with blue nuclei) infiltrated by PD-L1+ macrophages (yellow cytoplasm / red membranes).",
           "Arrows": [],
           "Overlays": [],
           "Group": "DDX3 Proliferation",
@@ -387,10 +387,10 @@
         "ffff00"
       ],
       "Channels": [
-        "Autofluorescence",
+        "Ki-67",
         "SMA",
         "DDX3",
-        "CD45",
+        "CD3",
         "E-Cadherin",
         "CD68"
       ],
