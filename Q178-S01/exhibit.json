@@ -1,1 +1,694 @@
-
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Gland TMA",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q178-S01",
+      "Width": 74790,
+      "Height": 45498,
+      "MaxLevel": 7
+    }
+  ],
+  "Header": "Whole slide scan - Magic 30",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "Epithelium",
+          "Description": "Epithelium (yellow) with proliferating cuboidal epithelial cells lining the cavity of the lumen, which contains extensive macrophages (magenta)\nProliferating ducts within the epithelium are also observed, which contain vimentin expressing cells (cyan).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Introduction",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 2.9859839999999997,
+          "Pan": [
+            1.2355199958941356,
+            0.561691261898049
+          ]
+        },
+        {
+          "Name": "Epithelium - PD-L1",
+          "Description": "Epithelium (white) expressing membranous PD-L1 (cyan) with T cells (yellow) and macrophages (magenta) on the periphery.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Epithelium - PD-L1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 6.191736422399999,
+          "Pan": [
+            1.3150271282702415,
+            0.5700832084702502
+          ]
+        },
+        {
+          "Name": "Immune infiltrate",
+          "Description": "Cuboidal epithelial cells are proliferating (red), while the stratified squamous epithelial cells are not\n\nT helper cells (cyan) predominantly within lamina propria\n\nCTLs (magenta) infiltrate the cuboidal epithelium\n\nMacrophages (blue) scattered throughout the epithelium",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Immune infiltrate",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 26.62333328088523,
+          "Pan": [
+            1.3428136346857418,
+            0.58676622774784
+          ]
+        },
+        {
+          "Name": "T cell subsets",
+          "Description": "T helper: Red\n\nExhausted T helper: Yellow\n\nCTL: Blue\n\nExhausted CTL: Cyan",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T cell subsets",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 26.62333328088523,
+          "Pan": [
+            1.3428136346857418,
+            0.58676622774784
+          ]
+        },
+        {
+          "Name": "Lymphocytes",
+          "Description": "B cells (magenta) in lamina propria.\n\nT cells (green) and macrophages (red) interspersed throughout.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Lymphocytes",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 15.407021574586356,
+          "Pan": [
+            1.2091524523929473,
+            0.27791316590466975
+          ]
+        },
+        {
+          "Name": "T cell subsets II",
+          "Description": "T helper: Green\n\nTreg: Red nuclei\n\nCTL: Yellow",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T cell subsets II",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 26.62333328088522,
+          "Pan": [
+            0.5085478656776308,
+            0.37029422104365395
+          ]
+        },
+        {
+          "Name": "Ducts",
+          "Description": "Pan-CK (white) highlights ducts (D) and Acinar epithelium,\n\nT cells (magenta) and macrophages (green, cyan) scattered throughout,",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Ducts",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 10.319560703999995,
+          "Pan": [
+            1.3796387266014773,
+            0.10624093890897747
+          ]
+        },
+        {
+          "Name": "Primary autofluorescence",
+          "Description": "Autofluorescence (white) highlights glands, ducts, and red blood cells.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Primary autofluorescence",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 10.319560703999995,
+          "Pan": [
+            1.3796387266014773,
+            0.10624093890897747
+          ]
+        },
+        {
+          "Name": "Adipocytes",
+          "Description": "Vimentin (cyan) highlights adipocytes.\n\nSparse T cells (magenta) are scattered throughout the gland epithelium (yellow).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Adipocytes",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 12.383472844799995,
+          "Pan": [
+            1.5018290929731972,
+            0.674356060099978
+          ]
+        },
+        {
+          "Name": "Immune infiltrate II",
+          "Description": "Subset of glands and ducts (magenta) are proliferating(red).\n\nImmune infiltrate includes T helper cells (white), CTL (yellow), and macrophages (cyan).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Immune infiltrate II",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 5.971967999999999,
+          "Pan": [
+            0.6451015469681326,
+            0.2188197069766508
+          ]
+        },
+        {
+          "Name": "Proliferating epithelium",
+          "Description": "Highly proliferating (red) epithelium .\n\nVimentin expressed by stromal cells, and cells within the ducts.\n\nT cells (magenta) and macrophages (green) are present.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Proliferating epithelium",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 17.83220089651199,
+          "Pan": [
+            0.30094036834343046,
+            0.5555277447291528
+          ]
+        },
+        {
+          "Name": "Macrophages",
+          "Description": "CD68 (red) and CD163 (green) macrophages surrounding the ducts (white).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Macrophages",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 14.86016741375999,
+          "Pan": [
+            0.9753696230221699,
+            0.7704504215540857
+          ]
+        },
+        {
+          "Name": "Arteries",
+          "Description": "Vimentin (cyan) = highly expressed by arteries.\n\nRed blood cells  highlighted in the autofluorescence channel (white).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Arteries",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 10.319560703999995,
+          "Pan": [
+            1.0744636910343905,
+            0.8740961155842966
+          ]
+        },
+        {
+          "Name": "Autofluorescence",
+          "Description": "Three channels used to isolate various sources of autofluorescence.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Autofluorescence",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 1.3888888888888886,
+          "Pan": [
+            0.9080580118231459,
+            0.7538667243737859
+          ]
+        },
+        {
+          "Name": "Autofluorescence 1",
+          "Description": "",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Autofluorescence 1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 1.3888888888888886,
+          "Pan": [
+            0.9080580118231459,
+            0.7538667243737859
+          ]
+        },
+        {
+          "Name": "Autofluorescence 2",
+          "Description": "",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Autofluorescence 2",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 1.3888888888888886,
+          "Pan": [
+            0.9080580118231459,
+            0.7538667243737859
+          ]
+        },
+        {
+          "Name": "Autofluorescence 3",
+          "Description": "",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Autofluorescence 3",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 1.3888888888888886,
+          "Pan": [
+            0.9080580118231459,
+            0.7538667243737859
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "AF3",
+      "Path": "AF3_5__AF3"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF2",
+      "Path": "AF2_4__AF2"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Hoescht",
+      "Path": "Nuclear_0__Nuclear"
+    },
+    {
+      "Rendered": false,
+      "Name": "Vimentin",
+      "Path": "Vimentin_19__Vimentin"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_18__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_3__CD68"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_10__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki-67",
+      "Path": "Ki-67_17__Ki-67"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e_13__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_6__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_8__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_11__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD20",
+      "Path": "CD20_2__CD20"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_16__PD-1"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_14__PD-L1"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Introduction",
+      "Colors": [
+        "ff00ff",
+        "ff0000",
+        "00ffff",
+        "00ff00",
+        "ffff00"
+      ],
+      "Channels": [
+        "CD163",
+        "Ki-67",
+        "Vimentin",
+        "CD68",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Autofluorescence 3",
+      "Colors": [
+        "ffffff"
+      ],
+      "Channels": [
+        "AF3"
+      ],
+      "Descriptions": [
+        ""
+      ]
+    },
+    {
+      "Name": "Autofluorescence 2",
+      "Colors": [
+        "ffffff"
+      ],
+      "Channels": [
+        "AF2"
+      ],
+      "Descriptions": [
+        ""
+      ]
+    },
+    {
+      "Name": "Autofluorescence 1",
+      "Colors": [
+        "ffffff"
+      ],
+      "Channels": [
+        "AF1"
+      ],
+      "Descriptions": [
+        ""
+      ]
+    },
+    {
+      "Name": "Autofluorescence",
+      "Colors": [
+        "00ff00",
+        "ff0000",
+        "0000ff"
+      ],
+      "Channels": [
+        "AF1",
+        "AF2",
+        "AF3"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Arteries",
+      "Colors": [
+        "0000ff",
+        "00ffff",
+        "ffffff",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoescht",
+        "Vimentin",
+        "AF3",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Macrophages",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD68",
+        "CD163",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Proliferating epithelium",
+      "Colors": [
+        "ff0000",
+        "ff00ff",
+        "00ff00",
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "Ki-67",
+        "CD3e",
+        "CD163",
+        "Vimentin",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cell subsets II",
+      "Colors": [
+        "0000ff",
+        "ffff00",
+        "00ff00",
+        "ff0000",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoescht",
+        "CD8a",
+        "CD4",
+        "FOXP3",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Lymphocytes",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "00ff00",
+        "ff0000",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoescht",
+        "CD20",
+        "CD3e",
+        "CD163",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cell subsets",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff0000",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD8a",
+        "PD-1",
+        "CD4",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Immune infiltrate",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "00ffff",
+        "ff0000",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD68",
+        "CD8a",
+        "CD4",
+        "Ki-67",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Epithelium - PD-L1",
+      "Colors": [
+        "ff00ff",
+        "ffff00",
+        "00ffff",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD163",
+        "CD3e",
+        "PD-L1",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Ducts",
+      "Colors": [
+        "ff00ff",
+        "00ff00",
+        "00ffff",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD8a",
+        "CD68",
+        "CD163",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Primary autofluorescence",
+      "Colors": [
+        "ff00ff",
+        "00ff00",
+        "00ffff",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD3e",
+        "CD68",
+        "CD163",
+        "AF1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Adipocytes",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "00ffff",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoescht",
+        "CD3e",
+        "Vimentin",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Immune infiltrate II",
+      "Colors": [
+        "ffffff",
+        "ffff00",
+        "00ffff",
+        "ff0000",
+        "ff00ff"
+      ],
+      "Channels": [
+        "CD4",
+        "CD8a",
+        "CD163",
+        "Ki-67",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.8219042595278913, 0.5]}, "FirstGroup": "Introduction"
+}
