@@ -133,7 +133,7 @@
         },
         {
           "Name": "Ducts",
-          "Description": "Pan-CK (white) highlights ducts (D) and Acinar epithelium,\n\nT cells (magenta) and macrophages (green, cyan) scattered throughout,",
+          "Description": "Pan-CK (white) highlights ducts and Acinar epithelium,\n\nT cells (magenta) and macrophages (green, cyan) scattered throughout,",
           "Arrows": [],
           "Overlays": [],
           "Group": "Ducts",
@@ -277,7 +277,7 @@
         },
         {
           "Name": "Autofluorescence 1",
-          "Description": "",
+          "Description": "Autofluorescence1 channel highlights stroma, red blood cells and elastin.",
           "Arrows": [],
           "Overlays": [],
           "Group": "Autofluorescence 1",
@@ -295,7 +295,7 @@
         },
         {
           "Name": "Autofluorescence 2",
-          "Description": "",
+          "Description": "Autofluorescence2 channel highlights red blood cells and stroma on a subset of cores.",
           "Arrows": [],
           "Overlays": [],
           "Group": "Autofluorescence 2",
@@ -313,7 +313,7 @@
         },
         {
           "Name": "Autofluorescence 3",
-          "Description": "",
+          "Description": "Autofluorescence3 channel highlights red blood cells and stroma.",
           "Arrows": [],
           "Overlays": [],
           "Group": "Autofluorescence 3",
