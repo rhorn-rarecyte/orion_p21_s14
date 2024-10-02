@@ -694,6 +694,18 @@
         "",
         ""
       ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
+        ""
+      ]
     }
   ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.8219042595278913, 0.5]}, "FirstGroup": "Introduction"
 }
