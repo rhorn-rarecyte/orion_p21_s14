@@ -35,7 +35,11 @@
           "Pan": [
             1.2355199958941356,
             0.561691261898049
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Epithelium - PD-L1",
@@ -49,7 +53,11 @@
           "Pan": [
             1.3150271282702415,
             0.5700832084702502
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Immune infiltrate",
@@ -63,7 +71,11 @@
           "Pan": [
             1.3428136346857418,
             0.58676622774784
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "T cell subsets",
@@ -77,7 +89,11 @@
           "Pan": [
             1.3428136346857418,
             0.58676622774784
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Lymphocytes",
@@ -91,7 +107,11 @@
           "Pan": [
             1.2091524523929473,
             0.27791316590466975
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "T cell subsets II",
@@ -105,7 +125,11 @@
           "Pan": [
             0.5085478656776308,
             0.37029422104365395
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Ducts",
@@ -119,7 +143,11 @@
           "Pan": [
             1.3796387266014773,
             0.10624093890897747
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Primary autofluorescence",
@@ -133,7 +161,11 @@
           "Pan": [
             1.3796387266014773,
             0.10624093890897747
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Adipocytes",
@@ -147,7 +179,11 @@
           "Pan": [
             1.5018290929731972,
             0.674356060099978
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Immune infiltrate II",
@@ -161,7 +197,11 @@
           "Pan": [
             0.6451015469681326,
             0.2188197069766508
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Proliferating epithelium",
@@ -175,7 +215,11 @@
           "Pan": [
             0.30094036834343046,
             0.5555277447291528
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Macrophages",
@@ -189,7 +233,11 @@
           "Pan": [
             0.9753696230221699,
             0.7704504215540857
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Arteries",
@@ -203,7 +251,11 @@
           "Pan": [
             1.0744636910343905,
             0.8740961155842966
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Autofluorescence",
@@ -217,7 +269,11 @@
           "Pan": [
             0.9080580118231459,
             0.7538667243737859
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Autofluorescence 1",
@@ -231,7 +287,11 @@
           "Pan": [
             0.9080580118231459,
             0.7538667243737859
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Autofluorescence 2",
@@ -245,7 +305,11 @@
           "Pan": [
             0.9080580118231459,
             0.7538667243737859
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Autofluorescence 3",
@@ -259,7 +323,11 @@
           "Pan": [
             0.9080580118231459,
             0.7538667243737859
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Create your own multi-color image",
@@ -721,7 +789,7 @@
       ],
       "Channels": [
         "Nucleus",
-        "Autofluorescence"
+        "AF1"
       ],
       "Descriptions": [
         "",
