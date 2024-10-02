@@ -696,6 +696,21 @@
       ]
     },
     {
+      "Name": "Create your own group",
+      "Colors": [
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Autofluorescence"
+      ],
+      "Descriptions": [
+        "",
+        ""
+      ]
+    },
+    {
       "Name": "H&E",
       "Colors": [
         "000000"
