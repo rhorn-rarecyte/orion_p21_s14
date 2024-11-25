@@ -183,23 +183,23 @@
   "Channels": [
     {
       "Rendered": false,
-      "Name": "Hoechst",
-      "Path": "Hoechst_0__Hoechst"
-    },
-    {
-      "Rendered": false,
       "Name": "Ki-67",
       "Path": "Ki-67_16__Ki-67"
     },
     {
       "Rendered": false,
-      "Name": "CD20",
-      "Path": "CD20_9__CD20"
+      "Name": "CD8a",
+      "Path": "CD8a_8__CD8a"
     },
     {
       "Rendered": false,
-      "Name": "CD3e",
-      "Path": "CD3e_13__CD3e"
+      "Name": "CD4",
+      "Path": "CD4_10__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD20",
+      "Path": "CD20_9__CD20"
     },
     {
       "Rendered": false,
@@ -213,28 +213,8 @@
     },
     {
       "Rendered": false,
-      "Name": "Autofluorescence",
-      "Path": "Autofluorescence_1__Autofluorescence"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD68",
-      "Path": "CD68_15__CD68"
-    },
-    {
-      "Rendered": false,
       "Name": "CD45",
       "Path": "CD45_2__CD45"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD8a",
-      "Path": "CD8a_8__CD8a"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD4",
-      "Path": "CD4_10__CD4"
     },
     {
       "Rendered": false,
@@ -253,8 +233,28 @@
     },
     {
       "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e_13__CD3e"
+    },
+    {
+      "Rendered": false,
       "Name": "HLA-DR",
       "Path": "HLA-DR_19__HLA-DR"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_15__CD68"
+    },
+    {
+      "Rendered": false,
+      "Name": "Autofluorescence",
+      "Path": "Autofluorescence_1__Autofluorescence"
+    },
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
     }
   ],
   "Masks": [],
