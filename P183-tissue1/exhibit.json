@@ -3,7 +3,7 @@
     {
       "Name": "i0",
       "Description": "Stain irritable bowel disease (IBD) samples in one staining round imaged on Orion",
-      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/P183-tissue1",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q183-tissue1",
       "Width": 50182,
       "Height": 63321,
       "MaxLevel": 6
@@ -45,10 +45,10 @@
           "Group": "Muscularis propria",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 12.839184645488633,
+          "Zoom": 5.971967999999998,
           "Pan": [
-            0.4857548938121058,
-            0.7628664732803158
+            0.4528286513932903,
+            0.7692309159939785
           ]
         },
         {
@@ -137,7 +137,7 @@
         },
         {
           "Name": "TBX21+ Treg",
-          "Description": "TBX21 (green) and FOXP3 (red) are expressed on a subset of leukocytes (blue), including a small number of TBX21+ T regulatory cells (white arrows).",
+          "Description": "TBX21 (green) and FOXP3 (red) are expressed on a subset of leukocytes (blue), including a small number of TBX21+ T regulatory cells (yellow nuclei).",
           "Arrows": [],
           "Overlays": [],
           "Group": "TBX21 positive Treg",
@@ -165,7 +165,7 @@
         },
         {
           "Name": "Muscularis mucosa immune cells",
-          "Description": "Immune cells penetrating into the muscularis mucosa from both the mucosa and submucosa sides.",
+          "Description": "Immune cells pushing against the muscularis mucosa from both the mucosa and submucosa sides.",
           "Arrows": [],
           "Overlays": [],
           "Group": "Muscularis mucosa immune cells",
@@ -181,6 +181,11 @@
     }
   ],
   "Channels": [
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
     {
       "Rendered": false,
       "Name": "Ki-67",
@@ -353,7 +358,7 @@
         "0000ff",
         "ff0000",
         "00ff00",
-        "ffff00"
+        "ffffff"
       ],
       "Channels": [
         "CD20",
@@ -511,7 +516,7 @@
         "00ff00",
         "ff00ff",
         "ffff00",
-        "ffffff"
+        "00ffff"
       ],
       "Channels": [
         "Ki-67",
