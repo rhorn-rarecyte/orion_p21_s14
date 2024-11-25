@@ -435,5 +435,5 @@
         ""
       ]
     }
-  ],"PixelsPerMicron": 3.0769
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.3436661973719496, 0.5]}
 }
