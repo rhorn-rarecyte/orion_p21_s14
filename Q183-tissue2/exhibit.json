@@ -3,7 +3,7 @@
     {
       "Name": "i0",
       "Description": "Stain irritable bowel disease (IBD) samples in one staining round with Orion",
-      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/P183-tissue2",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q183-tissue2",
       "Width": 41009,
       "Height": 59664,
       "MaxLevel": 6
