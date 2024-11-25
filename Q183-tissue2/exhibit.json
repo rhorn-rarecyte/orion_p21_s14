@@ -211,8 +211,7 @@
         "ff00ff",
         "ffff00",
         "00ffff",
-        "ffffff",
-        "0000ff"
+        "ffffff"
       ],
       "Channels": [
         "Ki-67",
@@ -220,8 +219,7 @@
         "CD3e",
         "SMA",
         "Na, K-ATPAse",
-        "Autofluorescence",
-        "Hoechst"
+        "Autofluorescence"
       ],
       "Descriptions": [
         "",
