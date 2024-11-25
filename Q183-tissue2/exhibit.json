@@ -35,7 +35,11 @@
           "Pan": [
             0.08107025661608262,
             0.784988643000105
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Encapsulated tertiary lymphoid structure (with AF)",
@@ -49,7 +53,11 @@
           "Pan": [
             0.08107025661608262,
             0.784988643000105
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Mucosa",
@@ -63,7 +71,11 @@
           "Pan": [
             0.361727265094761,
             0.9299862901994431
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Muscularis propria",
@@ -77,7 +89,11 @@
           "Pan": [
             0.3135417471604217,
             0.678143438727515
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Lamina propria",
@@ -91,7 +107,11 @@
           "Pan": [
             0.1802364281636621,
             0.08520008458033207
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Lamina propria 2",
@@ -105,7 +125,11 @@
           "Pan": [
             0.1802364281636621,
             0.08520008458033207
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Create your own multi-color image",
@@ -119,7 +143,11 @@
           "Pan": [
             0.5026705719600049,
             0.4926308830286659
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         }
       ]
     }
