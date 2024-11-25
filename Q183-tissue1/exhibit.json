@@ -629,5 +629,5 @@
         ""
       ]
     }
-  ],"PixelsPerMicron": 3.0769
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.3962508488495128, 0.5]}, "FirstGroup": "Architecture"
 }
