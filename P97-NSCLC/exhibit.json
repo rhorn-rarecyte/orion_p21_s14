@@ -28,7 +28,7 @@
           "Description": "",
           "Arrows": [],
           "Overlays": [],
-          "Group": "introduction",
+          "Group": "Introduction",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 6.191736422399999,
@@ -144,7 +144,7 @@
   "Masks": [],
   "Groups": [
     {
-      "Name": "introduction",
+      "Name": "Introduction",
       "Colors": [
         "ffffff",
         "0000ff",
