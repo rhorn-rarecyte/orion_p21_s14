@@ -3,7 +3,7 @@
     {
       "Name": "i0",
       "Description": "Non-Small Cell Lung Cancer",
-      "Path": "ttps://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/P97-NSCLC",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/P97-NSCLC",
       "Width": 91809,
       "Height": 42398,
       "MaxLevel": 7
