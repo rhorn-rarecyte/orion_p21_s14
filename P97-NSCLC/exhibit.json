@@ -171,48 +171,6 @@
       ]
     },
     {
-      "Name": "addl channels",
-      "Colors": [
-        "0000ff",
-        "ff0000",
-        "00ffff",
-        "ffff00",
-        "0000ff",
-        "00ff00",
-        "ff0000",
-        "00ffff",
-        "ffff00",
-        "00ff00",
-        "ff0000"
-      ],
-      "Channels": [
-        "Hoechst",
-        "Granzyme B",
-        "Ki-67",
-        "CD8a",
-        "AF2",
-        "CD4",
-        "FAP",
-        "CD45RO",
-        "CD15",
-        "PD-1",
-        "FOXP3"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
       "Name": "Create your own group",
       "Colors": [
         "0000ff",
