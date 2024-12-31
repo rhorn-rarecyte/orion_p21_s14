@@ -87,7 +87,7 @@
     },
     {
       "Rendered": false,
-      "Name": "Hoescht",
+      "Name": "Hoechst",
       "Path": "Hoescht_0__Hoescht"
     },
     {
@@ -186,7 +186,7 @@
         "ff0000"
       ],
       "Channels": [
-        "Hoescht",
+        "Hoechst",
         "Granzyme B",
         "Ki-67",
         "CD8a",
