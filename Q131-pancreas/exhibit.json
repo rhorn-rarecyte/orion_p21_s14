@@ -1,1 +1,194 @@
-
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Pancreas Ductal Adenocarcinoma",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q131-pancreas",
+      "Width": 59438,
+      "Height": 42981,
+      "MaxLevel": 6
+    }
+  ],
+  "Header": "17 channel imaging of Pancreas Ductal Adenocarcinoma. Courtesy of Estefania Quesada-Masachs, University of Miami.\nImage acquired on the Orion platform.",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "Calendar image",
+          "Description": "",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Introduction",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 7.430083706879999,
+          "Pan": [
+            1.1700949707811683,
+            0.598138915654218
+          ]
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, Pan-CK is green, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own group",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.4326562500000001,
+          "Pan": [
+            0.5026705719600049,
+            0.4926308830286659
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_7__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_8__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_9__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "S100a",
+      "Path": "S100a_10__S100a"
+    },
+    {
+      "Rendered": false,
+      "Name": "Glucagon",
+      "Path": "Glucagon_18__Glucagon"
+    },
+    {
+      "Rendered": false,
+      "Name": "Insulin",
+      "Path": "Insulin_19__Insulin"
+    },
+    {
+      "Rendered": false,
+      "Name": "Nucleus",
+      "Path": "Nucleus_0__Nucleus"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD45",
+      "Path": "CD45_2__CD45"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD11c",
+      "Path": "CD11c_3__CD11c"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF2",
+      "Path": "AF2_5__AF2"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD20",
+      "Path": "CD20_6__CD20"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_12__PD-1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD45RO",
+      "Path": "CD45RO_13__CD45RO"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_14__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_15__CD68"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD31",
+      "Path": "CD31_16__CD31"
+    },
+    {
+      "Rendered": false,
+      "Name": "HLA-ABC",
+      "Path": "HLA-ABC_17__HLA-ABC"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Introduction",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "ffff00",
+        "ffffff",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "CD4",
+        "CD163",
+        "CD8a",
+        "S100a",
+        "Glucagon",
+        "Insulin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Create your own group",
+      "Colors": [
+        "0000ff",
+        "00ff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        ""
+      ]
+    }
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.6914450571182616, 0.5]}, "FirstGroup": "Introduction"
+}
