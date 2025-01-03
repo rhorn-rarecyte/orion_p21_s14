@@ -87,6 +87,11 @@
     },
     {
       "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
       "Name": "Granzyme B",
       "Path": "Granzyme-B_2__Granzyme-B"
     },
