@@ -36,6 +36,20 @@
             0.27002680740474194,
             0.2143641454288539
           ]
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, Pan-CK is green, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own group",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.4326562500000001,
+          "Pan": [
+            0.5,
+            0.5
+          ]
         }
       ]
     }
@@ -139,174 +153,6 @@
         "E-Cadherin",
         "Nak-ATPase",
         "CD163"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-{
-  "Images": [
-    {
-      "Name": "i0",
-      "Description": "Goujerot-Sjogren's Syndrome",
-      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q145-Sjogren",
-      "Width": 95253,
-      "Height": 62104,
-      "MaxLevel": 7
-    }
-  ],
-  "Header": "16 channel imaging of a section of salivary gland displaying Goujerot-Sjogren's Syndrome. Courtesy of Nadege\nMarec, University of Brest. Image acquired on the Orion platform.",
-  "Rotation": 0,
-  "Layout": {
-    "Grid": [
-      [
-        "i0"
-      ]
-    ]
-  },
-  "Stories": [
-    {
-      "Name": "",
-      "Description": "",
-      "Waypoints": [
-        {
-          "Name": "Calendar image",
-          "Description": "",
-          "Arrows": [],
-          "Overlays": [],
-          "Group": "Introduction",
-          "Masks": [],
-          "ActiveMasks": [],
-          "Zoom": 4.299816959999999,
-          "Pan": [
-            0.28410979391699487,
-            0.5042348776061951
-          ]
-        },
-        {
-          "Name": "Create your own multi-color image",
-          "Description": "In this group (by default), Hoechst is blue, Pan-CK is green, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
-          "Arrows": [],
-          "Overlays": [],
-          "Group": "Create your own group",
-          "Masks": [],
-          "ActiveMasks": [],
-          "Zoom": 0.4326562500000001,
-          "Pan": [
-            0.5,
-            0.5
-          ]
-        }
-      ]
-    }
-  ],
-  "Channels": [
-    {
-      "Rendered": false,
-      "Name": "CD45",
-      "Path": "CD45_2__CD45"
-    },
-    {
-      "Rendered": false,
-      "Name": "Ki-67",
-      "Path": "Ki-67_3__Ki-67"
-    },
-    {
-      "Rendered": false,
-      "Name": "AF2",
-      "Path": "AF2_5__AF2"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD20",
-      "Path": "CD20_6__CD20"
-    },
-    {
-      "Rendered": false,
-      "Name": "TBX21",
-      "Path": "TBX21_7__TBX21"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD8a",
-      "Path": "CD8a_8__CD8a"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD56",
-      "Path": "CD56_11__CD56"
-    },
-    {
-      "Rendered": false,
-      "Name": "PD-1",
-      "Path": "PD-1_12__PD-1"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD4",
-      "Path": "CD4_13__CD4"
-    },
-    {
-      "Rendered": false,
-      "Name": "FOXP3",
-      "Path": "FOXP3_14__FOXP3"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD68",
-      "Path": "CD68_15__CD68"
-    },
-    {
-      "Rendered": false,
-      "Name": "PD-L1",
-      "Path": "PD-L1_16__PD-L1"
-    },
-    {
-      "Rendered": false,
-      "Name": "Hoechst",
-      "Path": "Hoechst_0__Hoechst"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD3e",
-      "Path": "CD3e_4__CD3e"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD138",
-      "Path": "CD138_9__CD138"
-    },
-    {
-      "Rendered": false,
-      "Name": "Pan-CK",
-      "Path": "Pan-CK_18__Pan-CK"
-    },
-    {
-      "Rendered": false,
-      "Name": "AF1",
-      "Path": "AF1_1__AF1"
-    }
-  ],
-  "Masks": [],
-  "Groups": [
-{
-      "Name": "Introduction",
-      "Colors": [
-        "0000ff",
-        "ff00ff",
-        "ffff00",
-        "00ffff",
-        "ff0000"
-      ],
-      "Channels": [
-        "Hoechst",
-        "CD3e",
-        "CD138",
-        "Pan-CK",
-        "AF1"
       ],
       "Descriptions": [
         "",
