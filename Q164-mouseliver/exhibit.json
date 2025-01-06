@@ -345,5 +345,5 @@
         ""
       ]
     }
-  ],"PixelsPerMicron": 3.0769
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.7668829705010949, 0.5]}, "FirstGroup": "Introduction"
 }
