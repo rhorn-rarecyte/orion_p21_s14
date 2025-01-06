@@ -3,7 +3,7 @@
     {
       "Name": "i0",
       "Description": "Mouse Melanoma",
-      "Path": "ttps://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q182-skinmelanoma",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q182-skinmelanoma",
       "Width": 25069,
       "Height": 47076,
       "MaxLevel": 6
@@ -35,6 +35,20 @@
           "Pan": [
             0.3292823077512235,
             0.7082377291958232
+          ]
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, Pan-CK is green, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own group",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.4326562500000001,
+          "Pan": [
+            0.5,
+            0.5
           ]
         }
       ]
@@ -169,58 +183,19 @@
       ]
     },
     {
-      "Name": "extras",
+      "Name": "Create your own group",
       "Colors": [
         "0000ff",
-        "00ff00",
-        "ff00ff",
-        "ffff00",
-        "0000ff",
-        "00ff00",
-        "ff0000",
-        "ff00ff",
-        "0000ff",
-        "00ff00",
-        "ff0000",
-        "00ffff",
-        "ff00ff",
-        "ffff00",
-        "0000ff"
+        "00ff00"
       ],
       "Channels": [
         "Hoechst",
-        "AF1",
-        "CD3e",
-        "AF2",
-        "NaKATPase",
-        "TIGIT",
-        "CD45R",
-        "E-cadherin",
-        "HES1",
-        "FOXP3",
-        "PD-1",
-        "CD8a",
-        "PD-L1",
-        "CD4",
         "Pan-CK"
       ],
       "Descriptions": [
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
         ""
       ]
     }
-  ]
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.2903091628325495, 0.5]}, "FirstGroup": "Introduction"
 }
