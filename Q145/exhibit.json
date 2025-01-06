@@ -143,26 +143,23 @@
   ],
   "Masks": [],
   "Groups": [
-    {
+{
       "Name": "Introduction",
       "Colors": [
-        "ffffff",
         "0000ff",
-        "ffff00",
-        "00ff00",
         "ff00ff",
+        "ffff00",
+        "00ffff",
         "ff0000"
       ],
       "Channels": [
-        "AF1",
-        "CD68",
-        "PAX8",
-        "CD11c",
-        "TREM2",
-        "Pan-CK"
+        "Hoechst",
+        "CD3e",
+        "CD138",
+        "Pan-CK",
+        "AF1"
       ],
       "Descriptions": [
-        "",
         "",
         "",
         "",
