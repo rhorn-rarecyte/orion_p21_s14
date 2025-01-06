@@ -2,14 +2,14 @@
   "Images": [
     {
       "Name": "i0",
-      "Description": "Ovarian Serous Cystadenocarcinoma",
-      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q143",
-      "Width": 99123,
-      "Height": 63805,
+      "Description": "Goujerot-Sjogren's Syndrome",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q145",
+      "Width": 95253,
+      "Height": 62104,
       "MaxLevel": 7
     }
   ],
-  "Header": "16 channel imaging of Ovarian Serous Cystadenocarcinoma. Courtesy of Zhihong Chen. Custody of Human Immune\nMonitoring Center, OCCAM immune, Icahn School of Medicine, Mount Sinai. Image acquired on the Orion platform.",
+  "Header": "16 channel imaging of a section of salivary gland displaying Goujerot-Sjogren's Syndrome. Courtesy of Nadege\nMarec, University of Brest. Image acquired on the Orion platform.",
   "Rotation": 0,
   "Layout": {
     "Grid": [
@@ -25,16 +25,16 @@
       "Waypoints": [
         {
           "Name": "Calendar image",
-          "Description": "16 channel imaging of Ovarian Serous Cystadenocarcinoma. Courtesy of Zhihong Chen. Custody of Human Immune\nMonitoring Center, OCCAM immune, Icahn School of Medicine, Mount Sinai. Image acquired on the Orion platform.",
+          "Description": "",
           "Arrows": [],
           "Overlays": [],
           "Group": "Introduction",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 11.11861100208081,
+          "Zoom": 4.299816959999999,
           "Pan": [
-            0.8974282343490074,
-            0.37260837085658033
+            0.28410979391699487,
+            0.5042348776061951
           ]
         },
         {
@@ -57,48 +57,13 @@
   "Channels": [
     {
       "Rendered": false,
-      "Name": "AF1",
-      "Path": "AF1_1__AF1"
+      "Name": "CD45",
+      "Path": "CD45_2__CD45"
     },
     {
       "Rendered": false,
-      "Name": "CD68",
-      "Path": "CD68_3__CD68"
-    },
-    {
-      "Rendered": false,
-      "Name": "PAX8",
-      "Path": "PAX8_7__PAX8"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD11c",
-      "Path": "CD11c_10__CD11c"
-    },
-    {
-      "Rendered": false,
-      "Name": "TREM2",
-      "Path": "TREM2_14__TREM2"
-    },
-    {
-      "Rendered": false,
-      "Name": "Pan-CK",
-      "Path": "Pan-CK_18__Pan-CK"
-    },
-    {
-      "Rendered": false,
-      "Name": "Hoechst",
-      "Path": "Hoechst_0__Hoechst"
-    },
-    {
-      "Rendered": false,
-      "Name": "Granzyme B",
-      "Path": "Granzyme-B_2__Granzyme-B"
-    },
-    {
-      "Rendered": false,
-      "Name": "CD3e",
-      "Path": "CD3e_4__CD3e"
+      "Name": "Ki-67",
+      "Path": "Ki-67_3__Ki-67"
     },
     {
       "Rendered": false,
@@ -112,13 +77,18 @@
     },
     {
       "Rendered": false,
-      "Name": "FAP",
-      "Path": "FAP_8__FAP"
+      "Name": "TBX21",
+      "Path": "TBX21_7__TBX21"
     },
     {
       "Rendered": false,
       "Name": "CD8a",
-      "Path": "CD8a_9__CD8a"
+      "Path": "CD8a_8__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD56",
+      "Path": "CD56_11__CD56"
     },
     {
       "Rendered": false,
@@ -128,7 +98,17 @@
     {
       "Rendered": false,
       "Name": "CD4",
-      "Path": "CD4_15__CD4"
+      "Path": "CD4_13__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_14__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_15__CD68"
     },
     {
       "Rendered": false,
@@ -137,8 +117,28 @@
     },
     {
       "Rendered": false,
-      "Name": "CD31",
-      "Path": "CD31_17__CD31"
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e_4__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD138",
+      "Path": "CD138_9__CD138"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_18__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
     }
   ],
   "Masks": [],
@@ -185,5 +185,5 @@
         ""
       ]
     }
-  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.776765143797508, 0.5]}, "FirstGroup": "Introduction"
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.7668829705010949, 0.5]}, "FirstGroup": "Introduction"
 }
