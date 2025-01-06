@@ -1,1 +1,226 @@
-{"Images": [{"Name": "i0", "Description": "Mouse Melanoma", "Path": "images/Q182-skinmelanoma", "Width": 25069, "Height": 47076, "MaxLevel": 6}], "Header": "19 channel imaging of Melanoma (mouse). Courtesy of Lloyd Bod, Harvard Medical School.\nImage acquired on the Orion platform.", "Rotation": 0, "Layout": {"Grid": [["i0"]]}, "Stories": [{"Name": "", "Description": "", "Waypoints": [{"Name": "Mouse Melanoma", "Description": "19 channel imaging of Melanoma (mouse). Courtesy of Lloyd Bod, Harvard Medical School.\nImage acquired on the Orion platform.", "Arrows": [], "Overlays": [], "Group": "Introduction", "Masks": [], "ActiveMasks": [], "Zoom": 6.7669022980177855, "Pan": [0.3292823077512235, 0.7082377291958232]}]}], "Channels": [{"Rendered": false, "Name": "Jagged1", "Path": "Jagged1_2__Jagged1"}, {"Rendered": false, "Name": "Ki-67", "Path": "Ki-67_3__Ki-67"}, {"Rendered": false, "Name": "MelanA", "Path": "MelanA_9__MelanA"}, {"Rendered": false, "Name": "CD155", "Path": "CD155_11__CD155"}, {"Rendered": false, "Name": "Vimentin", "Path": "Vimentin_19__Vimentin"}, {"Rendered": false, "Name": "Hoechst", "Path": "Hoechst_0__Hoechst"}, {"Rendered": false, "Name": "AF1", "Path": "AF1_1__AF1"}, {"Rendered": false, "Name": "CD3e", "Path": "CD3e_4__CD3e"}, {"Rendered": false, "Name": "AF2", "Path": "AF2_5__AF2"}, {"Rendered": false, "Name": "NaKATPase", "Path": "NaKATPase_6__NaKATPase"}, {"Rendered": false, "Name": "TIGIT", "Path": "TIGIT_7__TIGIT"}, {"Rendered": false, "Name": "CD45R", "Path": "CD45R_8__CD45R"}, {"Rendered": false, "Name": "E-cadherin", "Path": "E-cadherin_10__E-cadherin"}, {"Rendered": false, "Name": "HES1", "Path": "HES1_12__HES1"}, {"Rendered": false, "Name": "FOXP3", "Path": "FOXP3_13__FOXP3"}, {"Rendered": false, "Name": "PD-1", "Path": "PD-1_14__PD-1"}, {"Rendered": false, "Name": "CD8a", "Path": "CD8a_15__CD8a"}, {"Rendered": false, "Name": "PD-L1", "Path": "PD-L1_16__PD-L1"}, {"Rendered": false, "Name": "CD4", "Path": "CD4_17__CD4"}, {"Rendered": false, "Name": "Pan-CK", "Path": "Pan-CK_18__Pan-CK"}], "Masks": [], "Groups": [{"Name": "Introduction", "Colors": ["ff00ff", "ffffff", "ff0000", "0000ff", "00ff00"], "Channels": ["Jagged1", "Ki-67", "MelanA", "CD155", "Vimentin"], "Descriptions": ["", "", "", "", ""]}, {"Name": "extras", "Colors": ["0000ff", "00ff00", "ff00ff", "ffff00", "0000ff", "00ff00", "ff0000", "ff00ff", "0000ff", "00ff00", "ff0000", "00ffff", "ff00ff", "ffff00", "0000ff"], "Channels": ["Hoechst", "AF1", "CD3e", "AF2", "NaKATPase", "TIGIT", "CD45R", "E-cadherin", "HES1", "FOXP3", "PD-1", "CD8a", "PD-L1", "CD4", "Pan-CK"], "Descriptions": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}]}
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Mouse Melanoma",
+      "Path": "ttps://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q182-skinmelanoma",
+      "Width": 25069,
+      "Height": 47076,
+      "MaxLevel": 6
+    }
+  ],
+  "Header": "19 channel imaging of Melanoma (mouse). Courtesy of Lloyd Bod, Harvard Medical School.\nImage acquired on the Orion platform.",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "Mouse Melanoma",
+          "Description": "19 channel imaging of Melanoma (mouse). Courtesy of Lloyd Bod, Harvard Medical School.\nImage acquired on the Orion platform.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Introduction",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 6.7669022980177855,
+          "Pan": [
+            0.3292823077512235,
+            0.7082377291958232
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "Jagged1",
+      "Path": "Jagged1_2__Jagged1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki-67",
+      "Path": "Ki-67_3__Ki-67"
+    },
+    {
+      "Rendered": false,
+      "Name": "MelanA",
+      "Path": "MelanA_9__MelanA"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD155",
+      "Path": "CD155_11__CD155"
+    },
+    {
+      "Rendered": false,
+      "Name": "Vimentin",
+      "Path": "Vimentin_19__Vimentin"
+    },
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e_4__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF2",
+      "Path": "AF2_5__AF2"
+    },
+    {
+      "Rendered": false,
+      "Name": "NaKATPase",
+      "Path": "NaKATPase_6__NaKATPase"
+    },
+    {
+      "Rendered": false,
+      "Name": "TIGIT",
+      "Path": "TIGIT_7__TIGIT"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD45R",
+      "Path": "CD45R_8__CD45R"
+    },
+    {
+      "Rendered": false,
+      "Name": "E-cadherin",
+      "Path": "E-cadherin_10__E-cadherin"
+    },
+    {
+      "Rendered": false,
+      "Name": "HES1",
+      "Path": "HES1_12__HES1"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_13__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_14__PD-1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_15__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_16__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_17__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_18__Pan-CK"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Introduction",
+      "Colors": [
+        "ff00ff",
+        "ffffff",
+        "ff0000",
+        "0000ff",
+        "00ff00"
+      ],
+      "Channels": [
+        "Jagged1",
+        "Ki-67",
+        "MelanA",
+        "CD155",
+        "Vimentin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "extras",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff00ff",
+        "ffff00",
+        "0000ff",
+        "00ff00",
+        "ff0000",
+        "ff00ff",
+        "0000ff",
+        "00ff00",
+        "ff0000",
+        "00ffff",
+        "ff00ff",
+        "ffff00",
+        "0000ff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "AF1",
+        "CD3e",
+        "AF2",
+        "NaKATPase",
+        "TIGIT",
+        "CD45R",
+        "E-cadherin",
+        "HES1",
+        "FOXP3",
+        "PD-1",
+        "CD8a",
+        "PD-L1",
+        "CD4",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ]
+}
