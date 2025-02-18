@@ -2,14 +2,14 @@
   "Images": [
     {
       "Name": "i0",
-      "Description": "Whole Slide",
+      "Description": "0380 172T",
       "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q193-S01",
       "Width": 70274,
       "Height": 50933,
       "MaxLevel": 7
     }
   ],
-  "Header": "description needed",
+  "Header": "Whole slide",
   "Rotation": 0,
   "Layout": {
     "Grid": [
