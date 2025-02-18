@@ -376,6 +376,21 @@
         "",
         ""
       ]
+    },
+    {
+      "Name": "Create your own group",
+      "Colors": [
+        "0000ff",
+        "00ff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Autofluorescence"
+      ],
+      "Descriptions": [
+        "",
+        ""
+      ]
     }
   ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.5707289983844911, 0.5]}
 }
