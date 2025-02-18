@@ -220,7 +220,7 @@
     },
     {
       "Rendered": false,
-      "Name": "AF2",
+      "Name": "Autofluorescence 2",
       "Path": "AF2_5__AF2"
     },
     {
@@ -365,7 +365,7 @@
         "FOXP3",
         "CD4",
         "CD8a",
-        "AF2"
+        "Autofluorescence 2"
       ],
       "Descriptions": [
         "",
@@ -424,12 +424,12 @@
       ],
       "Channels": [
         "Autofluorescence",
-        "AF2"
+        "Autofluorescence 2"
       ],
       "Descriptions": [
         "",
         ""
       ]
     }
-  ]
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.5213101906276652, 0.5]}
 }
