@@ -190,18 +190,45 @@
   "Masks": [],
   "Groups": [
     {
-      "Name": "Tonsil",
+      "Name": "Introduction",
       "Colors": [
         "0000ff",
+        "ffffff",
+        "ff00ff",
+        "00ffff",
+        "00ff00",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Autofluorescence",
+        "PD-L1",
+        "CD3e",
+        "CD163",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Immune cells",
+      "Colors": [
         "ff0000",
         "00ff00",
-        "ff00ff"
+        "ffffff",
+        "0000ff"
       ],
       "Channels": [
         "CD20",
-        "PD-1",
-        "CD4",
-        "CD8a"
+        "CD3e",
+        "CD163",
+        "Pan-CK"
       ],
       "Descriptions": [
         "",
@@ -211,23 +238,44 @@
       ]
     },
     {
-      "Name": "Immune infiltration",
+      "Name": "CD138 distribution",
       "Colors": [
         "ff0000",
-        "00ffff",
         "00ff00",
-        "ff00ff",
+        "00ffff",
+        "0000ff",
         "ffffff"
       ],
       "Channels": [
-        "PD-1",
-        "CD163",
-        "CD3e",
+        "CD138",
         "CD11b",
-        "Pan-CK"
+        "CD31",
+        "Pan-CK",
+        "Autofluorescence"
       ],
       "Descriptions": [
         "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Macrophages",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "PD-L1",
+        "CD163",
+        "Pan-CK",
+        "Ki-67"
+      ],
+      "Descriptions": [
         "",
         "",
         "",
@@ -262,41 +310,20 @@
       ]
     },
     {
-      "Name": "Macrophages",
+      "Name": "Immune infiltration",
       "Colors": [
         "ff0000",
-        "00ff00",
-        "0000ff",
-        "ffffff"
-      ],
-      "Channels": [
-        "PD-L1",
-        "CD163",
-        "Pan-CK",
-        "Ki-67"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "CD138 distribution",
-      "Colors": [
-        "ff0000",
-        "00ff00",
         "00ffff",
-        "0000ff",
+        "00ff00",
+        "ff00ff",
         "ffffff"
       ],
       "Channels": [
-        "CD138",
+        "PD-1",
+        "CD163",
+        "CD3e",
         "CD11b",
-        "CD31",
-        "Pan-CK",
-        "Autofluorescence"
+        "Pan-CK"
       ],
       "Descriptions": [
         "",
@@ -307,52 +334,25 @@
       ]
     },
     {
-      "Name": "Immune cells",
+      "Name": "Tonsil",
       "Colors": [
+        "0000ff",
         "ff0000",
         "00ff00",
-        "ffffff",
-        "0000ff"
+        "ff00ff"
       ],
       "Channels": [
         "CD20",
-        "CD3e",
-        "CD163",
-        "Pan-CK"
+        "PD-1",
+        "CD4",
+        "CD8a"
       ],
       "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "Introduction",
-      "Colors": [
-        "0000ff",
-        "ffffff",
-        "ff00ff",
-        "00ffff",
-        "00ff00",
-        "ffff00"
-      ],
-      "Channels": [
-        "Hoechst",
-        "Autofluorescence",
-        "PD-L1",
-        "CD3e",
-        "CD163",
-        "Pan-CK"
-      ],
-      "Descriptions": [
-        "",
-        "",
         "",
         "",
         "",
         ""
       ]
     }
-  ]
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [0.5707289983844911, 0.5]}
 }
