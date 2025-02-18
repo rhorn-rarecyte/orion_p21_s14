@@ -1,0 +1,358 @@
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "ICON Hiplex - 2",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q193-S03",
+      "Width": 45220,
+      "Height": 39616,
+      "MaxLevel": 6
+    }
+  ],
+  "Header": "Whole Slide",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "Immune cells",
+          "Description": "Epithelial cells (blue) with surrounding immune cells, including B- (red) and T-lymphocytes (green), and macrophages (white).\n\nSome immune cells have infiltrated the tumor.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Immune cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 6.191736422399999,
+          "Pan": [
+            0.6873547018607383,
+            0.9081167314275864
+          ]
+        },
+        {
+          "Name": "CD138 distribution",
+          "Description": "Both epithelial (blue) and plasma cells express CD138 (red).\n\nMonocytes (green) are distributed throughout the core.\n\nEndothelial cells (cyan) highlight blood vessels, which also contain elastin which is shown by autofluorescence 1 (white).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "CD138 distribution",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 6.191736422399999,
+          "Pan": [
+            0.3387934227174603,
+            0.40878360811708464
+          ]
+        },
+        {
+          "Name": "Macrophages",
+          "Description": "Tumor (blue) with surrounding macrophages (green).\n\nMost macrophages and a subset of tumor cells express PD-L1 (red).\n\nFew cells in this core are proliferating (white).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Macrophages",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 5.639085248348159,
+          "Pan": [
+            0.9375181711319749,
+            0.6771439144448351
+          ]
+        },
+        {
+          "Name": "T lymphocytes",
+          "Description": "Tumor cells interspersed with T cytotoxic (magenta) and T helper (green) cells.\n\nA subset of T helper cells are regulatory (red nuclei).\n\nAutofluorescence highlights elastin, stroma and red blood cells.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T lymphocytes",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 5.639085248348159,
+          "Pan": [
+            0.6194360958311144,
+            0.306831284287871
+          ]
+        },
+        {
+          "Name": "Immune infiltration",
+          "Description": "T cells (green) and myeloid cells (cyan and magenta) are scattered throughout the tumor and core.\n\nA subset of T cells express PD-1 (red).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Immune infiltration",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 5.639085248348159,
+          "Pan": [
+            0.44025117652046036,
+            0.890878158890022
+          ]
+        },
+        {
+          "Name": "Tonsil",
+          "Description": "Control tonsil with extensive expression of PD-1 (red) on follicular T helper cells (green).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Tonsil",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 5.639085248348159,
+          "Pan": [
+            0.6183300294903665,
+            0.18284059031423797
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "CD20",
+      "Path": "CD20_9__CD20"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_12__PD-1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_7__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_8__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_10__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e_13__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD11b",
+      "Path": "CD11b_16__CD11b"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_18__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "Autofluorescence",
+      "Path": "Autofluorescence_1__Autofluorescence"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD31",
+      "Path": "CD31_17__CD31"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_14__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_11__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki-67",
+      "Path": "Ki-67_19__Ki-67"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD138",
+      "Path": "CD138_15__CD138"
+    },
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Tonsil",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00",
+        "ff00ff"
+      ],
+      "Channels": [
+        "CD20",
+        "PD-1",
+        "CD4",
+        "CD8a"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Immune infiltration",
+      "Colors": [
+        "ff0000",
+        "00ffff",
+        "00ff00",
+        "ff00ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "PD-1",
+        "CD163",
+        "CD3e",
+        "CD11b",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T lymphocytes",
+      "Colors": [
+        "ffffff",
+        "00ffff",
+        "ff00ff",
+        "00ff00",
+        "ff0000",
+        "0000ff"
+      ],
+      "Channels": [
+        "Autofluorescence",
+        "CD31",
+        "CD8a",
+        "CD4",
+        "FOXP3",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Macrophages",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "PD-L1",
+        "CD163",
+        "Pan-CK",
+        "Ki-67"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "CD138 distribution",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "00ffff",
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD138",
+        "CD11b",
+        "CD31",
+        "Pan-CK",
+        "Autofluorescence"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Immune cells",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "ffffff",
+        "0000ff"
+      ],
+      "Channels": [
+        "CD20",
+        "CD3e",
+        "CD163",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Introduction",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "ff00ff",
+        "00ffff",
+        "00ff00",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Autofluorescence",
+        "PD-L1",
+        "CD3e",
+        "CD163",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ]
+}
