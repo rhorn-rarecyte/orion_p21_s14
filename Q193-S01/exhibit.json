@@ -176,20 +176,20 @@
   "Masks": [],
   "Groups": [
     {
-      "Name": "Lymphocytes",
+      "Name": "Introduction",
       "Colors": [
         "0000ff",
-        "ff0000",
-        "00ff00",
-        "ffff00",
-        "ffffff"
+        "ffffff",
+        "ff00ff",
+        "00ffff",
+        "00ff00"
       ],
       "Channels": [
+        "Hoechst",
+        "Autofluorescence",
+        "PD-L1",
         "CD3e",
-        "CD8a",
-        "CD4",
-        "CD20",
-        "Pan-CK"
+        "CD163"
       ],
       "Descriptions": [
         "",
@@ -224,20 +224,20 @@
       ]
     },
     {
-      "Name": "Introduction",
+      "Name": "Lymphocytes",
       "Colors": [
         "0000ff",
-        "ffffff",
-        "ff00ff",
-        "00ffff",
-        "00ff00"
+        "ff0000",
+        "00ff00",
+        "ffff00",
+        "ffffff"
       ],
       "Channels": [
-        "Hoechst",
-        "Autofluorescence",
-        "PD-L1",
         "CD3e",
-        "CD163"
+        "CD8a",
+        "CD4",
+        "CD20",
+        "Pan-CK"
       ],
       "Descriptions": [
         "",
