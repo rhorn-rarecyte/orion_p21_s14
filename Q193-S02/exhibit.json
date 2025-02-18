@@ -1,0 +1,435 @@
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "ICON Hiplex - 1",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q193-S02",
+      "Width": 45232,
+      "Height": 43383,
+      "MaxLevel": 6
+    }
+  ],
+  "Header": "Whole slide",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "PD-L1 expression",
+          "Description": "A subset of macrophages (white) and tumor cells (green) express PD-L1 (red).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "PD-L1 expression",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 7.430083706879999,
+          "Pan": [
+            0.7359968528549256,
+            0.6353714711419558
+          ]
+        },
+        {
+          "Name": "Lymphocytes and plasma cells",
+          "Description": "Extensive immune cell presence, including T- (magenta) and B-lymphocytes (cyan).\n\nCD138 is expressed on plasma cells (red) as well as along the outer edge of the alveoli epithelium (green).\n\nEndothelial cells (yellow) highlight blood vessels throughout.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Lymphocytes and plasma cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 6.191736422399999,
+          "Pan": [
+            0.4184092387848268,
+            0.2863482420158026
+          ]
+        },
+        {
+          "Name": "Macrophages",
+          "Description": "Extensive macrophage (red) and monocyte (green) presence throughout the core.\n\nAlveolar macrophages express both CD163 and CD11b.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Macrophages",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 6.191736422399999,
+          "Pan": [
+            0.4184092387848268,
+            0.2863482420158026
+          ]
+        },
+        {
+          "Name": "T cells and primary autofluorescence",
+          "Description": "T cytotoxic (blue) and T helper (green) cells present throughout.\n\nA subset of T helper, but not T cytotoxic, cells are regulatory (red nuclei).\n\nAutofluorescence 1 highlights stroma and elastin.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T cells and primary AF",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 7.166361599999999,
+          "Pan": [
+            0.062437032413470595,
+            0.7108839575318208
+          ]
+        },
+        {
+          "Name": "T cells and secondary autofluorescence",
+          "Description": "T cytotoxic (blue) and T helper (green) cells present throughout.\n\nA subset of T helper, but not T cytotoxic, cells are regulatory (red nuclei).\n\nAfter removal of stromal autofluorescence (AF1), Autofluorescence 2 is isolated to a subset of elastin.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T cells and secondary AF",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 7.166361599999999,
+          "Pan": [
+            0.062437032413470595,
+            0.7108839575318208
+          ]
+        },
+        {
+          "Name": "T cell PD-1",
+          "Description": "A subset of T helper (green) and T cytotoxic (magenta) cells express PD-1 (red).\n\nProliferation (white) is also observed on some cells.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T cell PD-1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 6.912000000000002,
+          "Pan": [
+            0.9507788850346988,
+            0.6478224292882907
+          ]
+        },
+        {
+          "Name": "Plasma cells",
+          "Description": "Plasma cells (red) and T cells (green) are dispersed between tumor (blue), which is proliferating (white).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Plasma cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 8.294400000000001,
+          "Pan": [
+            0.8531678660178214,
+            0.5386313346670122
+          ]
+        },
+        {
+          "Name": "Primary and secondary autofluorescence",
+          "Description": "Some elastin autofluorescence is isolated to the AF1 channel (green), while other elastin has an AF1 and AF2 (red) component.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Primary and secondary AF",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 6.66666666666667,
+          "Pan": [
+            0.31103364052784566,
+            0.38323100576289393
+          ]
+        },
+        {
+          "Name": "Primary autofluorescence only",
+          "Description": "Many cores do not contain a secondary autofluorescence profile.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Primary and secondary AF",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 6.66666666666667,
+          "Pan": [
+            0.5283774867790731,
+            0.2951763673553057
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "Autofluorescence",
+      "Path": "Autofluorescence_1__Autofluorescence"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_11__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e_13__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_10__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_18__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD20",
+      "Path": "CD20_9__CD20"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD31",
+      "Path": "CD31_17__CD31"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD138",
+      "Path": "CD138_15__CD138"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD11b",
+      "Path": "CD11b_16__CD11b"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_14__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_7__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_8__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF2",
+      "Path": "AF2_5__AF2"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_12__PD-1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki-67",
+      "Path": "Ki-67_19__Ki-67"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Introduction",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "ff00ff",
+        "00ffff",
+        "00ff00",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Autofluorescence",
+        "PD-L1",
+        "CD3e",
+        "CD163",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "PD-L1 expression",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "ffffff",
+        "00ff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "PD-L1",
+        "CD163",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Lymphocytes and plasma cells",
+      "Colors": [
+        "0000ff",
+        "ff00ff",
+        "00ffff",
+        "ffff00",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD3e",
+        "CD20",
+        "CD31",
+        "CD138",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Macrophages",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "ff00ff",
+        "0000ff"
+      ],
+      "Channels": [
+        "CD163",
+        "CD11b",
+        "CD31",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cells and primary AF",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "FOXP3",
+        "CD4",
+        "CD8a",
+        "Autofluorescence"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cells and secondary AF",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "FOXP3",
+        "CD4",
+        "CD8a",
+        "AF2"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cell PD-1",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "PD-1",
+        "CD4",
+        "CD8a",
+        "Ki-67"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Plasma cells",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "ffffff",
+        "0000ff"
+      ],
+      "Channels": [
+        "CD138",
+        "CD4",
+        "Ki-67",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Primary and secondary AF",
+      "Colors": [
+        "00ff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "Autofluorescence",
+        "AF2"
+      ],
+      "Descriptions": [
+        "",
+        ""
+      ]
+    }
+  ]
+}
