@@ -115,7 +115,7 @@
         },
         {
           "Name": "T cell PD-1",
-          "Description": "A subset of T helper (green) and T cytotoxic (magenta) cells express PD-1 (red).\n\nProliferation (white) is also observed on some cells.",
+          "Description": "A subset of T helper (green) and T cytotoxic (blue) cells express PD-1 (red).\n\nProliferation (white) is also observed on some cells.",
           "Arrows": [],
           "Overlays": [],
           "Group": "T cell PD-1",
