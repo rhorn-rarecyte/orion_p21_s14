@@ -35,7 +35,11 @@
           "Pan": [
             0.7359968528549256,
             0.6353714711419558
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Lymphocytes and plasma cells",
@@ -49,7 +53,11 @@
           "Pan": [
             0.4184092387848268,
             0.2863482420158026
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Macrophages",
@@ -63,7 +71,11 @@
           "Pan": [
             0.4184092387848268,
             0.2863482420158026
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "T cells and primary autofluorescence",
@@ -77,7 +89,11 @@
           "Pan": [
             0.062437032413470595,
             0.7108839575318208
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "T cells and secondary autofluorescence",
@@ -91,7 +107,11 @@
           "Pan": [
             0.062437032413470595,
             0.7108839575318208
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "T cell PD-1",
@@ -105,7 +125,11 @@
           "Pan": [
             0.9507788850346988,
             0.6478224292882907
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Plasma cells",
@@ -119,7 +143,11 @@
           "Pan": [
             0.8531678660178214,
             0.5386313346670122
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Primary and secondary autofluorescence",
@@ -133,7 +161,11 @@
           "Pan": [
             0.31103364052784566,
             0.38323100576289393
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Primary autofluorescence only",
@@ -147,7 +179,11 @@
           "Pan": [
             0.5283774867790731,
             0.2951763673553057
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Create your own multi-color image",
@@ -250,6 +286,11 @@
       "Rendered": false,
       "Name": "Ki-67",
       "Path": "Ki-67_19__Ki-67"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
@@ -461,6 +502,18 @@
       ],
       "Descriptions": [
         "",
+        ""
+      ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
         ""
       ]
     }
