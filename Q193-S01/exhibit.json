@@ -39,6 +39,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "Lymphocytes",
@@ -56,6 +57,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "T regulatory cells",
@@ -73,6 +75,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "Checkpoint",
@@ -90,6 +93,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "Proliferation",
@@ -107,6 +111,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "Create your own multi-color image",
