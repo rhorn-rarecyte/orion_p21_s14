@@ -35,7 +35,10 @@
           "Pan": [
             0.3600311129281384,
             0.4134725779003582
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
         },
         {
           "Name": "Lymphocytes",
@@ -49,7 +52,10 @@
           "Pan": [
             0.3805465131423728,
             0.8004087975322444
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
         },
         {
           "Name": "T regulatory cells",
@@ -63,7 +69,10 @@
           "Pan": [
             0.3805465131423728,
             0.8004087975322444
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
         },
         {
           "Name": "Checkpoint",
@@ -77,7 +86,10 @@
           "Pan": [
             0.35916043707424306,
             0.5412627582528374
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
         },
         {
           "Name": "Proliferation",
@@ -91,7 +103,10 @@
           "Pan": [
             0.35916043707424306,
             0.5412627582528374
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
         },
         {
           "Name": "Create your own multi-color image",
@@ -189,6 +204,11 @@
       "Rendered": false,
       "Name": "Ki-67",
       "Path": "Ki-67_19__Ki-67"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
