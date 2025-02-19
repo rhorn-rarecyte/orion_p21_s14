@@ -35,7 +35,11 @@
           "Pan": [
             0.6873547018607383,
             0.9081167314275864
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "CD138 distribution",
@@ -49,7 +53,11 @@
           "Pan": [
             0.3387934227174603,
             0.40878360811708464
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Macrophages",
@@ -63,7 +71,11 @@
           "Pan": [
             0.9375181711319749,
             0.6771439144448351
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "T lymphocytes",
@@ -77,7 +89,11 @@
           "Pan": [
             0.6194360958311144,
             0.306831284287871
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Immune infiltration",
@@ -91,7 +107,11 @@
           "Pan": [
             0.44025117652046036,
             0.890878158890022
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Tonsil",
@@ -105,7 +125,11 @@
           "Pan": [
             0.6183300294903665,
             0.18284059031423797
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Create your own multi-color image",
@@ -208,6 +232,11 @@
       "Rendered": false,
       "Name": "Hoechst",
       "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
@@ -389,6 +418,18 @@
       ],
       "Descriptions": [
         "",
+        ""
+      ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
         ""
       ]
     }
