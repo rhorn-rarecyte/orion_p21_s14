@@ -199,6 +199,11 @@
       "Rendered": false,
       "Name": "Granzyme B",
       "Path": "Granzyme-B_3__Granzyme-B"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
@@ -395,6 +400,18 @@
       ],
       "Descriptions": [
         "",
+        ""
+      ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
         ""
       ]
     }
