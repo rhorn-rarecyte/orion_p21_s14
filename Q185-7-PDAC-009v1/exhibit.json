@@ -190,6 +190,11 @@
       "Rendered": false,
       "Name": "AF1",
       "Path": "AF1_1__AF1"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
@@ -368,6 +373,18 @@
       ],
       "Descriptions": [
         "",
+        ""
+      ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
         ""
       ]
     }
