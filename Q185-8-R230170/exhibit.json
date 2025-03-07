@@ -138,7 +138,7 @@
     {
       "Rendered": false,
       "Name": "SMA",
-      "Path": "SMA_6__SMA"
+      "Path": "SMA-0_6__SMA"
     },
     {
       "Rendered": false,
@@ -184,11 +184,6 @@
       "Rendered": false,
       "Name": "SPP1",
       "Path": "SPP1_2__SPP1"
-    },
-    {
-      "Rendered": false,
-      "Name": "SMA",
-      "Path": "SMA-0_6__SMA"
     },
     {
       "Rendered": false,
