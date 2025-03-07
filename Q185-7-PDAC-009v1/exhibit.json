@@ -39,6 +39,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "ROI 2 A",
@@ -56,6 +57,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "ROI 2 B",
@@ -73,6 +75,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "ROI 3 A",
@@ -90,6 +93,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "ROI 3 B",
@@ -107,6 +111,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "Create your own multi-color image",
@@ -124,6 +129,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         }
       ]
     }
