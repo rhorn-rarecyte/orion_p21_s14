@@ -1,0 +1,375 @@
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Infiltrating Tumor Cells within Liver",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q185-7-PDAC-009v1",
+      "Width": 30517,
+      "Height": 20281,
+      "MaxLevel": 5
+    }
+  ],
+  "Header": "description",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "ROI 1",
+          "Description": "Recurrence of PDAC at liver metastatic site with CD31+ (red) cells suggesting angiogenesis, CAFs (yellow) and Ki67+ (green) cancer\nstem cells.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "ROI 1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 15.40702157458636,
+          "Pan": [
+            0.1607455030322216,
+            0.9155749621035343
+          ]
+        },
+        {
+          "Name": "ROI 2 A",
+          "Description": "Kupffer Cells (yellow)",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "ROI 2 A",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 12.839184645488633,
+          "Pan": [
+            0.22647583094285872,
+            0.837501488078291
+          ]
+        },
+        {
+          "Name": "ROI 2 B",
+          "Description": "Kupffer cells with mesenchymal phenotype.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "ROI 1 B",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 12.839184645488633,
+          "Pan": [
+            0.22647583094285872,
+            0.837501488078291
+          ]
+        },
+        {
+          "Name": "ROI 3 A",
+          "Description": "CAFs (red), Cancer Stem Cells (green).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "ROI 3 A",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 8.916100448255994,
+          "Pan": [
+            0.9674212716233036,
+            0.5030717581180533
+          ]
+        },
+        {
+          "Name": "ROI 3 B",
+          "Description": "CAFs (red), Endothelial Cells (green)\n\nAngiogenesis.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "ROI 3 B",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 12.839184645488631,
+          "Pan": [
+            0.9599426818929566,
+            0.5352231359706573
+          ]
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, Pan-CK is white, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own group",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.4326562500000001,
+          "Pan": [
+            0.5026705719600049,
+            0.4926308830286659
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "SPP1",
+      "Path": "SPP1_2__SPP1"
+    },
+    {
+      "Rendered": false,
+      "Name": "SMA",
+      "Path": "SMA_6__SMA"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_7__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD11b",
+      "Path": "CD11b_9__CD11b"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_16__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "SOX10",
+      "Path": "SOX10_17__SOX10"
+    },
+    {
+      "Rendered": false,
+      "Name": "Vimentin",
+      "Path": "Vimentin_19__Vimentin"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_18__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_8__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki-67",
+      "Path": "Ki-67_4__Ki-67"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_10__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD31",
+      "Path": "CD31-0_15__CD31"
+    },
+    {
+      "Rendered": false,
+      "Name": "Granzyme B",
+      "Path": "Granzyme-B_3__Granzyme-B"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD31",
+      "Path": "CD31-0_15__CD31"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Introduction",
+      "Colors": [
+        "0000ff",
+        "909090",
+        "00ffff",
+        "a000ff",
+        "ffff00",
+        "ffb700",
+        "ffffff",
+        "ff0000",
+        "00ff00",
+        "9800ff",
+        "00b400",
+        "ffeddd",
+        "ff00ff",
+        "c9c9c9"
+      ],
+      "Channels": [
+        "Hoechst",
+        "SPP1",
+        "SMA",
+        "CD4",
+        "CD11b",
+        "PD-L1",
+        "SOX10",
+        "Vimentin",
+        "Pan-CK",
+        "CD8a",
+        "Ki-67",
+        "CD163",
+        "CD31",
+        "Granzyme B"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "ROI 1",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ffffff",
+        "ff0000",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Pan-CK",
+        "Ki-67",
+        "CD31",
+        "SMA"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "ROI 2 A",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ffffff",
+        "ff0000",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Pan-CK",
+        "AF1",
+        "SMA",
+        "CD163"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "ROI 1 B",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "ff0000",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "AF1",
+        "Vimentin",
+        "CD163"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "ROI 3 A",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ffffff",
+        "ff0000"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Pan-CK",
+        "Ki-67",
+        "SMA"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "ROI 3 B",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ffffff",
+        "ff0000"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD31",
+        "Ki-67",
+        "SMA"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Create your own group",
+      "Colors": [
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        ""
+      ]
+    }
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.7523544203934717, 0.5]}, "FirstGroup": "Introduction"
+}
