@@ -25,7 +25,7 @@
       "Waypoints": [
         {
           "Name": "ROI 1",
-          "Description": "Recurrence of PDAC at liver metastatic site with CD31+ (red) cells suggesting angiogenesis, CAFs (yellow) and Ki67+ (green) cancer\nstem cells.",
+          "Description": "This image shows recurrence of PDAC at a liver metastatic site. In the center field, we can appreciate red CD31+ cells representing endothelial cells. This specifically highlights tumor-induced angiogenesis in support of the rapidly growing tumor. \n\nAs we start in the center and go peripherally, there are dense bundles of yellow SMA+ cells interspersed between tumor cells. In both immunohistochemistry and H&E, these cells are cancer-associated fibroblasts (CAFs) and are described histologically as elongated, spindle-shaped cells with an eosinophilic cytoplasm. CAFs are involved in formation of a desmoplastic stroma which is a histological hallmark of PDACs. This dense fibrotic matrix functions to support the growing tumor and act as a physical barrier to immune cell infiltration. \n\nIn the periphery, the green Pan-Cytokeratin (Pan-CK)+ and Ki67+ cells are organized in irregular glandular structures or clusters typical of tumor cells from PDAC. In the H&E, these cells display hyperchromatic and atypical nuclei. Some of these cells express Ki67+ which highlight active proliferation and is a marker for high proliferative index which is a hallmark of aggressive tumor progression in PDAC.",
           "Arrows": [],
           "Overlays": [],
           "Group": "ROI 1",
@@ -43,7 +43,7 @@
         },
         {
           "Name": "ROI 2 A",
-          "Description": "Kupffer Cells (yellow)",
+          "Description": "This next region captures the liver’s native immune macrophages and PDAC tumor cell interactions. Native liver macrophages called Kupffer Cells are CD163+ (yellow) and AF1+ (white) which indicate that these display the M2 phenotype which are involved in anti-inflammatory and immunosuppressive roles. In the H&E, Kupffer Cells can be identified by the irregular shaped mononuclear cell with pale cytoplasm and eccentric nuclei. The proximity of the Kupffer Cells with the tumor cells (green) that form clusters and irregular borders may suggest that the native Kupffer Cells are creating a localized tumor-friendly microenvironment with blunting of immune surveillance. \n\nTo the left of the cluster of tumor cells (green), are red SMA+ cancer-associated fibroblasts (CAFs). CAFs in this context are likely from hepatic stellate cells (HSCs) which are identified histologically on H&E as small, oval nuclei and lipid-droplet cytoplasm. These HSCs are also known as Ito cells and in normal conditions, store Vitamin A; however, in this context of inflammation from invading tumor cells, they can transition into myofibroblasts and express SMA which become a source of CAFs. ",
           "Arrows": [],
           "Overlays": [],
           "Group": "ROI 2 A",
@@ -61,7 +61,7 @@
         },
         {
           "Name": "ROI 2 B",
-          "Description": "Kupffer cells with mesenchymal phenotype.",
+          "Description": "This image highlights a phenotypic transition of Kupffer Cells. The Kupffer Cells in this region retain expression of CD163 and AF1 which are consistent with M2 phenotype; however, now they co-express vimentin (red), indicating a transition to a mesenchymal phenotype. This is associated with the process of epithelial-mesenchymal transition or EMT. This transition functionally allows mesenchymal cells to migrate which helps in tumor invasion and metastasis. \n\nThe presence of vimentin+ Kupffer Cells suggest that these subset of Kupffer Cells are adopting a mesenchymal phenotype characteristic of tumor-associated macrophages or TAMs. This marks a transition from normal function to pro-tumor functions and dynamic immunological remodeling of the liver microenvironment in PDAC metastasis and immune evasion.",
           "Arrows": [],
           "Overlays": [],
           "Group": "ROI 1 B",
@@ -79,7 +79,7 @@
         },
         {
           "Name": "ROI 3 A",
-          "Description": "CAFs (red), Cancer Stem Cells (green).",
+          "Description": "In this region, we observe highly pleomorphic and disorganized arrangement of cancer cells. The Pan-CK (green) highlights tumor cells that vary in shape and size. This indicates tumor cell pleomorphism and architectural disarray which are hallmark features of metastatic cancers like PDAC. Interspersed among the Pan-CK+ cells are cells co-expressing Ki67 (white) which indicate that these cells demonstrate a high proliferative index and are actively proliferating. Furthermore, Ki67+ cells in this context imply that these are cancer stem cells (CSCs) which are associated with the ability to self-renew and implicated in PDAC tumor recurrence and resistance. \n\nIn the central region, we can again observe the red SMA+ cells marking the cancer-associated fibroblasts (CAFs). Appreciated on the H&E is the characteristic dense fibrotic stroma and extracellular matrix (ECM) that is produced by the CAFs to support the tumor and provides a physical barrier to host immune defenses and chemotherapy. \n\nThe spatial relationship of the Pan-CK+ CSCs in the periphery and the proximity of SMA+ CAFs in the center demonstrate a critical interplay between these cell populations. This histological landscape paints the synergism of CAFs and CSCs with CAFs providing a supportive tumor microenvironment niche and CSCs driving rapid uncontrolled growth. These effects highlight PDAC pathogenesis and help to explain the high recurrence and treatment resistant nature of PDACs.",
           "Arrows": [],
           "Overlays": [],
           "Group": "ROI 3 A",
@@ -97,7 +97,7 @@
         },
         {
           "Name": "ROI 3 B",
-          "Description": "CAFs (red), Endothelial Cells (green)\n\nAngiogenesis.",
+          "Description": "This region highlights an area where the tumor microenvironment is actively being constructed. The green cells in the center represent CD31+ endothelial cells which are cells that line the inside of blood vessels. This implies that new blood vessels are forming or angiogenesis is occurring to supply tumor cells with vital oxygen and nutrients. Adjacent and surrounding these cells are cancer-associated fibroblasts (CAFs) in red which express SMA. CAFs not only provide the support by formation of the desmoplastic stroma, but also are critical in the formation and stabilization of the newly formed blood vessels. Scattered throughout and closeby the endothelial cells (green) and CAFs (red) are cells that express Ki67, a marker of active proliferation. These cells again demonstrate tumor cell pleomorphism with irregular shapes and hyperchromatic nuclei which stain darker due high nuclear DNA content, implying high proliferative activity. These Ki67+ cells here are suggestive of tumor expansion and progression as these cells are actively dividing in a favorable tumor microenvironment niche that is provided by adjacent CAFs and the close proximity to newly formed vasculature. \n\nThis demonstrates the complex interactions between CAFs, endothelial cells and tumor cells that promote PDAC metastasis. All of these factors in the tumor microenvironment facilitate tumor survival, progression and resistance to treatment which further highlights the challenge of treating PDACs.",
           "Arrows": [],
           "Overlays": [],
           "Group": "ROI 3 B",
