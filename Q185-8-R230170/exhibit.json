@@ -15,17 +15,17 @@
     "Grid": [
       [
         "i0"
-      ]
+      ] 
     ]
   },
   "Stories": [
     {
-      "Name": "",
-      "Description": "",
+      "Name": "Introduction",
+      "Description": "This section of tissue is derived from a patient with pancreatic ductal adenocarcinoma (PDAC). PDAC is a highly aggressive malignancy characterized by dense stromal reactions and a complex tumor environment. The goal of this Minerva story is to provide a background on the key histology and immunohistochemistry that play a role in the transformation of normal pancreatic tissue into PDAC. \n\nIn this sample, we can observe hallmark features of PDAC, including irregular tumor cells that are embedded in a fibrotic stroma. This desmoplastic stroma is composed of various non-malignant cell populations, including cancer-associated fibroblasts (CAFs), immune cells, endothelial cells, and mesenchymal stem cells, which together shape the tumor microenvironment. \n\nThroughout this section we can see key histologic features of PDAC, including poorly defined tumor boundaries, irregular glandular structure, and immune cell clusters. Together with these histological findings as well as their associated immunohistochemical markers, we can identify the key factors that drive PDAC progression and immune evasion.",
       "Waypoints": [
         {
           "Name": "ROI 1 part 1",
-          "Description": "ROI 1 description",
+          "Description": "In this image we can observe the stromal compartment of the PDAC tissue that comprises both H&E and multiple immunohistochemistry markers. \n\nIn the center of the field, we can observe dense, elongated, spindle-shaped cells that are bundled together. These cells are cancer-associated fibroblasts, and they are primarily responsible for the desmoplastic reactions involved in PDAC. Many of the cells also contain contrarian nuclei that are hyperchromatic and arranged within the extracellular matrix. The Hoechst blue stain outlines these nuclei. The hyperchromatic nuclei reflect increased DNA content and nuclear atypia, which are common in cancer cells. \n\nThe CD11b+ (in yellow) is an immunohistochemistry marker for myeloid cells, including macrophages and myeloid-derived suppressor cells. In PDAC, CD11b expression is associated with the recruitment of myeloid cells to the tumor microenvironment. These cells can play a key role in immunosuppression. CD163+ (in green) is indicative of tumor-associated macrophages (TAMs) with the M2 phenotype. These macrophages also play a role in immunosuppression and tumor progression.",
           "Arrows": [],
           "Overlays": [],
           "Group": "ROI 1 part 1",
@@ -43,7 +43,7 @@
         },
         {
           "Name": "ROI 1 part 2",
-          "Description": "Myeloid cells with mesenchymal phenotype.",
+          "Description": "This image shows the interaction between myeloid cells and the mesenchymal components of the PDAC tumor microenvironment. Similar to the previous slide, the central region shows H&E staining with cancer-associated fibroblasts (CAFs) within a fibrotic stroma. \n\nUnique to this stain, however, are vimentin+ cells (in red), which indicate cells with a mesenchymal lineage. This marker is associated with epithelial-mesenchymal transition (EMT). EMT is a process by which epithelial cells lose certain properties and epithelial markers such as E-cadherin and transform into mesenchymal cells. Mesenchymal cells express their own markers, such as N-cadherin, and are resistant to apoptosis. Furthermore, mesenchymal cells have the ability to remodel their ECM and can migrate out of tissues and spread to other areas. This process is associated with increased tumor aggressiveness and poor prognosis. \n\nNotably, many of the CD11b+ cells (in yellow) also coexpress vimentin. This suggests that the myeloid population also has a mesenchymal phenotype. This suggests that the myeloid cells also have cancer-like properties.",
           "Arrows": [],
           "Overlays": [],
           "Group": "ROI 1 part 2",
@@ -61,7 +61,7 @@
         },
         {
           "Name": "ROI 1A",
-          "Description": "Endothelial cells (angiogenesis), immune microenvironment.",
+          "Description": "This slide shows H&E staining with a dense pleomorphic (variation in shape and size of) cell population. These cells have a high nuclear-to-cytoplasm ratio and are irregular, which is indicative of malignancy. \n\nThe CD4 marker (in green) is indicative of T-helper cells, which are cells that play a role in the immune response. This suggests that there is an immune response to the tumor. In the H&E stain, the immune infiltrate appears as small dark blue cells scattered through the slide. The CD8a marker (in pink) is indicative of cytotoxic T cells, which are differentiated immune cells that directly attack and kill cancerous cells. Therefore, these cells play a role in anti-tumor immunity. \n\nThe presence of CD1-positive endothelial cells (in white) is indicative of a tumor that is undergoing angiogenesis. Angiogenesis is the formation of new blood vessels. Cancer cells, in order to survive, need oxygen and nutrients, and they do so by sending out chemical signals that cause angiogenesis to occur. On the H&E stain, the blood vessels are seen as pink to light purple structures. \n\nThe SMA-positive cells (in red) indicate smooth muscle actin, which is a marker for fibroblasts and myofibroblasts. The fibrosis in PDAC is seen as an extracellular matrix in the H&E stain. This matrix prevents immune cells from infiltrating and also provides support to the tumor. \n\nThis fibrous stroma also makes PDAC difficult to treat because it prevents chemotherapy agents from eliminating the cancer cells.",
           "Arrows": [],
           "Overlays": [],
           "Group": "ROI 1A",
@@ -79,7 +79,7 @@
         },
         {
           "Name": "ROI 2",
-          "Description": "Mesenchymal Stem Cells - VIM+ (red) SOX10+ (white).\n\nTumor cells - PanCK+ (green).\n\nCD11b+ MDSCs (yellow).",
+          "Description": "In this slide, we can see Pan-CK-positive cells (in green) suggestive of tumor cells. These cells are pleomorphic and disorganized. Pan-CK cells are of epithelial origin. Confirming the epithelial origin of these tumor cells is essential for diagnosing PDAC. \n\nThe SOX-10 (in white) and vimentin (in red) staining are both suggestive of mesenchymal cells, which are part of the fibrotic stroma. H&E associated with these markers shows a dense, collagen-rich matrix. These cells also play a role in the desmoplastic reaction and the EMT of PDAC. ",
           "Arrows": [],
           "Overlays": [],
           "Group": "ROI 2",
@@ -97,7 +97,7 @@
         },
         {
           "Name": "ROI 3",
-          "Description": "PDAC hallmark - tumor cells surrounded by CAFs. \n\nSMA+ (teal) VIM+ (red)",
+          "Description": "This slide displays a hallmark of PDAC, which is significant fibrotic stroma surrounding the epithelial tumor cells. Consistent with our previous slides, the Pan-CK staining identifies the epithelial origin of the tumor cells, while the SMA indicates the presence of cancer-associated fibroblasts and myofibroblasts contributing to the tumor microenvironment. Vimentin also indicates the presence of fibrotic stroma as well as cells with mesenchymal phenotype.",
           "Arrows": [],
           "Overlays": [],
           "Group": "ROI 3",
@@ -115,7 +115,7 @@
         },
         {
           "Name": "ROI 4",
-          "Description": "PDAC hallmark - proliferating cnaceer stem cells within tumor area. \n\nPanCK+ Ki-67+",
+          "Description": "This slide represents many of the key characteristics outlined in previous slides. H&E staining shows a malignant epithelial tumor with similar findings of proliferating cancer stems within the tumor area. Many of the immunohistochemistry markers, such as SMA, Pan-CK, and CD11b, are also present. Notably, however, these tumor cells appear to be organized in more well-defined clusters or glands. This tumor architecture is highly suggestive of PDAC. \n\nAlso unique to this slide are Ki-67+ cells, which indicate high rates of proliferation. High Ki-67 expression in PDAC is associated with a more aggressive tumor behavior and poor prognosis.",
           "Arrows": [],
           "Overlays": [],
           "Group": "ROI 4",
