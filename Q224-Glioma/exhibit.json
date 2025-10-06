@@ -3,7 +3,7 @@
     {
       "Name": "i0",
       "Description": "Glioma DH",
-      "Path": "images/Q224",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q224",
       "Width": 48142,
       "Height": 53768,
       "MaxLevel": 6
