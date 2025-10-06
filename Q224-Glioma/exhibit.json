@@ -1,1 +1,480 @@
-
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Glioma DH",
+      "Path": "images/Q224",
+      "Width": 48142,
+      "Height": 53768,
+      "MaxLevel": 6
+    }
+  ],
+  "Header": "Whole slide image",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "M2 Macrophages",
+          "Description": "Tumor (left) has abundant S100a1 expression (green) and interspersed M2 macrophages (magenta).\n\nNormal brain + tumor (right) has lower S100a1 expression and M2 macrophage density that decreases away from the tumor.\n\nCD56 (blue) is expressed throughout the brain.\n\nAF1 (white) highlights red blood cells.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "whole slide",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 14.03184860516969,
+          "Pan": [
+            0.3217561152934874,
+            0.5642082482279775
+          ]
+        },
+        {
+          "Name": "Microglia and Macrophages",
+          "Description": "Leukocytes (red) in the white matter are primarily microglia (blue), but also contain sparse macrophages (green).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Microglia and Macrophages",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 11.693207170974743,
+          "Pan": [
+            0.43816771438713276,
+            0.6577000862182908
+          ]
+        },
+        {
+          "Name": "Microglia and T cells",
+          "Description": "Cells are predominantly microglia, expressing CD45 (red) and IBA1 (blue).\n\nSparse macrophages (green) are also present around blood vessels.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Microglia and T cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 11.693207170974743,
+          "Pan": [
+            0.43816771438713276,
+            0.6577000862182908
+          ]
+        },
+        {
+          "Name": "Glial cells",
+          "Description": "Network of astrocytes (white) with oligodendrocytes (green) interspersed.\n\nA subset of cells are proliferating (magenta).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Glial cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 29.09644126767986,
+          "Pan": [
+            0.7133367658325367,
+            0.3611745162854325
+          ]
+        },
+        {
+          "Name": "Checkpoint",
+          "Description": "A subset of cells in the tumor express SOX10 (yellow) and/or PD-L1 (red).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Checkpoint",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 24.247034389733237,
+          "Pan": [
+            0.3187169050445884,
+            0.49897735337580007
+          ]
+        },
+        {
+          "Name": "T cells",
+          "Description": "T cells (magenta) are more prevalent in the tumor region (upper) than in other regions, while microglia are present throughout.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 11.69320717097475,
+          "Pan": [
+            0.12382354457189952,
+            0.7526114016948284
+          ]
+        },
+        {
+          "Name": "Glial cells and Leukocytes",
+          "Description": "Left side of tissue is more cell dense and contains predominantly astrocytes (green, red), as well as a subset of cells expressing SOX10.\n\nRight side is sparsely populated and contains primarily leukocytes (blue).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Glial cells and Leukocytes",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 19.48867861829126,
+          "Pan": [
+            0.7047213907840293,
+            0.5177792761055066
+          ]
+        },
+        {
+          "Name": "PD-1",
+          "Description": "Single PD-1 positive T cell observed.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "PD-1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 33.6764366524073,
+          "Pan": [
+            0.6200280080815712,
+            0.6125779136833741
+          ]
+        },
+        {
+          "Name": "Perivascular tumor",
+          "Description": "IBA1 (green) is more abundant in the perivascular tumor.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Perivascular tumor",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 14.03184860516969,
+          "Pan": [
+            0.2089410860699041,
+            0.5157531783952061
+          ]
+        },
+        {
+          "Name": "Perivascular tumor 2",
+          "Description": "T cells (red) are more abundant in the perivascular tumor ",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Perivascular tumor",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 24.24703438973322,
+          "Pan": [
+            0.22363640222868833,
+            0.5296199565180532
+          ]
+        },
+        {
+          "Name": "Normal brain",
+          "Description": "Normal brain contains microglia cells (green), but few leukocytes (red).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Normal brain",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 16.838218326203627,
+          "Pan": [
+            0.3639520893174025,
+            0.894471797271311
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD45",
+      "Path": "CD45_2__CD45"
+    },
+    {
+      "Rendered": false,
+      "Name": "IBA1",
+      "Path": "IBA1-0_6__IBA1"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e-0_12__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD56",
+      "Path": "CD56_11__CD56"
+    },
+    {
+      "Rendered": false,
+      "Name": "Sox10",
+      "Path": "Sox10_17__Sox10"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_14__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "GFAP",
+      "Path": "GFAP_18__GFAP"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki-67",
+      "Path": "Ki-67_3__Ki-67"
+    },
+    {
+      "Rendered": false,
+      "Name": "S100a1",
+      "Path": "S100a1_10__S100a1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_8__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "SMA",
+      "Path": "SMA_9__SMA"
+    },
+    {
+      "Rendered": false,
+      "Name": "IBA1",
+      "Path": "IBA1-0_6__IBA1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_15__CD68"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e-0_12__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_16__PD-1"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "whole slide",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff00ff",
+        "ffff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD56",
+        "S100a1",
+        "CD163",
+        "SMA",
+        "AF1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Microglia and Macrophages",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "IBA1",
+        "CD45",
+        "CD68",
+        "SMA"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Microglia and T cells",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "IBA1",
+        "CD45",
+        "CD3e",
+        "SMA"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Glial cells",
+      "Colors": [
+        "ffffff",
+        "00ff00",
+        "ff00ff"
+      ],
+      "Channels": [
+        "GFAP",
+        "Sox10",
+        "Ki-67"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Checkpoint",
+      "Colors": [
+        "0000ff",
+        "ffff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "CD56",
+        "Sox10",
+        "PD-L1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cells",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff00ff"
+      ],
+      "Channels": [
+        "CD56",
+        "IBA1",
+        "CD3e"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Glial cells and Leukocytes",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff00ff",
+        "ff0000",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD45",
+        "S100a1",
+        "Sox10",
+        "GFAP",
+        "AF1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "PD-1",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00",
+        "00ffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD3e",
+        "PD-1",
+        "GFAP"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Perivascular tumor",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD3e",
+        "IBA1",
+        "AF1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Normal brain",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD45",
+        "IBA1",
+        "AF1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.7523544203934717, 0.5]}, "FirstGroup": "whole slide"
+}
