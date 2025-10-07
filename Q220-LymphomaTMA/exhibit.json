@@ -562,5 +562,5 @@
         ""
       ]
     }
-  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.4, "Pan": [0.4, 0.5]}, "FirstGroup": "Whole Slide"
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.3, "Pan": [1.0, 0.5]}, "FirstGroup": "Whole Slide"
 }
