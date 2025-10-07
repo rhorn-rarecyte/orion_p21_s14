@@ -1,1 +1,602 @@
-
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Lymphoma TMA",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q220-LymphomaTMA",
+      "Width": 93762,
+      "Height": 37808,
+      "MaxLevel": 7
+    }
+  ],
+  "Header": "Whole slide scan",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "B cells 1",
+          "Description": "T cells (green) surrounded by B cells expressing CD20 (blue) and BCL-6 (red).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "B cells 1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 10.699320537907196,
+          "Pan": [
+            0.6642281951828968,
+            0.846129995367785
+          ]
+        },
+        {
+          "Name": "B cells 2",
+          "Description": "T cells (green) surrounding B cells expressing CD20 (blue), a subset of which express BCL-6 (red).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "B cells 2",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 13.913111709968714,
+          "Pan": [
+            1.8111804371497844,
+            0.13875550646396578
+          ]
+        },
+        {
+          "Name": "B cells 3",
+          "Description": "T cells (green) surrounding B cells expressing BCL-6 (red), but not CD20 (blue).\n\nSparse CD20+/BCL-6- B cells are also present.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "B cells 3",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 12.839184645488634,
+          "Pan": [
+            0.5659801522409832,
+            0.38719091706579645
+          ]
+        },
+        {
+          "Name": "CTLs",
+          "Description": "Many T cytotoxic cells (green) contain Granzyme B (red).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "CTLs",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 22.186111067404358,
+          "Pan": [
+            1.9345881542072403,
+            0.5602059148683456
+          ]
+        },
+        {
+          "Name": "Treg",
+          "Description": "FOXP3 (red) is found on a subset of T helper (blue), but not T cytotoxic (green) cells.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Treg",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 15.407021574586361,
+          "Pan": [
+            1.9469858693220323,
+            0.6786035850576086
+          ]
+        },
+        {
+          "Name": "Exhaustion",
+          "Description": "T cells (blue) express varying levels of TIGIT (red) and PD-1 (green).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Exhaustion",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 19.156320274761946,
+          "Pan": [
+            1.3638385445429728,
+            0.4258517841130484
+          ]
+        },
+        {
+          "Name": "Macrophages",
+          "Description": "All M1 (red) and M2 (blue) macrophages express PD-L1 (green).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Macrophages",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 16.695734051962457,
+          "Pan": [
+            1.062365088032051,
+            0.37260054847176577
+          ]
+        },
+        {
+          "Name": "Gland",
+          "Description": "Extensive T cells (green) surrounding a gland, adjacent to macrophages (blue, red) with scattered dendritic cells (yellow).\n\nElastin and red blood cells highlighted by autofluorescence (white).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Gland",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 16.695734051962457,
+          "Pan": [
+            1.3574674182058066,
+            0.6734604353819306
+          ]
+        },
+        {
+          "Name": "Diffuse Large B cell lymphoma",
+          "Description": "Large, cancerous B cells are adjacent to normal B cells (green) with surrounding macrophages that express varying levels of CD11c (yellow), \n\nCD68 (red) and CD163 (blue).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Diffuse Large B cell lymphoma",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 20.03488086235494,
+          "Pan": [
+            1.6179374682809033,
+            0.3706987849377989
+          ]
+        },
+        {
+          "Name": "Multinucleated giant cells",
+          "Description": "Multinucleated giant cells express CD68 (red) and CD11c (cyan), but not CD163 (magenta).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Multinucleated giant cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 16.69573405196245,
+          "Pan": [
+            0.06810594469196873,
+            0.8877844828972768
+          ]
+        },
+        {
+          "Name": "Tumor PD-1",
+          "Description": "Follicular lymphoma samples express varying levels of PD-1 (green) within the tumor (red)",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Tumor PD-1",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.4663099179205683,
+          "Pan": [
+            0.6585346730136884,
+            0.5145507538132633
+          ]
+        },
+        {
+          "Name": "Follicular lymphoma",
+          "Description": "B cells within follicular lymphoma express both CD20 (blue) and BCL-6 (red)",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Follicular lymphoma",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 2.600746778391245,
+          "Pan": [
+            0.370803729417358,
+            0.8740033236223688
+          ]
+        },
+        {
+          "Name": "Follicular lymphoma 2",
+          "Description": "M2 macrophages (cyan) and cytotoxic T cells (red) are more prevalent in the normal tissue compared to the tumor.\n\nDendritic cells (white) have similar abundance between the tumor and normal regions.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Follicular lymphoma 2",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 2.600746778391245,
+          "Pan": [
+            0.370803729417358,
+            0.8740033236223688
+          ]
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, AF1 is white, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own group",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.4326562500000001,
+          "Pan": [
+            0.5026705719600049,
+            0.4926308830286659
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_8__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_11__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_15__CD68"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_9__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_10__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_13__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "Granzyme-B",
+      "Path": "Granzyme-B_3__Granzyme-B"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e_4__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD20",
+      "Path": "CD20_6__CD20"
+    },
+    {
+      "Rendered": false,
+      "Name": "BCL-6",
+      "Path": "BCL-6_12__BCL-6"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD11c",
+      "Path": "CD11c_17__CD11c"
+    },
+    {
+      "Rendered": false,
+      "Name": "TIGIT",
+      "Path": "TIGIT_14__TIGIT"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_16__PD-1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Autofluorescence",
+      "Path": "Autofluorescence_1__Autofluorescence"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Whole Slide",
+      "Colors": [
+        "00ff00",
+        "0000ff",
+        "ff00ff",
+        "ff0000",
+        "00ffff"
+      ],
+      "Channels": [
+        "CD3e",
+        "CD20",
+        "BCL-6",
+        "CD68",
+        "CD11c"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "B cells 1",
+      "Colors": [
+        "00ff00",
+        "0000ff",
+        "ff0000"
+      ],
+      "Channels": [
+        "CD3e",
+        "CD20",
+        "BCL-6"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "B cells 2",
+      "Colors": [
+        "00ff00",
+        "0000ff",
+        "ff0000"
+      ],
+      "Channels": [
+        "CD3e",
+        "CD20",
+        "BCL-6"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "B cells 3",
+      "Colors": [
+        "00ff00",
+        "0000ff",
+        "ff0000"
+      ],
+      "Channels": [
+        "CD3e",
+        "CD20",
+        "BCL-6"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "CTLs",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "0000ff"
+      ],
+      "Channels": [
+        "Granzyme-B",
+        "CD8a",
+        "CD4"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Treg",
+      "Colors": [
+        "00ff00",
+        "ff0000",
+        "0000ff"
+      ],
+      "Channels": [
+        "CD8a",
+        "FOXP3",
+        "CD4"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Exhaustion",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "CD3e",
+        "TIGIT",
+        "PD-1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Macrophages",
+      "Colors": [
+        "ffffff",
+        "0000ff",
+        "00ff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD163",
+        "PD-L1",
+        "CD68"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Gland",
+      "Colors": [
+        "ffffff",
+        "00ff00",
+        "0000ff",
+        "ff0000",
+        "ffff00"
+      ],
+      "Channels": [
+        "Autofluorescence",
+        "CD3e",
+        "CD163",
+        "CD68",
+        "CD11c"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Diffuse Large B cell lymphoma",
+      "Colors": [
+        "00ff00",
+        "0000ff",
+        "ff0000",
+        "ffff00"
+      ],
+      "Channels": [
+        "CD20",
+        "CD163",
+        "CD68",
+        "CD11c"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Multinucleated giant cells",
+      "Colors": [
+        "ffffff",
+        "ff00ff",
+        "ff0000",
+        "00ffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD163",
+        "CD68",
+        "CD11c"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Tumor PD-1",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "CD3e",
+        "BCL-6",
+        "PD-1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Follicular lymphoma",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "CD3e",
+        "CD20",
+        "BCL-6"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Follicular lymphoma 2",
+      "Colors": [
+        "00ffff",
+        "ff0000",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD163",
+        "CD8a",
+        "CD11c"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    }
+    {
+      "Name": "Create your own group",
+      "Colors": [
+        "00ff00",
+        "0000ff",
+        "ff00ff",
+        "ff0000",
+        "00ffff"
+      ],
+      "Channels": [
+        "CD3e",
+        "CD20",
+        "BCL-6",
+        "CD68",
+        "CD11c"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.5, 0.5]}, "FirstGroup": "Whole Slide"
+}
