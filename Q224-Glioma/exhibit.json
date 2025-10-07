@@ -286,21 +286,18 @@
     {
       "Name": "Whole Slide",
       "Colors": [
-        "0000ff",
-        "00ff00",
-        "ff00ff",
+        "ff0000",
         "ffff00",
-        "ffffff"
+        "00ff00",
+        "0000ff"
       ],
       "Channels": [
-        "CD56",
-        "S100a1",
+        "IBA1",
         "CD163",
-        "SMA",
-        "AF1"
+        "S100a1",
+        "CD56"
       ],
       "Descriptions": [
-        "",
         "",
         "",
         "",
