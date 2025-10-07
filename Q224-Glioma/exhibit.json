@@ -28,7 +28,7 @@
           "Description": "Tumor (left) has abundant S100a1 expression (green) and interspersed M2 macrophages (magenta).\n\nNormal brain + tumor (right) has lower S100a1 expression and M2 macrophage density that decreases away from the tumor.\n\nCD56 (blue) is expressed throughout the brain.\n\nAF1 (white) highlights red blood cells.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "whole slide",
+          "Group": "M2 Macrophages",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 14.03184860516969,
@@ -284,7 +284,31 @@
   "Masks": [],
   "Groups": [
     {
-      "Name": "whole slide",
+      "Name": "Whole Slide",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff00ff",
+        "ffff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD56",
+        "S100a1",
+        "CD163",
+        "SMA",
+        "AF1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "M2 Macrophages",
       "Colors": [
         "0000ff",
         "00ff00",
@@ -464,7 +488,7 @@
       ],
       "Descriptions": [
         "",
-        "",
+        "",x
         "",
         ""
       ]
@@ -490,20 +514,26 @@
         ""
       ]
     },
-    {
+     {
       "Name": "Create your own group",
       "Colors": [
         "0000ff",
-        "ffffff"
+        "00ff00",
+        "ff00ff",
+        "ffff00"
       ],
       "Channels": [
-        "Hoechst",
-        "AF1"
+        "CD56",
+        "S100a1",
+        "CD163",
+        "SMA"
       ],
       "Descriptions": [
+        "",
+        "",
         "",
         ""
       ]
     }
-  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.4476826365124237, 0.5]}, "FirstGroup": "whole slide"
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.4476826365124237, 0.5]}, "FirstGroup": "Whole Slide"
 }
