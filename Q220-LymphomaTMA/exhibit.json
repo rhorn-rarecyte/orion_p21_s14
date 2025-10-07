@@ -28,7 +28,7 @@
           "Description": "T cells (green) surrounded by B cells expressing CD20 (blue) and BCL-6 (red).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "B cells 1",
+          "Group": "B cells",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 10.699320537907196,
@@ -42,7 +42,7 @@
           "Description": "T cells (green) surrounding B cells expressing CD20 (blue), a subset of which express BCL-6 (red).",
           "Arrows": [],
           "Overlays": [],
-          "Group": "B cells 2",
+          "Group": "B cells",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 13.913111709968714,
@@ -56,7 +56,7 @@
           "Description": "T cells (green) surrounding B cells expressing BCL-6 (red), but not CD20 (blue).\n\nSparse CD20+/BCL-6- B cells are also present.",
           "Arrows": [],
           "Overlays": [],
-          "Group": "B cells 3",
+          "Group": "B cells",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 12.839184645488634,
@@ -327,42 +327,6 @@
     },
     {
       "Name": "B cells 1",
-      "Colors": [
-        "00ff00",
-        "0000ff",
-        "ff0000"
-      ],
-      "Channels": [
-        "CD3e",
-        "CD20",
-        "BCL-6"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "B cells 2",
-      "Colors": [
-        "00ff00",
-        "0000ff",
-        "ff0000"
-      ],
-      "Channels": [
-        "CD3e",
-        "CD20",
-        "BCL-6"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "B cells 3",
       "Colors": [
         "00ff00",
         "0000ff",
