@@ -133,7 +133,7 @@
         },
         {
           "Name": "Macrophages",
-          "Description": "All M1 (red) and M2 (blue) macrophages express PD-L1 (green).",
+          "Description": "Many M1 (red) and M2 (blue) macrophages express PD-L1 (green).",
           "Arrows": [],
           "Overlays": [],
           "Group": "Macrophages",
