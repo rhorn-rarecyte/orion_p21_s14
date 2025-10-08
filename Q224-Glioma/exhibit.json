@@ -35,7 +35,11 @@
           "Pan": [
             0.3217561152934874,
             0.5642082482279775
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Microglia and Macrophages",
@@ -49,7 +53,11 @@
           "Pan": [
             0.43816771438713276,
             0.6577000862182908
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Microglia and T cells",
@@ -63,7 +71,11 @@
           "Pan": [
             0.43816771438713276,
             0.6577000862182908
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Glial cells",
@@ -77,7 +89,11 @@
           "Pan": [
             0.7133367658325367,
             0.3611745162854325
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Checkpoint",
@@ -91,7 +107,11 @@
           "Pan": [
             0.3187169050445884,
             0.49897735337580007
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "T cells",
@@ -105,7 +125,11 @@
           "Pan": [
             0.12382354457189952,
             0.7526114016948284
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Glial cells and Leukocytes",
@@ -119,7 +143,11 @@
           "Pan": [
             0.7047213907840293,
             0.5177792761055066
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "PD-1",
@@ -133,7 +161,11 @@
           "Pan": [
             0.6200280080815712,
             0.6125779136833741
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Perivascular tumor",
@@ -147,7 +179,11 @@
           "Pan": [
             0.2089410860699041,
             0.5157531783952061
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Perivascular tumor 2",
@@ -161,7 +197,11 @@
           "Pan": [
             0.22363640222868833,
             0.5296199565180532
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Normal brain",
@@ -175,7 +215,11 @@
           "Pan": [
             0.3639520893174025,
             0.894471797271311
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Create your own multi-color image",
@@ -189,7 +233,11 @@
           "Pan": [
             0.5026705719600049,
             0.4926308830286659
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         }
       ]
     }
@@ -279,6 +327,11 @@
       "Rendered": false,
       "Name": "PD-1",
       "Path": "PD-1_16__PD-1"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
@@ -512,6 +565,18 @@
       ]
     },
      {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
+        ""
+      ]
+    },
+    {
       "Name": "Create your own group",
       "Colors": [
         "0000ff",
