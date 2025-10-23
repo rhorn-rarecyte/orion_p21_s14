@@ -143,10 +143,10 @@
           "Group": "Autofluorescence",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 15.407021574586366,
+          "Zoom": 4.299816960000003,
           "Pan": [
-            0.38115205866547147,
-            0.29690274707284026
+            0.6192466051974717,
+            0.3966521519894702
           ]
         }
       ]
@@ -283,14 +283,18 @@
     {
       "Name": "Immune response",
       "Colors": [
-        "ff0000",
+        "0000ff",
         "00ff00",
-        "0000ff"
+        "ff00ff",
+        "ffff00",
+        "ffffff"
       ],
       "Channels": [
         "Hoechst",
-        "AF1",
-        "CD45"
+        "CD3e",
+        "CD163",
+        "SMA",
+        "Pan-CK"
       ],
       "Descriptions": [
         "",
