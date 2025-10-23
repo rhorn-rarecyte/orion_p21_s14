@@ -265,18 +265,6 @@
   "Masks": [],
   "Groups": [
     {
-      "Name": "extra",
-      "Colors": [
-        "ffff00"
-      ],
-      "Channels": [
-        "PD-L1"
-      ],
-      "Descriptions": [
-        ""
-      ]
-    },
-    {
       "Name": "Whole slide",
       "Colors": [
         "0000ff",
