@@ -1,1 +1,351 @@
-
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "AB01.P08 Core Needle Biopsy",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q194-S45-FNA",
+      "Width": 25820,
+      "Height": 7585,
+      "MaxLevel": 5
+    }
+  ],
+  "Header": "Core needle biopsy whole tissue scan",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "Immune response",
+          "Description": "Tumor surrounded by smooth muscle, macrophages, and T cells.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Whole slide",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 4.299816959999999,
+          "Pan": [
+            3.153868965535115,
+            0.5712912229631967
+          ]
+        },
+        {
+          "Name": "T cell subsets",
+          "Description": "Tumor-adjacent T lymphocytes are primarily regulatory (red nuclei).\n\nSome T helpers and CTLs infiltrating the tumor.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T cell subsets",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 4.299816959999999,
+          "Pan": [
+            2.8896778815345323,
+            0.3152029929946166
+          ]
+        },
+        {
+          "Name": "Proliferation",
+          "Description": "Most tumor cells are proliferating.\n\nNumerous M2 macrophages (CD163+ CD68-) and T cells are near the tumor.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Proliferation",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 4.299816959999999,
+          "Pan": [
+            0.7557346032870593,
+            0.5142099365881249
+          ]
+        },
+        {
+          "Name": "Checkpoint",
+          "Description": "Many tumor (white) and macrophage (blue) cells express PD-L1 (red).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Checkpoint",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 2.48832,
+          "Pan": [
+            3.08726461957595,
+            0.5120904168393937
+          ]
+        },
+        {
+          "Name": "Checkpoint 2",
+          "Description": "A subset of T cells (red) are exhausted (green).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Checkpoint 2",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 2.48832,
+          "Pan": [
+            3.08726461957595,
+            0.5120904168393937
+          ]
+        },
+        {
+          "Name": "Autofluorescence",
+          "Description": "AF2 (red) has a different profile than AF1 (blue), and can be used together to extract autofluorescence from other channels.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Autofluorescence",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 2.073599999999999,
+          "Pan": [
+            0.785791018385249,
+            0.42082578561397205
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF2",
+      "Path": "AF2_5__AF2"
+    },
+    {
+      "Rendered": false,
+      "Name": "Vimentin",
+      "Path": "Vimentin_19__Vimentin"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD45",
+      "Path": "CD45_2__CD45"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e_4__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_12__PD-1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_18__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD20",
+      "Path": "CD20_6__CD20"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_8__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_11__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD31",
+      "Path": "CD31_16__CD31"
+    },
+    {
+      "Rendered": false,
+      "Name": "Nucleus",
+      "Path": "Nucleus_0__Nucleus"
+    },
+    {
+      "Rendered": false,
+      "Name": "SMA",
+      "Path": "SMA_17__SMA"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_7__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_9__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "E-cadherin",
+      "Path": "E-cadherin_10__E-cadherin"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_14__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_15__CD68"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki-67",
+      "Path": "Ki-67_3__Ki-67"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Autofluorescence",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "AF1",
+        "AF2",
+        "Vimentin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Checkpoint 2",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD45",
+        "CD3e",
+        "PD-1",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Checkpoint",
+      "Colors": [
+        "00ff00",
+        "0000ff",
+        "ff0000",
+        "ffff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD20",
+        "CD163",
+        "PD-L1",
+        "CD31",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Whole slide",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff00ff",
+        "ffff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "Nucleus",
+        "CD3e",
+        "CD163",
+        "SMA",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cell subsets",
+      "Colors": [
+        "00ff00",
+        "ff00ff",
+        "ffffff",
+        "ff0000",
+        "0000ff"
+      ],
+      "Channels": [
+        "CD4",
+        "CD8a",
+        "E-cadherin",
+        "FOXP3",
+        "CD68"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Proliferation",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "ff00ff",
+        "00ffff",
+        "ffff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "Ki-67",
+        "CD3e",
+        "CD163",
+        "CD68",
+        "SMA",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.4476826365124237, 0.5]}, "FirstGroup": "Whole slide"
+}
