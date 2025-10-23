@@ -39,6 +39,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "T regs",
@@ -56,6 +57,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "T cell subsets",
@@ -73,6 +75,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "T cell subsets 2",
@@ -90,6 +93,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "Proliferation",
@@ -107,6 +111,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "Checkpoint",
@@ -124,6 +129,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "Autofluorescence",
@@ -141,6 +147,7 @@
           "Lensing": {
             "Group": "H&E",
             "Rad": 40
+          }
         },
         {
           "Name": "Create your own multi-color image",
