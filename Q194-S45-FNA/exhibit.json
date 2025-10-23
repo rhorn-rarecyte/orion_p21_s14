@@ -35,7 +35,10 @@
           "Pan": [
             3.153868965535115,
             0.5712912229631967
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
         },
         {
           "Name": "T cell subsets",
@@ -49,7 +52,10 @@
           "Pan": [
             2.8896778815345323,
             0.3152029929946166
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
         },
         {
           "Name": "Proliferation",
@@ -63,7 +69,10 @@
           "Pan": [
             0.7557346032870593,
             0.5142099365881249
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
         },
         {
           "Name": "Checkpoint",
@@ -77,7 +86,10 @@
           "Pan": [
             3.08726461957595,
             0.5120904168393937
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
         },
         {
           "Name": "Checkpoint 2",
@@ -91,7 +103,10 @@
           "Pan": [
             3.08726461957595,
             0.5120904168393937
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
         },
         {
           "Name": "Autofluorescence",
@@ -106,6 +121,24 @@
             0.785791018385249,
             0.42082578561397205
           ]
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, Pan-CK is white, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own group",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.4326562500000001,
+          "Pan": [
+            0.5026705719600049,
+            0.4926308830286659
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         }
       ]
     }
@@ -205,73 +238,14 @@
       "Rendered": false,
       "Name": "Ki-67",
       "Path": "Ki-67_3__Ki-67"
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
   "Groups": [
-    {
-      "Name": "Autofluorescence",
-      "Colors": [
-        "0000ff",
-        "ff0000",
-        "00ff00"
-      ],
-      "Channels": [
-        "AF1",
-        "AF2",
-        "Vimentin"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "Checkpoint 2",
-      "Colors": [
-        "0000ff",
-        "ff0000",
-        "00ff00",
-        "ffffff"
-      ],
-      "Channels": [
-        "CD45",
-        "CD3e",
-        "PD-1",
-        "Pan-CK"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "Checkpoint",
-      "Colors": [
-        "00ff00",
-        "0000ff",
-        "ff0000",
-        "ffff00",
-        "ffffff"
-      ],
-      "Channels": [
-        "CD20",
-        "CD163",
-        "PD-L1",
-        "CD31",
-        "Pan-CK"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
     {
       "Name": "Whole slide",
       "Colors": [
@@ -344,6 +318,96 @@
         "",
         "",
         "",
+        ""
+      ]
+    },
+    {
+      "Name": "Checkpoint",
+      "Colors": [
+        "00ff00",
+        "0000ff",
+        "ff0000",
+        "ffff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD20",
+        "CD163",
+        "PD-L1",
+        "CD31",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Checkpoint 2",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD45",
+        "CD3e",
+        "PD-1",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Autofluorescence",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00"
+      ],
+      "Channels": [
+        "AF1",
+        "AF2",
+        "Vimentin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Create your own group",
+      "Colors": [
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
         ""
       ]
     }
