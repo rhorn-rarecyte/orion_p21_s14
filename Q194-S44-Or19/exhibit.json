@@ -35,7 +35,11 @@
           "Pan": [
             0.24860474898773605,
             0.5475058200277069
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "T regs",
@@ -49,7 +53,11 @@
           "Pan": [
             0.24860474898773605,
             0.5475058200277069
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "T cell subsets",
@@ -63,7 +71,11 @@
           "Pan": [
             0.24860474898773605,
             0.5475058200277069
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Proliferation",
@@ -77,7 +89,11 @@
           "Pan": [
             0.24860474898773605,
             0.5475058200277069
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Checkpoint",
@@ -91,7 +107,11 @@
           "Pan": [
             0.2552566795936923,
             0.24485672473125097
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "T cells",
@@ -105,7 +125,11 @@
           "Pan": [
             0.38115205866547147,
             0.29690274707284026
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "T cells 2",
@@ -119,7 +143,11 @@
           "Pan": [
             0.38115205866547147,
             0.29690274707284026
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Autofluorescence",
@@ -133,7 +161,29 @@
           "Pan": [
             0.6192466051974717,
             0.3966521519894702
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, Pan-CK is white, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own group",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.4326562500000001,
+          "Pan": [
+            0.5026705719600049,
+            0.4926308830286659
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         }
       ]
     }
@@ -482,5 +532,5 @@
         ""
       ]
     }
-  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.4476826365124237, 0.5]}, "FirstGroup": "Whole slide"
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.6208840848592401, 0.5]}, "FirstGroup": "Whole slide"
 }
