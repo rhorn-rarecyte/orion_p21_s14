@@ -210,7 +210,7 @@
     },
     {
       "Rendered": false,
-      "Name": "Nucleus",
+      "Name": "Hoechst",
       "Path": "Nucleus_0__Nucleus"
     },
     {
@@ -266,7 +266,7 @@
         "ffffff"
       ],
       "Channels": [
-        "Nucleus",
+        "Hoechst",
         "CD3e",
         "CD163",
         "SMA",
