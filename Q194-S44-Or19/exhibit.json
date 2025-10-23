@@ -38,20 +38,6 @@
           ]
         },
         {
-          "Name": "test",
-          "Description": "test",
-          "Arrows": [],
-          "Overlays": [],
-          "Group": "Whole Slide",
-          "Masks": [],
-          "ActiveMasks": [],
-          "Zoom": 4.299816960000003,
-          "Pan": [
-            0.6192466051974717,
-            0.3966521519894702
-          ]
-        },
-        {
           "Name": "T regs",
           "Description": "Tumor surrounded by smooth muscle and macrophages.\n\nRobust T cell infiltrate, a subset of which are regulatory (red nuclei).",
           "Arrows": [],
