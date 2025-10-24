@@ -97,7 +97,7 @@
         },
         {
           "Name": "Checkpoint",
-          "Description": "PD-L1 expressed by many tumor cells and macrophages.\n\nB cell cluster near blood vessels at upper right.\n\nAF highlights elastin.",
+          "Description": "PD-L1 is expressed by many tumor cells and macrophages.\n\nB cell cluster near blood vessels at upper right.\n\nAF highlights elastin.",
           "Arrows": [],
           "Overlays": [],
           "Group": "Checkpoint",
