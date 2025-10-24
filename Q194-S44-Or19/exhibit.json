@@ -446,20 +446,17 @@
       "Name": "T cells",
       "Colors": [
         "0000ff",
+        "ff0000",
         "00ff00",
-        "ff00ff",
-        "ffff00",
         "ffffff"
       ],
       "Channels": [
-        "Hoechst",
         "CD3e",
-        "CD163",
-        "SMA",
+        "PD-1",
+        "CD45RO",
         "Pan-CK"
       ],
       "Descriptions": [
-        "",
         "",
         "",
         "",
