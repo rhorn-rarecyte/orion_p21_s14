@@ -2,7 +2,7 @@
   "Images": [
     {
       "Name": "i0",
-      "Description": "AB01.P07 Core Needle Biopsy",
+      "Description": "Q194-S44-CoreBiopsy"",
       "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q194-S44-FNA",
       "Width": 10915,
       "Height": 13113,
@@ -31,10 +31,10 @@
           "Group": "Whole slide",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 6.191736422399999,
+          "Zoom": 4.299816959999999,
           "Pan": [
-            0.5276053274344488,
-            0.9004571563926898
+            0.5309591398641506,
+            0.8975103644197197
           ],
           "Lensing": {
             "Group": "H&E",
@@ -49,10 +49,10 @@
           "Group": "T regs",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 6.191736422399999,
+          "Zoom": 4.299816959999999,
           "Pan": [
-            0.5276053274344488,
-            0.9004571563926898
+            0.5309591398641506,
+            0.8975103644197197
           ],
           "Lensing": {
             "Group": "H&E",
@@ -67,10 +67,10 @@
           "Group": "T cell subsets",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 6.191736422399999,
+          "Zoom": 4.299816959999999,
           "Pan": [
-            0.5276053274344488,
-            0.9004571563926898
+            0.5309591398641506,
+            0.8975103644197197
           ],
           "Lensing": {
             "Group": "H&E",
@@ -85,10 +85,10 @@
           "Group": "T cell subsets 2",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 6.191736422399999,
+          "Zoom": 4.299816959999999,
           "Pan": [
-            0.5276053274344488,
-            0.9004571563926898
+            0.5309591398641506,
+            0.8975103644197197
           ],
           "Lensing": {
             "Group": "H&E",
@@ -103,10 +103,10 @@
           "Group": "Proliferation",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 6.191736422399999,
+          "Zoom": 4.299816959999999,
           "Pan": [
-            0.5276053274344488,
-            0.9004571563926898
+            0.5309591398641506,
+            0.8975103644197197
           ],
           "Lensing": {
             "Group": "H&E",
@@ -119,24 +119,6 @@
           "Arrows": [],
           "Overlays": [],
           "Group": "Checkpoint",
-          "Masks": [],
-          "ActiveMasks": [],
-          "Zoom": 4.1472,
-          "Pan": [
-            0.34784617716073174,
-            0.5723010175755756
-          ],
-          "Lensing": {
-            "Group": "H&E",
-            "Rad": 40
-          }
-        },
-        {
-          "Name": "Autofluorescence",
-          "Description": "A subset of elastin fibers exhibit dual autofluorescence spectra (magenta).",
-          "Arrows": [],
-          "Overlays": [],
-          "Group": "Autofluorescence",
           "Masks": [],
           "ActiveMasks": [],
           "Zoom": 4.1472,
@@ -312,33 +294,6 @@
     {
       "Name": "T cell subsets",
       "Colors": [
-        "ff0000",
-        "00ff00",
-        "ff00ff",
-        "ffffff",
-        "0000ff",
-        "ffff00"
-      ],
-      "Channels": [
-        "Ki-67",
-        "CD4",
-        "CD8a",
-        "E-cadherin",
-        "CD68",
-        "CD31"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "T cell subsets 2",
-      "Colors": [
         "00ff00",
         "ff00ff",
         "ffffff",
@@ -364,7 +319,7 @@
       ]
     },
     {
-      "Name": "Proliferation",
+      "Name": "T cell subsets 2",
       "Colors": [
         "00ff00",
         "ff00ff",
@@ -385,22 +340,22 @@
       ]
     },
     {
-      "Name": "Checkpoint",
+      "Name": "Proliferation",
       "Colors": [
         "ff0000",
+        "00ff00",
         "ff00ff",
-        "00ffff",
-        "ffff00",
+        "ffffff",
         "0000ff",
-        "ffffff"
+        "ffff00"
       ],
       "Channels": [
         "Ki-67",
-        "CD3e",
+        "CD4",
+        "CD8a",
         "E-cadherin",
-        "CD31",
-        "SMA",
-        "Vimentin"
+        "CD68",
+        "CD31"
       ],
       "Descriptions": [
         "",
@@ -412,15 +367,15 @@
       ]
     },
     {
-      "Name": "Autofluorescence",
+      "Name": "Checkpoint",
       "Colors": [
-        "0000ff",
+        "00ff00",
         "ff0000",
-        "ffffff"
+        "0000ff"
       ],
       "Channels": [
-        "AF1",
-        "AF2",
+        "CD45",
+        "PD-L1",
         "Pan-CK"
       ],
       "Descriptions": [
