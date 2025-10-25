@@ -2,7 +2,7 @@
   "Images": [
     {
       "Name": "i0",
-      "Description": "AB01.P08 Core Needle Biopsy",
+      "Description": "AB01.P08 Fine Needle Aspiration",
       "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q194-S45-FNA",
       "Width": 25820,
       "Height": 7585,
@@ -31,7 +31,7 @@
           "Group": "Whole slide",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.299816959999999,
+          "Zoom": 3.5,
           "Pan": [
             3.153868965535115,
             0.5712912229631967
@@ -67,7 +67,7 @@
           "Group": "Proliferation",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 4.299816959999999,
+          "Zoom": 3.5,
           "Pan": [
             0.7557346032870593,
             0.5142099365881249
@@ -85,7 +85,7 @@
           "Group": "Checkpoint",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 2.48832,
+          "Zoom": 1.5,
           "Pan": [
             3.08726461957595,
             0.5120904168393937
@@ -103,28 +103,10 @@
           "Group": "Checkpoint 2",
           "Masks": [],
           "ActiveMasks": [],
-          "Zoom": 2.48832,
+          "Zoom": 1.5,
           "Pan": [
             3.08726461957595,
             0.5120904168393937
-          ],
-          "Lensing": {
-            "Group": "H&E",
-            "Rad": 40
-          }
-        },
-        {
-          "Name": "Autofluorescence",
-          "Description": "AF2 (red) has a different profile than AF1 (blue), and can be used together to extract autofluorescence from other channels.",
-          "Arrows": [],
-          "Overlays": [],
-          "Group": "Autofluorescence",
-          "Masks": [],
-          "ActiveMasks": [],
-          "Zoom": 2.073599999999999,
-          "Pan": [
-            0.785791018385249,
-            0.42082578561397205
           ],
           "Lensing": {
             "Group": "H&E",
@@ -371,24 +353,6 @@
       ],
       "Descriptions": [
         "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "Autofluorescence",
-      "Colors": [
-        "0000ff",
-        "ff0000",
-        "00ff00"
-      ],
-      "Channels": [
-        "AF1",
-        "AF2",
-        "Vimentin"
-      ],
-      "Descriptions": [
         "",
         "",
         ""
