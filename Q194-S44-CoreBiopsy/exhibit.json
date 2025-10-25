@@ -1,1 +1,415 @@
-
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Q194-S44-CoreBiopsy",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q194-S44-FNA",
+      "Width": 10915,
+      "Height": 13113,
+      "MaxLevel": 4
+    }
+  ],
+  "Header": "Core needle biopsy whole tissue scan\n",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "Immune response",
+          "Description": "Tumor surrounded by smooth muscle and macrophages.\n\nSparse T cell infiltrate.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Whole slide",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 3,
+          "Pan": [
+            0.5309591398641506,
+            0.8975103644197197
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
+        },
+        {
+          "Name": "T regs",
+          "Description": "Tumor surrounded by smooth muscle and macrophages.\n\nSparse T cell infiltrate.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T regs",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 3,
+          "Pan": [
+            0.5309591398641506,
+            0.8975103644197197
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
+        },
+        {
+          "Name": "T cell subsets",
+          "Description": "Tumor-adjacent T lymphocytes are primarily regulatory (red nuclei); very few CTLs present.\n\nNumerous macrophages surround the tumor.\n",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T cell subsets",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 3,
+          "Pan": [
+            0.5309591398641506,
+            0.8975103644197197
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
+        },
+        {
+          "Name": "T cell subsets 2",
+          "Description": "A subset of T helper (green) cells are exhausted (red).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T cell subsets 2",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 3,
+          "Pan": [
+            0.5309591398641506,
+            0.8975103644197197
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
+        },
+        {
+          "Name": "Proliferation",
+          "Description": "Many tumor cells are proliferating.\n\nVimentin identifies stromal cells.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Proliferation",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 3,
+          "Pan": [
+            0.5309591398641506,
+            0.8975103644197197
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
+        },
+        {
+          "Name": "Checkpoint",
+          "Description": "Most tumor cells and a subset of leukocytes express PD-L1.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Checkpoint",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 4.1472,
+          "Pan": [
+            0.34784617716073174,
+            0.5723010175755756
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, Pan-CK is white, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own group",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.4326562500000001,
+          "Pan": [
+            0.5026705719600049,
+            0.4926308830286659
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_11__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e_4__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_8__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "SMA",
+      "Path": "SMA_17__SMA"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_18__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_14__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki-67",
+      "Path": "Ki-67_3__Ki-67"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_7__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_9__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "E-cadherin",
+      "Path": "E-cadherin_10__E-cadherin"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_15__CD68"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD31",
+      "Path": "CD31_16__CD31"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_12__PD-1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Vimentin",
+      "Path": "Vimentin_19__Vimentin"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF2",
+      "Path": "AF2_5__AF2"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Whole slide",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff00ff",
+        "ffff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD3e",
+        "CD163",
+        "SMA",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T regs",
+      "Colors": [
+        "00ffff",
+        "ff0000",
+        "ffff00",
+        "ff00ff"
+      ],
+      "Channels": [
+        "CD3e",
+        "FOXP3",
+        "SMA",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cell subsets",
+      "Colors": [
+        "00ff00",
+        "ff00ff",
+        "ffffff",
+        "ff0000",
+        "0000ff",
+        "ffff00"
+      ],
+      "Channels": [
+        "CD4",
+        "CD8a",
+        "E-cadherin",
+        "FOXP3",
+        "CD68",
+        "CD31"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cell subsets 2",
+      "Colors": [
+        "00ff00",
+        "ff00ff",
+        "ff0000",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD4",
+        "E-cadherin",
+        "PD-1",
+        "Vimentin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Proliferation",
+      "Colors": [
+        "ff0000",
+        "00ff00",
+        "ff00ff",
+        "ffffff",
+        "0000ff",
+        "ffff00"
+      ],
+      "Channels": [
+        "Ki-67",
+        "CD4",
+        "CD8a",
+        "E-cadherin",
+        "CD68",
+        "CD31"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Checkpoint",
+      "Colors": [
+        "00ff00",
+        "ff0000",
+        "0000ff"
+      ],
+      "Channels": [
+        "CD45",
+        "PD-L1",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Create your own group",
+      "Colors": [
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
+        ""
+      ]
+    }
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.4161900404179059, 0.5]}, "FirstGroup": "Whole slide"
+}
