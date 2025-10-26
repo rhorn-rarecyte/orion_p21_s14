@@ -155,6 +155,11 @@
   "Channels": [
     {
       "Rendered": false,
+      "Name": "CD45",
+      "Path": "CD45_2__CD45"
+    },
+    {
+      "Rendered": false,
       "Name": "PD-L1",
       "Path": "PD-L1_11__PD-L1"
     },
@@ -343,19 +348,19 @@
       "Name": "Proliferation",
       "Colors": [
         "ff0000",
-        "00ff00",
         "ff00ff",
-        "ffffff",
+        "00ffff",
+        "ffff00",
         "0000ff",
-        "ffff00"
+        "ffffff"
       ],
       "Channels": [
         "Ki-67",
-        "CD4",
-        "CD8a",
+        "CD3e",
         "E-cadherin",
-        "CD68",
-        "CD31"
+        "CD31",
+        "SMA",
+        "Vimentin"
       ],
       "Descriptions": [
         "",
