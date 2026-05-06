@@ -1,0 +1,405 @@
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "GM3",
+      "Path": "https://s3.us-west-2.amazonaws.com/rarecyte.images/minerva/Q267-S07",
+      "Width": 64888,
+      "Height": 36631,
+      "MaxLevel": 6
+    }
+  ],
+  "Header": "whole slide",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "Pro Codes",
+          "Description": "Some cells express both NWS (cyan) and V5 (magenta), while many do not.\n\nMacrophages (yellow) are interspersed through the tissue, but are sparse in the muscle (white).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Pro Codes",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 6.191736422399999,
+          "Pan": [
+            0.2341704884996597,
+            0.45801136346601323
+          ]
+        },
+        {
+          "Name": "Pro Codes 2",
+          "Description": "Different regions show different cellular localization of V5 (magenta) and NWS (cyan).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Pro Codes",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 9.393486867873362,
+          "Pan": [
+            1.00999718076594,
+            0.35305723811062106
+          ]
+        },
+        {
+          "Name": "Tumor",
+          "Description": "Some tumor cells (magenta) express V5 (yellow) or NWS (cyan).\n\nMacrophages (white) surround a core of tumor cells that do not express V5 or NWS.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Tumor",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 9.393486867873362,
+          "Pan": [
+            1.3478442272975124,
+            0.18644178607127454
+          ]
+        },
+        {
+          "Name": "Immune cells",
+          "Description": "PD-L1 (red) is expressed on a subset of macrophages (blue).\n\nT helper (white) cells are adjacent to the tumor, while T cytotoxic (green) have infiltrated into the tumor.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Immune cells",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 9.393486867873362,
+          "Pan": [
+            1.3478442272975124,
+            0.18644178607127454
+          ]
+        },
+        {
+          "Name": "Lymphocytes",
+          "Description": "Cluster of B cells (yellow) with T helper (red) and T cytotoxic (green) cells interspersed. Some T cells express PD-1 (blue).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Lymphocytes",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 9.940792036101852,
+          "Pan": [
+            1.3428436920790918,
+            0.18854960304747082
+          ]
+        },
+        {
+          "Name": "T cell subsets",
+          "Description": "A subset of T helper (cyan) are regulatory (magenta), and a subset of T cytotoxic (red) cells contain granzyme B (white).\n\nA wide dynamic range of NWS expression is present.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "T cell subsets",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 10.872091282260838,
+          "Pan": [
+            0.17425817719807077,
+            0.4577983991645583
+          ]
+        },
+        {
+          "Name": "Macrophages",
+          "Description": "Muscle (white) with adjacent and interspersed macrophages (green/red.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Macrophages",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 7.827905723227802,
+          "Pan": [
+            1.370057438481308,
+            0.7708739092767333
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_2__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD206",
+      "Path": "CD206_18__CD206"
+    },
+    {
+      "Rendered": false,
+      "Name": "GrzB",
+      "Path": "GrzB_3__GrzB"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_7__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "NWS (no pAb)",
+      "Path": "NWS-no-pAb_9__NWS-no-pAb"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_12__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_13__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD45R",
+      "Path": "CD45R_10__CD45R"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_14__PD-1"
+    },
+    {
+      "Rendered": false,
+      "Name": "V5 (no pAb)",
+      "Path": "V5-no-pAb_17__V5-no-pAb"
+    },
+    {
+      "Rendered": false,
+      "Name": "F4/80",
+      "Path": "F480_11__F480"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_16__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_6__Pan-CK"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Macrophages",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "00ff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "Hoechst",
+        "AF1",
+        "CD163",
+        "CD206"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cell subsets",
+      "Colors": [
+        "ffffff",
+        "00ffff",
+        "ffff00",
+        "ff0000",
+        "ff00ff"
+      ],
+      "Channels": [
+        "GrzB",
+        "CD4",
+        "NWS (no pAb)",
+        "CD8a",
+        "FOXP3"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Lymphocytes",
+      "Colors": [
+        "ff0000",
+        "ffff00",
+        "00ff00",
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD4",
+        "CD45R",
+        "CD8a",
+        "PD-1",
+        "V5 (no pAb)"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Immune cells",
+      "Colors": [
+        "ffffff",
+        "0000ff",
+        "00ff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "CD4",
+        "F4/80",
+        "CD8a",
+        "PD-L1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Tumor",
+      "Colors": [
+        "ff00ff",
+        "00ffff",
+        "ffffff",
+        "ffff00"
+      ],
+      "Channels": [
+        "Pan-CK",
+        "NWS (no pAb)",
+        "F4/80",
+        "V5 (no pAb)"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Pro Codes 2",
+      "Colors": [
+        "ffffff",
+        "00ffff",
+        "ffff00",
+        "ff00ff"
+      ],
+      "Channels": [
+        "AF1",
+        "NWS (no pAb)",
+        "F4/80",
+        "V5 (no pAb)"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Pro Codes",
+      "Colors": [
+        "ffffff",
+        "00ffff",
+        "ffff00",
+        "ff00ff"
+      ],
+      "Channels": [
+        "AF1",
+        "NWS (no pAb)",
+        "F4/80",
+        "V5 (no pAb)"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Whole slide",
+      "Colors": [
+        "ffffff",
+        "ffff00",
+        "00ffff",
+        "ff00ff",
+        "ffff00"
+      ],
+      "Channels": [
+        "AF1",
+        "CD45R",
+        "NWS (no pAb)",
+        "V5 (no pAb)",
+        "F4/80"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Create your own group",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff00ff",
+        "ffff00"
+      ],
+      "Channels": [
+        "CD56",
+        "S100a1",
+        "CD163",
+        "SMA"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.4476826365124237, 0.5]}, "FirstGroup": "Whole Slide"
+}
