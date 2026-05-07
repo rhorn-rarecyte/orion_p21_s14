@@ -159,8 +159,8 @@
           "ActiveMasks": [],
           "Zoom": 0.4326562500000001,
           "Pan": [
-            0.5026705719600049,
-            0.4926308830286659
+            0.5,
+            0.5
           ],
 			"Lensing": {
             "Group": "H&E",
@@ -441,15 +441,11 @@
       "Name": "Create your own group",
       "Colors": [
         "0000ff",
-        "00ff00",
-        "ff00ff",
-        "ffff00"
+        "ffffff"
       ],
       "Channels": [
-        "CD56",
-        "S100a1",
-        "CD163",
-        "SMA"
+        "Hoechst",
+        "AF1"
       ],
       "Descriptions": [
         "",
