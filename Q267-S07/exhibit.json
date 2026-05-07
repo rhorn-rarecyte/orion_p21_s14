@@ -1,3 +1,4 @@
+
 {
   "Images": [
     {
@@ -35,7 +36,11 @@
           "Pan": [
             0.2341704884996597,
             0.45801136346601323
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Pro Codes 2",
@@ -49,7 +54,11 @@
           "Pan": [
             1.00999718076594,
             0.35305723811062106
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Tumor",
@@ -63,7 +72,11 @@
           "Pan": [
             1.3478442272975124,
             0.18644178607127454
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Immune cells",
@@ -77,7 +90,11 @@
           "Pan": [
             1.3478442272975124,
             0.18644178607127454
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Lymphocytes",
@@ -91,7 +108,11 @@
           "Pan": [
             1.3428436920790918,
             0.18854960304747082
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "T cell subsets",
@@ -105,7 +126,11 @@
           "Pan": [
             0.17425817719807077,
             0.4577983991645583
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Macrophages",
@@ -119,7 +144,11 @@
           "Pan": [
             1.370057438481308,
             0.7708739092767333
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         }
       ]
     }
@@ -199,110 +228,49 @@
       "Rendered": false,
       "Name": "Pan-CK",
       "Path": "Pan-CK_6__Pan-CK"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
   "Groups": [
     {
-      "Name": "Macrophages",
-      "Colors": [
-        "0000ff",
-        "ffffff",
-        "00ff00",
-        "ff0000"
-      ],
-      "Channels": [
-        "Hoechst",
-        "AF1",
-        "CD163",
-        "CD206"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "T cell subsets",
+      "Name": "Whole slide",
       "Colors": [
         "ffffff",
+        "ffff00",
         "00ffff",
-        "ffff00",
-        "ff0000",
-        "ff00ff"
-      ],
-      "Channels": [
-        "GrzB",
-        "CD4",
-        "NWS (no pAb)",
-        "CD8a",
-        "FOXP3"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "Lymphocytes",
-      "Colors": [
-        "ff0000",
-        "ffff00",
-        "00ff00",
-        "0000ff",
-        "ffffff"
-      ],
-      "Channels": [
-        "CD4",
-        "CD45R",
-        "CD8a",
-        "PD-1",
-        "V5 (no pAb)"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "Immune cells",
-      "Colors": [
-        "ffffff",
-        "0000ff",
-        "00ff00",
-        "ff0000"
-      ],
-      "Channels": [
-        "CD4",
-        "F4/80",
-        "CD8a",
-        "PD-L1"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "Tumor",
-      "Colors": [
         "ff00ff",
-        "00ffff",
-        "ffffff",
         "ffff00"
       ],
       "Channels": [
-        "Pan-CK",
+        "AF1",
+        "CD45R",
+        "NWS (no pAb)",
+        "V5 (no pAb)",
+        "F4/80"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Pro Codes",
+      "Colors": [
+        "ffffff",
+        "00ffff",
+        "ffff00",
+        "ff00ff"
+      ],
+      "Channels": [
+        "AF1",
         "NWS (no pAb)",
         "F4/80",
         "V5 (no pAb)"
@@ -336,15 +304,15 @@
       ]
     },
     {
-      "Name": "Pro Codes",
+      "Name": "Tumor",
       "Colors": [
-        "ffffff",
+        "ff00ff",
         "00ffff",
-        "ffff00",
-        "ff00ff"
+        "ffffff",
+        "ffff00"
       ],
       "Channels": [
-        "AF1",
+        "Pan-CK",
         "NWS (no pAb)",
         "F4/80",
         "V5 (no pAb)"
@@ -357,23 +325,89 @@
       ]
     },
     {
-      "Name": "Whole slide",
+      "Name": "Immune cells",
       "Colors": [
         "ffffff",
-        "ffff00",
-        "00ffff",
-        "ff00ff",
-        "ffff00"
+        "0000ff",
+        "00ff00",
+        "ff0000"
       ],
       "Channels": [
-        "AF1",
-        "CD45R",
-        "NWS (no pAb)",
-        "V5 (no pAb)",
-        "F4/80"
+        "CD4",
+        "F4/80",
+        "CD8a",
+        "PD-L1"
       ],
       "Descriptions": [
         "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Lymphocytes",
+      "Colors": [
+        "ff0000",
+        "ffff00",
+        "00ff00",
+        "0000ff",
+        "ffffff"
+      ],
+      "Channels": [
+        "CD4",
+        "CD45R",
+        "CD8a",
+        "PD-1",
+        "V5 (no pAb)"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T cell subsets",
+      "Colors": [
+        "ffffff",
+        "00ffff",
+        "ffff00",
+        "ff0000",
+        "ff00ff"
+      ],
+      "Channels": [
+        "GrzB",
+        "CD4",
+        "NWS (no pAb)",
+        "CD8a",
+        "FOXP3"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Macrophages",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "00ff00",
+        "ff0000"
+      ],
+      "Channels": [
+        "Hoechst",
+        "AF1",
+        "CD163",
+        "CD206"
+      ],
+      "Descriptions": [
         "",
         "",
         "",
