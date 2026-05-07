@@ -427,15 +427,11 @@
       "Name": "Create your own group",
       "Colors": [
         "0000ff",
-        "00ff00",
-        "ff00ff",
         "ffff00"
       ],
       "Channels": [
-        "CD56",
-        "S100a1",
-        "CD163",
-        "SMA"
+        "Hoechst",
+        "AF1"
       ],
       "Descriptions": [
         "",
