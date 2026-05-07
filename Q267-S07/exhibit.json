@@ -283,27 +283,6 @@
       ]
     },
     {
-      "Name": "Pro Codes 2",
-      "Colors": [
-        "ffffff",
-        "00ffff",
-        "ffff00",
-        "ff00ff"
-      ],
-      "Channels": [
-        "AF1",
-        "NWS (no pAb)",
-        "F4/80",
-        "V5 (no pAb)"
-      ],
-      "Descriptions": [
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
       "Name": "Tumor",
       "Colors": [
         "ff00ff",
