@@ -61,7 +61,7 @@
         },
         {
           "Name": "Macrophages 3",
-          "Description": "Macrophages are scattered throughout the adipose tissue (white mesh.",
+          "Description": "Macrophages are scattered throughout the adipose tissue (white mesh).",
           "Arrows": [],
           "Overlays": [],
           "Group": "Macrophages 3",
@@ -79,7 +79,7 @@
         },
         {
           "Name": "T regulatory cells",
-          "Description": "A subset of T helper cells (cyan) are regulatory (magenta.",
+          "Description": "A subset of T helper cells (cyan) are regulatory (magenta).",
           "Arrows": [],
           "Overlays": [],
           "Group": "T regulatory cells",
