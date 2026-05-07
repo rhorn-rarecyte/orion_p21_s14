@@ -35,7 +35,11 @@
           "Pan": [
             0.4536114323506248,
             0.2567899553291831
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Macrophages 2",
@@ -49,7 +53,11 @@
           "Pan": [
             0.4536114323506248,
             0.2567899553291831
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Macrophages 3",
@@ -63,7 +71,11 @@
           "Pan": [
             0.4536114323506248,
             0.2567899553291831
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "T regulatory cells",
@@ -77,7 +89,11 @@
           "Pan": [
             1.0892322027927401,
             0.41275706592977884
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "T cell subsets",
@@ -91,7 +107,11 @@
           "Pan": [
             1.0892322027927401,
             0.41275706592977884
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Checkpoint",
@@ -105,7 +125,11 @@
           "Pan": [
             1.043278368720765,
             0.47867375717259825
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         },
         {
           "Name": "Pro Codes",
@@ -119,7 +143,11 @@
           "Pan": [
             0.717744789528582,
             0.702239281813075
-          ]
+          ],
+			"Lensing": {
+            "Group": "H&E",
+            "Rad": 50
+            }
         }
       ]
     }
@@ -199,44 +227,34 @@
       "Rendered": false,
       "Name": "GrzB",
       "Path": "GrzB_3__GrzB"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
   "Groups": [
     {
-      "Name": "T regulatory cells",
+      "Name": "Whole slide",
       "Colors": [
         "ffffff",
         "00ffff",
-        "ff00ff",
-        "ffff00"
+        "ff0000",
+        "ffff00",
+        "ff00ff"
       ],
       "Channels": [
         "AF1",
-        "CD4",
-        "FOXP3",
+        "NWS (no pAb)",
+        "CD45R",
+        "F4/80",
         "V5 (no pAb)"
       ],
       "Descriptions": [
         "",
         "",
-        "",
-        ""
-      ]
-    },
-    {
-      "Name": "Macrophages 3",
-      "Colors": [
-        "ffffff",
-        "ff0000",
-        "00ff00"
-      ],
-      "Channels": [
-        "AF1",
-        "CD163",
-        "CD206"
-      ],
-      "Descriptions": [
         "",
         "",
         ""
@@ -288,23 +306,38 @@
       ]
     },
     {
-      "Name": "Whole slide",
+      "Name": "Macrophages 3",
       "Colors": [
         "ffffff",
-        "00ffff",
         "ff0000",
-        "ffff00",
-        "ff00ff"
+        "00ff00"
       ],
       "Channels": [
         "AF1",
-        "NWS (no pAb)",
-        "CD45R",
-        "F4/80",
-        "V5 (no pAb)"
+        "CD163",
+        "CD206"
       ],
       "Descriptions": [
         "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "T regulatory cells",
+      "Colors": [
+        "ffffff",
+        "00ffff",
+        "ff00ff",
+        "ffff00"
+      ],
+      "Channels": [
+        "AF1",
+        "CD4",
+        "FOXP3",
+        "V5 (no pAb)"
+      ],
+      "Descriptions": [
         "",
         "",
         "",
@@ -375,6 +408,18 @@
       ]
     },
     {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
+        ""
+      ]
+    },
+    {
       "Name": "Create your own group",
       "Colors": [
         "0000ff",
@@ -395,5 +440,5 @@
         ""
       ]
     }
-  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.4476826365124237, 0.5]}, "FirstGroup": "Whole slide"
+  ],"PixelsPerMicron": 3.0769, "FirstViewport": {"Zoom": 0.5, "Pan": [0.5866147595039037, 0.5]}, "FirstGroup": "Whole slide"
 }
