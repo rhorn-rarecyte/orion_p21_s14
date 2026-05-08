@@ -204,7 +204,7 @@
     },
     {
       "Rendered": false,
-      "Name": "NWS (no pAb)",
+      "Name": "NWS",
       "Path": "NWS-no-pAb_9__NWS-no-pAb"
     },
     {
@@ -229,7 +229,7 @@
     },
     {
       "Rendered": false,
-      "Name": "V5 (no pAb)",
+      "Name": "V5",
       "Path": "V5-no-pAb_17__V5-no-pAb"
     },
     {
@@ -267,8 +267,8 @@
       "Channels": [
         "AF1",
         "CD45R",
-        "NWS (no pAb)",
-        "V5 (no pAb)",
+        "NWS",
+        "V5",
         "F4/80"
       ],
       "Descriptions": [
@@ -289,9 +289,9 @@
       ],
       "Channels": [
         "AF1",
-        "NWS (no pAb)",
+        "NWS",
         "F4/80",
-        "V5 (no pAb)"
+        "V5"
       ],
       "Descriptions": [
         "",
@@ -310,9 +310,9 @@
       ],
       "Channels": [
         "Pan-CK",
-        "NWS (no pAb)",
+        "NWS",
         "F4/80",
-        "V5 (no pAb)"
+        "V5"
       ],
       "Descriptions": [
         "",
@@ -356,7 +356,7 @@
         "CD45R",
         "CD8a",
         "PD-1",
-        "V5 (no pAb)"
+        "V5"
       ],
       "Descriptions": [
         "",
@@ -378,7 +378,7 @@
       "Channels": [
         "GrzB",
         "CD4",
-        "NWS (no pAb)",
+        "NWS",
         "CD8a",
         "FOXP3"
       ],
