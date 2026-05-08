@@ -134,7 +134,7 @@
         },
         {
           "Name": "Macrophages",
-          "Description": "Muscle (white) with adjacent and interspersed macrophages (green/red.",
+          "Description": "Muscle (white) with adjacent and interspersed macrophages (green/red).",
           "Arrows": [],
           "Overlays": [],
           "Group": "Macrophages",
@@ -259,7 +259,7 @@
       "Name": "Whole slide",
       "Colors": [
         "ffffff",
-        "ffff00",
+        "ff0000",
         "00ffff",
         "ff00ff",
         "ffff00"
